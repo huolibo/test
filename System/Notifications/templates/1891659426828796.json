@@ -1,0 +1,18 @@
+{
+  "id": 1891659426828796,
+  "name": "feishu.panel.notification",
+  "description": "Panel Snapshot Notification for Feishu",
+  "type": "Feishu",
+  "title": {
+    "zh-CN": "{elementName} 的{type} - {dashboardPanelName}",
+    "en": "{type} of {elementName} - {dashboardPanelName}",
+    "es": "{type} de {elementName} - {dashboardPanelName}",
+    "ko": "{elementName}의 {type} - {dashboardPanelName}"
+  },
+  "content": {
+    "zh-CN": "报告名称：{dashboardPanelName}\n元素：{elementName}\n生成时间：{reportTime}",
+    "en": "Report: {dashboardPanelName}\nElement: {elementName}\nReport Time: {reportTime}",
+    "es": "Informe: {dashboardPanelName}\nElemento: {elementName}\nHora del informe: {reportTime}",
+    "ko": "보고서: {dashboardPanelName}\n요소: {elementName}\n보고서 시간: {reportTime}"
+  }
+}

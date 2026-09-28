@@ -1,0 +1,490 @@
+{
+  "id" : 1,
+  "name" : "Elements",
+  "generalInfo" : {
+    "createTime" : 1790581939000,
+    "virtualStableName" : "vst_Elements_09jm8f",
+    "virtualTableName" : "vt_Elements_7pwzjg"
+  },
+  "attributes" : [ {
+    "id" : 2055155578972288,
+    "name" : "元素总数",
+    "description" : "element_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "元素总数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "element_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155579787392,
+    "name" : "属性总数",
+    "description" : "attribute_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "属性总数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "attribute_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155580369024,
+    "name" : "时间序列总数(测点数)",
+    "description" : "time_series_attribute_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "时间序列总数(测点数)",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "time_series_attribute_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155580795008,
+    "name" : "实时分析总数",
+    "description" : "analysis_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "实时分析总数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "analysis_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155581548672,
+    "name" : "事件数",
+    "description" : "event_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "事件数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "event_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155583355008,
+    "name" : "面板数",
+    "description" : "panel_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "面板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "panel_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155584112768,
+    "name" : "仪表板数",
+    "description" : "dashboard_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "仪表板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "dashboard_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155584825472,
+    "name" : "组态数",
+    "description" : "canvas_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "组态数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "canvas_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155585697920,
+    "name" : "元素模板总数",
+    "description" : "element_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "元素模板总数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "element_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155586377856,
+    "name" : "属性模板数",
+    "description" : "attribute_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "属性模板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "attribute_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155586922624,
+    "name" : "实时分析模板总数",
+    "description" : "analysis_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "实时分析模板总数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "analysis_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155587692672,
+    "name" : "面板模板数",
+    "description" : "panel_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "面板模板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "panel_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155588573312,
+    "name" : "仪表板模板数",
+    "description" : "dashboard_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "仪表板模板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "dashboard_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155588970624,
+    "name" : "通知规则模板数",
+    "description" : "notify_rule_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "通知规则模板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "notify_rule_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155589351552,
+    "name" : "动作模板数",
+    "description" : "action_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "动作模板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "action_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155589757056,
+    "name" : "枚举级数量",
+    "description" : "enumeration_set_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "枚举级数量",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "enumeration_set_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155590191232,
+    "name" : "UOM 数量",
+    "description" : "uom_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "UOM 数量",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "uom_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155590633600,
+    "name" : "复合指标数",
+    "description" : "composite_metric_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "复合指标数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "composite_metric_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155591129216,
+    "name" : "文档数",
+    "description" : "document_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "文档数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "document_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155591522432,
+    "name" : "示例场景数",
+    "description" : "sample_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "示例场景数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "sample_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155591977088,
+    "name" : "训练库模型数",
+    "description" : "model_training_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "训练库模型数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "model_training_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155592808576,
+    "name" : "管理库模型数",
+    "description" : "model_registered_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "管理库模型数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "model_registered_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155593201792,
+    "name" : "已部署模型数",
+    "description" : "model_deployed_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "已部署模型数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "model_deployed_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055155593586816,
+    "name" : "事件模板数",
+    "description" : "event_template_total",
+    "constantItem" : false,
+    "hidden" : false,
+    "categories" : [ 22 ],
+    "valueType" : "BigInt",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "childTable" : "vt_Elements_7pwzjg",
+      "columnName" : "事件模板数",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "system_resource_stats",
+      "sourceColumnName" : "event_template_total",
+      "verified" : true,
+      "autoCreated" : false
+    }
+  } ]
+}

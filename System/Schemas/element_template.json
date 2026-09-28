@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/element_template.json",
+  "title": "element-template",
+  "description": "schema of a element template",
+  "type": "object",
+  "required": [
+    "id",
+    "name"
+  ],
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dirName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "baseTemplateIds": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "namingPattern": {
+      "type": "string"
+    },
+    "generalInfo": {
+      "$ref": "./general_info.json"
+    },
+    "attributeTemplates": {
+      "type": "array",
+      "items": {
+        "$ref": "./element_attribute.json"
+      }
+    },
+    "notifyRuleTemplate": {
+      "$ref": "./notify_rule_template.json"
+    },
+    "allowExtensions": {
+      "type": "boolean"
+    },
+    "baseTemplateOnly": {
+      "type": "boolean"
+    },
+    "keywordsDesc": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "id" : 698156100,
+  "name" : "Potencia",
+  "canonicalId" : 1008149209,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : 2
+  }, {
+    "id" : 470275444,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -3
+  } ],
+  "uomList" : [ {
+    "id" : 1008149209,
+    "name" : "vatio",
+    "uomClassId" : 698156100,
+    "abbreviation" : "W",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 850360133,
+    "name" : "gigavatio",
+    "uomClassId" : 698156100,
+    "abbreviation" : "GW",
+    "factor" : 1.0E9,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 1.0E9,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1115126002,
+    "name" : "megavatio",
+    "uomClassId" : 698156100,
+    "abbreviation" : "MW",
+    "factor" : 1000000.0,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 1000000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2085286412,
+    "name" : "unidad térmica británica por hora",
+    "uomClassId" : 698156100,
+    "abbreviation" : "Btu/h",
+    "factor" : 0.29307107017222,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 0.29307107017222,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1234383808,
+    "name" : "millón de unidades térmicas británicas por día",
+    "uomClassId" : 698156100,
+    "abbreviation" : "MMBtu/d",
+    "factor" : 12211.294590509176,
+    "offset" : 0.0,
+    "refUomId" : 2085286412,
+    "refFactor" : 41666.6666666667,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1247776468,
+    "name" : "millón de unidades térmicas británicas por hora",
+    "uomClassId" : 698156100,
+    "abbreviation" : "MMBtu/h",
+    "factor" : 293071.07017222,
+    "offset" : 0.0,
+    "refUomId" : 2085286412,
+    "refFactor" : 1000000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1240629474,
+    "name" : "caloría por segundo",
+    "uomClassId" : 698156100,
+    "abbreviation" : "cal/s",
+    "factor" : 4.1868,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 4.1868,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 273726089,
+    "name" : "caballo de fuerza",
+    "uomClassId" : 698156100,
+    "abbreviation" : "hp",
+    "factor" : 745.699871582,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 745.699871582,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 892159896,
+    "name" : "julio por segundo",
+    "uomClassId" : 698156100,
+    "abbreviation" : "J/s",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1381178644,
+    "name" : "kilovatio",
+    "uomClassId" : 698156100,
+    "abbreviation" : "kW",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1665724677,
+    "name" : "megajulio por hora",
+    "uomClassId" : 698156100,
+    "abbreviation" : "MJ/h",
+    "factor" : 277.777777777778,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 277.777777777778,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1339669146,
+    "name" : "millón de calorías por hora",
+    "uomClassId" : 698156100,
+    "abbreviation" : "Mcal/h",
+    "factor" : 1163.0,
+    "offset" : 0.0,
+    "refUomId" : 1008149209,
+    "refFactor" : 1163.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

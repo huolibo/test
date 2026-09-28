@@ -1,0 +1,78 @@
+{
+  "id": 744028837,
+  "name": "力",
+  "canonicalId": 1389442208,
+  "baseClasses": [
+    {
+      "id": 1472482346,
+      "power": 1
+    },
+    {
+      "id": 470275444,
+      "power": 1
+    },
+    {
+      "id": 845944798,
+      "power": -2
+    }
+  ],
+  "uomList": [
+    {
+      "id": 1389442208,
+      "name": "牛顿",
+      "uomClassId": 744028837,
+      "abbreviation": "N",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 591295284,
+      "name": "千克力",
+      "uomClassId": 744028837,
+      "abbreviation": "kgf",
+      "factor": 9.80665,
+      "offset": 0.0,
+      "refUomId": 1389442208,
+      "refFactor": 9.80665,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 2064447350,
+      "name": "阿莱斯夫力",
+      "uomClassId": 744028837,
+      "abbreviation": "AF",
+      "factor": 14.709975,
+      "offset": 0.0,
+      "refUomId": 591295284,
+      "refFactor": 1.5,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1401760846,
+      "name": "达因",
+      "uomClassId": 744028837,
+      "abbreviation": "dyn",
+      "factor": 1e-05,
+      "offset": 0.0,
+      "refUomId": 1389442208,
+      "refFactor": 1e-05,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1128409696,
+      "name": "磅力",
+      "uomClassId": 744028837,
+      "abbreviation": "lbf",
+      "factor": 4.44822161526,
+      "offset": 0.0,
+      "refUomId": 1389442208,
+      "refFactor": 4.44822161526,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

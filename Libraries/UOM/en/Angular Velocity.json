@@ -1,0 +1,32 @@
+{
+  "id" : 2107628284,
+  "name" : "Angular Velocity",
+  "canonicalId" : 1943923865,
+  "baseClasses" : [ {
+    "id" : 729094994,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -1
+  } ],
+  "uomList" : [ {
+    "id" : 1943923865,
+    "name" : "radian per second",
+    "uomClassId" : 2107628284,
+    "abbreviation" : "rad/s",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1481051919,
+    "name" : "revolution per minute",
+    "uomClassId" : 2107628284,
+    "abbreviation" : "rpm",
+    "factor" : 0.10471975511966,
+    "offset" : 0.0,
+    "refUomId" : 1943923865,
+    "refFactor" : 0.10471975511966,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

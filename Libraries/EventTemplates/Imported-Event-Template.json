@@ -1,0 +1,10 @@
+{
+  "id" : 2055155576080512,
+  "name" : "Imported-Event-Template",
+  "description" : "Default template for imported events",
+  "onlyTemplate" : false,
+  "severityLevel" : "Information",
+  "categories" : [ 16 ],
+  "allowExtension" : false,
+  "allowAck" : false
+}

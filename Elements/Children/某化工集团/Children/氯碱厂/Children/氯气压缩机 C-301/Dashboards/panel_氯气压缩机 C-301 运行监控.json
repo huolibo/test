@@ -1,0 +1,47 @@
+{
+  "id" : 2055156168423552,
+  "name" : "氯气压缩机 C-301 运行监控",
+  "description" : "氯气压缩机 C-301 过去7天运行数据趋势面板",
+  "fileName" : "氯气压缩机 C-301 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "34c39d1d-4013-469d-8d13-1fc8ce991465",
+    "attributeExpression" : "attributes['振动幅度']",
+    "expression" : "${attributes['振动幅度']}",
+    "groupBy" : false,
+    "alias" : "振动幅度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "a0022d40-52df-4712-8b68-9f2f366f7216",
+    "attributeExpression" : "attributes['运行电流']",
+    "expression" : "${attributes['运行电流']}",
+    "groupBy" : false,
+    "alias" : "运行电流",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "fc4574be-5397-4975-85a2-635894993c43",
+    "attributeExpression" : "attributes['轴承温度']",
+    "expression" : "${attributes['轴承温度']}",
+    "groupBy" : false,
+    "alias" : "轴承温度",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156152875136,
+  "elementAttributes" : {
+    "2055156152875136" : [ 2055156143265920, 2055156143560832, 2055156142995584 ]
+  }
+}

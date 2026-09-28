@@ -1,0 +1,39 @@
+{
+  "id" : 2055156166776960,
+  "name" : "在线气相色谱仪 GC-01 运行监控",
+  "description" : "在线气相色谱仪 GC-01 过去7天运行数据趋势面板",
+  "fileName" : "在线气相色谱仪 GC-01 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "50561953-39ba-460a-ac88-fb76dcd1ea8b",
+    "attributeExpression" : "attributes['产品纯度']",
+    "expression" : "${attributes['产品纯度']}",
+    "groupBy" : false,
+    "alias" : "产品纯度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "e6d8ec59-c7f8-4d95-b0d2-5d7f7fd478c2",
+    "attributeExpression" : "attributes['水分含量']",
+    "expression" : "${attributes['水分含量']}",
+    "groupBy" : false,
+    "alias" : "水分含量",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156149471360,
+  "elementAttributes" : {
+    "2055156149471360" : [ 2055156144928896, 2055156145195136 ]
+  }
+}

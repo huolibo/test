@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/element.json",
+  "title": "element",
+  "description": "schema of a element",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "generalInfo"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dirName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "templateId": {
+      "type": "number"
+    },
+    "generalInfo": {
+      "$ref": "./general_info.json"
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "$ref": "./element_attribute.json"
+      }
+    },
+    "templateAttributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "elementTempId",
+          "attrTempId"
+        ],
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "elementTempId": {
+            "type": "number"
+          },
+          "attrTempId": {
+            "type": "number"
+          },
+          "description": {
+            "type": "string"
+          },
+          "defaultValue": {
+            "type": "string"
+          },
+          "constantItem": {
+            "type": "boolean"
+          },
+          "hidden": {
+            "type": "boolean"
+          },
+          "excluded": {
+            "type": "boolean"
+          },
+          "dataReferenceSetting": {
+            "$ref": "./data_reference_setting2.json"
+          },
+          "valueType": {
+            "$ref": "./value_type.json"
+          },
+          "valueLength": {
+            "type": "integer"
+          },
+          "childAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/properties/templateAttributes/items"
+            }
+          },
+          "traits": {
+            "type": "array",
+            "items": {
+              "$ref": "#/properties/templateAttributes/items"
+            }
+          }
+        }
+      }
+    },
+    "analyses": {
+      "type": "array",
+      "items": {
+        "$ref": "./analysis.json"
+      }
+    },
+    "parents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "referenceType": {
+            "enum": [
+              "ParentChild",
+              "Weak",
+              "Composition"
+            ]
+          },
+          "order": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "notifyRule": {
+      "$ref": "./notify_rule.json"
+    }
+  }
+}

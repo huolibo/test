@@ -1,0 +1,160 @@
+{
+  "id": 470275444,
+  "name": "质量",
+  "canonicalId": 1092504664,
+  "uomList": [
+    {
+      "id": 1092504664,
+      "name": "千克",
+      "uomClassId": 470275444,
+      "abbreviation": "kg",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1833486940,
+      "name": "克",
+      "uomClassId": 470275444,
+      "abbreviation": "g",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 1092504664,
+      "refFactor": 0.001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 74748470,
+      "name": "磅",
+      "uomClassId": 470275444,
+      "abbreviation": "lb",
+      "factor": 0.45359237,
+      "offset": 0.0,
+      "refUomId": 1092504664,
+      "refFactor": 0.45359237,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 534668059,
+      "name": "长吨",
+      "uomClassId": 470275444,
+      "abbreviation": "lton",
+      "factor": 1016.0469088000001,
+      "offset": 0.0,
+      "refUomId": 74748470,
+      "refFactor": 2240.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 490336708,
+      "name": "毫克",
+      "uomClassId": 470275444,
+      "abbreviation": "mg",
+      "factor": 1e-06,
+      "offset": 0.0,
+      "refUomId": 1092504664,
+      "refFactor": 1e-06,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 949267783,
+      "name": "百万磅",
+      "uomClassId": 470275444,
+      "abbreviation": "MM lb",
+      "factor": 453592.37,
+      "offset": 0.0,
+      "refUomId": 74748470,
+      "refFactor": 1000000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 48380368,
+      "name": "盎司",
+      "uomClassId": 470275444,
+      "abbreviation": "oz",
+      "factor": 0.028349523125,
+      "offset": 0.0,
+      "refUomId": 74748470,
+      "refFactor": 0.0625,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1371174496,
+      "name": "短吨",
+      "uomClassId": 470275444,
+      "abbreviation": "ston",
+      "factor": 907.18474,
+      "offset": 0.0,
+      "refUomId": 74748470,
+      "refFactor": 2000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1060590057,
+      "name": "千磅",
+      "uomClassId": 470275444,
+      "abbreviation": "klb",
+      "factor": 453.59237,
+      "offset": 0.0,
+      "refUomId": 74748470,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 306189350,
+      "name": "吨（美制）",
+      "uomClassId": 470275444,
+      "abbreviation": "ton",
+      "factor": 907.18474,
+      "offset": 0.0,
+      "refUomId": 74748470,
+      "refFactor": 2000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1766895339,
+      "name": "公吨",
+      "uomClassId": 470275444,
+      "abbreviation": "t",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 1092504664,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 58273691,
+      "name": "克拉",
+      "uomClassId": 470275444,
+      "abbreviation": "ct",
+      "factor": 0.0002,
+      "offset": 0.0,
+      "refUomId": 1092504664,
+      "refFactor": 0.0002,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 19485732,
+      "name": "斤",
+      "uomClassId": 470275444,
+      "abbreviation": "斤",
+      "factor": 0.5,
+      "offset": 0.0,
+      "refUomId": 1092504664,
+      "refFactor": 0.5,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id" : 497671094,
+  "name" : "전력(피상)",
+  "canonicalId" : 950904405,
+  "uomList" : [ {
+    "id" : 950904405,
+    "name" : "voltamperio",
+    "uomClassId" : 497671094,
+    "abbreviation" : "VA",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1607255368,
+    "name" : "kilovoltamperio",
+    "uomClassId" : 497671094,
+    "abbreviation" : "kVA",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 950904405,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

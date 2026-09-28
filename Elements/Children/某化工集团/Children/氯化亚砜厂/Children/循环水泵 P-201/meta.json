@@ -1,0 +1,33 @@
+{
+  "id" : 2055156150683776,
+  "name" : "循环水泵 P-201",
+  "description" : "连续动力设备",
+  "templateId" : 2055156142794880,
+  "dirName" : "循环水泵 P-201",
+  "generalInfo" : {
+    "createTime" : 1790582081758,
+    "location" : {
+      "altitude" : 308.1036630235405,
+      "latitude" : -44.46118949602416,
+      "longitude" : 114.67028126524986
+    },
+    "virtualStableName" : "vst_连续动力设备_gl6ss4",
+    "virtualTableName" : "vt_循环水泵 P-201_elw91p",
+    "keywordValues" : {
+      "KEYWORD1" : "pump_201"
+    }
+  },
+  "attributes" : [ {
+    "id" : 2055156150687875,
+    "defaultValue" : "循环水泵 P-201",
+    "attrTempId" : 2055156143814784
+  }, {
+    "id" : 2055156150687876,
+    "defaultValue" : "${KEYWORD1}",
+    "attrTempId" : 2055156144339072
+  } ],
+  "parents" : [ {
+    "id" : 2055156148332672,
+    "referenceType" : "ParentChild"
+  } ]
+}

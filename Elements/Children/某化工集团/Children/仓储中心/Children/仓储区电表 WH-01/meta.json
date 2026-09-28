@@ -1,0 +1,33 @@
+{
+  "id" : 2055156155271296,
+  "name" : "仓储区电表 WH-01",
+  "description" : "能源计量表",
+  "templateId" : 2055156146022528,
+  "dirName" : "仓储区电表 WH-01",
+  "generalInfo" : {
+    "createTime" : 1790582082879,
+    "location" : {
+      "altitude" : 4866.066268246121,
+      "latitude" : 66.78154173940581,
+      "longitude" : 117.51451782891564
+    },
+    "virtualStableName" : "vst_能源计量表_i7i6zt",
+    "virtualTableName" : "vt_仓储区电表 WH-01_cvf1r9",
+    "keywordValues" : {
+      "KEYWORD1" : "meter_wh_01"
+    }
+  },
+  "attributes" : [ {
+    "id" : 2055156155279489,
+    "defaultValue" : "仓储区电表 WH-01",
+    "attrTempId" : 2055156146526336
+  }, {
+    "id" : 2055156155279490,
+    "defaultValue" : "${KEYWORD1}",
+    "attrTempId" : 2055156146833536
+  } ],
+  "parents" : [ {
+    "id" : 2055156155046016,
+    "referenceType" : "ParentChild"
+  } ]
+}

@@ -1,0 +1,112 @@
+{
+  "id" : 2055156142794880,
+  "name" : "连续动力设备",
+  "description" : "连续动力设备",
+  "namingPattern" : "${KEYWORD1}",
+  "dirName" : "连续动力设备",
+  "generalInfo" : {
+    "location" : {
+      "altitude" : 308.1036630235405,
+      "latitude" : -44.46118949602416,
+      "longitude" : 114.67028126524986
+    },
+    "virtualStableName" : "vst_连续动力设备_gl6ss4"
+  },
+  "attributeTemplates" : [ {
+    "id" : 2055156142995584,
+    "name" : "振动幅度",
+    "description" : "振动幅度",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "defaultUom" : 2055156138289280,
+    "displayUom" : 2055156138289280,
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "振动幅度",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "vibration",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156143265920,
+    "name" : "运行电流",
+    "description" : "运行电流",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "defaultUom" : 2144441927,
+    "displayUom" : 2144441927,
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "运行电流",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "pump_current",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156143560832,
+    "name" : "轴承温度",
+    "description" : "轴承温度",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "defaultUom" : 1153421915,
+    "displayUom" : 1153421915,
+    "displayDigits" : 1,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "轴承温度",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "bearing_temp",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156143814784,
+    "name" : "所属厂区",
+    "description" : "厂区名称",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "所属厂区",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "plant",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156144339072,
+    "name" : "命名模式",
+    "description" : "设备命名模式的占位符",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "命名模式",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "namingPattern",
+      "autoCreated" : false
+    }
+  } ],
+  "allowExtensions" : true,
+  "baseTemplateOnly" : false,
+  "keywordsDesc" : {
+    "KEYWORD1" : "设备名称"
+  }
+}

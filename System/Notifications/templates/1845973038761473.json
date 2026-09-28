@@ -1,0 +1,18 @@
+{
+  "id": 1845973038761473,
+  "name": "email.user.invite",
+  "description": "TDengine IDMP invite user",
+  "type": "Mail",
+  "title": {
+    "zh-CN": "邀请您加入 TDengine IDMP",
+    "en": "Invitation to TDengine IDMP",
+    "es": "Invitación a TDengine IDMP",
+    "ko": "TDengine IDMP 초대"
+  },
+  "content": {
+    "zh-CN": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"/>\n<style type=\"text/css\"> p {\n  font-family: Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif;\n  font-weight: 400;\n  line-height: 25px;\n  font-size: 16px;\n  margin: 0px auto;\n}\n\n.td_email_body {\n  width: 100%;\n  background-color: #D4D7DD;\n  padding-top: 30px;\n  padding-bottom: 30px;\n}\n\n.td_email_content {\n  background-color: #fff;\n  padding: 0px;\n  margin: 0px;\n  width: 700px;\n  margin: 0 auto;\n  padding: 30px 50px;\n}</style>\n<div class=\"td_email_body\">\n  <div class=\"td_email_content\"><p>{userEmail} 您好，</p><br>\n    <p>{organization} 的管理员已为您注册了 TDengine IDMP，单击下面的按钮激活您的账户。<br/></p>\n    <p><a style=\"height: 40px; background-color: #0052CC; color: #fff; line-height: 40px; display: inline-block; padding: 0px 20px; margin: 10px 0; opacity: 1; border-radius: 5px;\" href=\"{serverUrl}/activate?code={validationCode}&org={encryptOrgId}&backend={assetAddress}\">点击激活</a><br/></p>\n    <p>请注意，该链接为临时链接，将在 24 小时后过期。\n    </p><br>\n    <p>请务必为您的登录链接添加书签，以便以后轻松访问您的账户。 如果您在登录账户时遇到任何问题，请联系 <a href=\"mailto:cloud@taosdata.com\" style=\"color: #0052CC;\">cloud@taosdata.com</a>。</p>\n    <p><span>如果您有其他问题，欢迎致电 4006120020 或访问</span><a href=\"https://www.taosdata.com/\">TDengine 官网</a><span>联系我们。</span></p>\n    <br>\n    <p>谢谢，</p>\n    <p>TDengine 团队</p></div>\n</div>\n",
+    "en": "<p>Hi {userEmail},</p>\n<p>You have been invited to work together in TDengine IDMP by the administrator of {organization}.</p>\n<p><strong><a href=\"{serverUrl}/activate?code={validationCode}&org={encryptOrgId}&backend={assetAddress}\">Click here to activate your account and get started.</a></strong>\nIt's really that easy!</p>\n<p>Note that this activation link is temporary and will expire in 24 hours.</p>\n<p>If you experience any problems logging in to your account, contact us at <a href=\"mailto:support@tdengine.com\">support@tdengine.com</a>.</p>\n<p>Regards,</p>\n<p>The TDengine Team</p>",
+    "es": "<p>Hola {userEmail},</p>\n<p>Ha sido invitado a colaborar en TDengine IDMP por el administrador de {organization}.</p>\n<p><strong><a href=\"{serverUrl}/activate?code={validationCode}&org={encryptOrgId}&backend={assetAddress}\">Haga clic aquí para activar su cuenta y comenzar.</a></strong>\n¡Es así de fácil!</p>\n<p>Tenga en cuenta que este enlace de activación es temporal y caducará en 24 horas.</p>\n<p>Si tiene problemas para iniciar sesión en su cuenta, contáctenos en <a href=\"mailto:support@tdengine.com\">support@tdengine.com</a>.</p>\n<p>Saludos,</p>\n<p>El equipo de TDengine</p>",
+    "ko": "<p>{userEmail}님, 안녕하세요,</p>\n<p>{organization}의 관리자가 TDengine IDMP에서 함께 작업하도록 초대했습니다.</p>\n<p><strong><a href=\"{serverUrl}/activate?code={validationCode}&org={encryptOrgId}&backend={assetAddress}\">계정을 활성화하고 시작하려면 여기를 클릭하세요.</a></strong>\n정말 간단합니다!</p>\n<p>이 활성화 링크는 임시 링크이며 24시간 후에 만료됩니다.</p>\n<p>계정 로그인에 문제가 있으시면 다음으로 문의해 주세요: <a href=\"mailto:support@tdengine.com\">support@tdengine.com</a>.</p>\n<p>감사합니다,</p>\n<p>TDengine 팀</p>"
+  }
+}

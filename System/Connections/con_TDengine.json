@@ -1,0 +1,14 @@
+{
+  "id" : 2055155571251328,
+  "name" : "TDengine",
+  "dsType" : "TDengine",
+  "connStatus" : true,
+  "host" : "localhost",
+  "port" : 6041,
+  "url" : "http://localhost:6041",
+  "authType" : "UserPassword",
+  "username" : "root",
+  "password" : "taosdata",
+  "enableSsl" : false,
+  "explorerUrl" : "http://localhost:6060"
+}

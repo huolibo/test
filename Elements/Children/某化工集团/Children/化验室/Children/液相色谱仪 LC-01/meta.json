@@ -1,0 +1,33 @@
+{
+  "id" : 2055156161390720,
+  "name" : "液相色谱仪 LC-01",
+  "description" : "质检中心设备",
+  "templateId" : 2055156144650368,
+  "dirName" : "液相色谱仪 LC-01",
+  "generalInfo" : {
+    "createTime" : 1790582084375,
+    "location" : {
+      "altitude" : 5273.069340374878,
+      "latitude" : 41.968726580446486,
+      "longitude" : 157.63710922214352
+    },
+    "virtualStableName" : "vst_质检中心设备_qnidoz",
+    "virtualTableName" : "vt_液相色谱仪 LC-01_bb22c5",
+    "keywordValues" : {
+      "KEYWORD1" : "gc_02"
+    }
+  },
+  "attributes" : [ {
+    "id" : 2055156161407106,
+    "defaultValue" : "液相色谱仪 LC-01",
+    "attrTempId" : 2055156145457280
+  }, {
+    "id" : 2055156161407107,
+    "defaultValue" : "${KEYWORD1}",
+    "attrTempId" : 2055156145739904
+  } ],
+  "parents" : [ {
+    "id" : 2055156160866432,
+    "referenceType" : "ParentChild"
+  } ]
+}

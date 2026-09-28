@@ -1,0 +1,34 @@
+{
+  "id" : 2055156093282432,
+  "name" : "故障影响与传播关系",
+  "description" : "描述不同设备的故障影响与传播过程。",
+  "code" : "system.relationship-type.fault-impact",
+  "valueType" : "TinyInt",
+  "values" : [ {
+    "id" : 2055156093282433,
+    "name" : "影响",
+    "value" : "1",
+    "description" : "反向: affects-by. A 的异常会影响 B，这个影响是宽泛的，可能是控制，也可能是 feeds，即 A affects B。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282432
+  }, {
+    "id" : 2055156093282434,
+    "name" : "被影响",
+    "value" : "2",
+    "description" : "反向: affects. affects 的反方向。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282432
+  }, {
+    "id" : 2055156093282435,
+    "name" : "互为冗余",
+    "value" : "3",
+    "description" : "反向: -. 相互备份，不一定是并联；可以是冷备热备，当 A 出问题时，B 能替代 A 的部分能力。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282432
+  } ],
+  "enumValuePathMap" : {
+    "1" : "影响",
+    "2" : "被影响",
+    "3" : "互为冗余"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EnumType Schema",
+  "description": "Schema for EnumType definition",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Enum type id"
+    },
+    "name": {
+      "type": "string",
+      "description": "Enum type name"
+    },
+    "code": {
+      "type": "string",
+      "description": "Enum type code"
+    },
+    "description": {
+      "type": "string",
+      "description": "Enum type description"
+    },
+    "parentId": {
+      "type": "number",
+      "description": "Enum type parent id"
+    },
+    "values": {
+      "type": "array",
+      "description": "Enum type values",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "Enum value id"
+          },
+          "name": {
+            "type": "string",
+            "description": "Enum value name"
+          },
+          "value": {
+            "type": "string",
+            "description": "Enum value description"
+          },
+          "description": {
+            "type": "string",
+            "description": "Enum value description"
+          },
+          "relationshipDirection": {
+            "type": "string",
+            "description": "Relationship direction for ontology relationship enum values",
+            "enum": ["OUTGOING", "INCOMING", "BIDIRECTIONAL", "UNDIRECTED"]
+          },
+          "parentId": {
+            "type": "number",
+            "description": "Enum value parent id"
+          },
+          "subValues": {
+            "type": "array",
+            "description": "Enum sub values, child enum values",
+            "items": {
+              "$ref": "#/properties/values/items"
+            }
+          }
+        },
+        "required": ["id", "name", "value"]
+      }
+    }
+  },
+  "required": ["id", "name", "code"]
+}

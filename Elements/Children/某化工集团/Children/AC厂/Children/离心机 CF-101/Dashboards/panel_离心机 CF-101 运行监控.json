@@ -1,0 +1,47 @@
+{
+  "id" : 2055156169312384,
+  "name" : "离心机 CF-101 运行监控",
+  "description" : "离心机 CF-101 过去7天运行数据趋势面板",
+  "fileName" : "离心机 CF-101 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "02263487-02db-40a1-abb5-c82100801a8c",
+    "attributeExpression" : "attributes['振动幅度']",
+    "expression" : "${attributes['振动幅度']}",
+    "groupBy" : false,
+    "alias" : "振动幅度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "6c312e38-2aea-46bf-ade9-d71474aa591d",
+    "attributeExpression" : "attributes['运行电流']",
+    "expression" : "${attributes['运行电流']}",
+    "groupBy" : false,
+    "alias" : "运行电流",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "d54baef6-0f40-4978-b8a8-9b9237acd189",
+    "attributeExpression" : "attributes['轴承温度']",
+    "expression" : "${attributes['轴承温度']}",
+    "groupBy" : false,
+    "alias" : "轴承温度",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156154599552,
+  "elementAttributes" : {
+    "2055156154599552" : [ 2055156143265920, 2055156143560832, 2055156142995584 ]
+  }
+}

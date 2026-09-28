@@ -1,0 +1,9 @@
+{
+  "id" : 2055155574335616,
+  "name" : "demo-TPL-event",
+  "description" : "demo-TPL-event",
+  "onlyTemplate" : false,
+  "categories" : [ 8 ],
+  "allowExtension" : false,
+  "allowAck" : false
+}

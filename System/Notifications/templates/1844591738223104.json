@@ -1,0 +1,18 @@
+{
+  "id": 1844591738223104,
+  "name": "email.user.welcome",
+  "description": "TDengine IDMP welcome email",
+  "type": "MailInternal",
+  "title": {
+    "zh-CN": "欢迎使用 TDengine IDMP！",
+    "en": "Welcome to TDengine IDMP!",
+    "es": "¡Bienvenido a TDengine IDMP!",
+    "ko": "TDengine IDMP에 오신 것을 환영합니다!"
+  },
+  "content": {
+    "zh-CN": "<p style=\"font-family: Helvetica Neue;\">\n<p> {userName} 您好，</p>\n<p><br></p>\n<p><span>欢迎使用 TDengine IDMP ! 您的账户已经开通，您可以在这里访问：</span><a target=\"_blank\" href=\" {serverUrl}\"><span>进入TDengine IDMP </span></a></p><p><span>查看 </span><a target=\"_blank\" href=\"https://docs.taosdata.com/\"><span>TDengine TSDB 文档</span></a><span> 或 </span><a target=\"_blank\" href=\"https://idmpdocs.taosdata.com/\"><span>TDengine IDMP 文档</span></a><span> 了解更多技术细节等。</span>\n</p><p><span>查看 </span><a target=\"_blank\" href=\"https://www.taosdata.com/blog\">TDengine 技术博客</a> 了解技术干货、行业方案及客户案例。</p>\n<p><span>如遇到问题，欢迎来到</span><a target=\"_blank\" href=\"https://ask.taosdata.com/\">TDengine 技术社区</a><span> 提问和讨论。</span></p>\n<p><br></p>\n<p><span>谢谢，</span></p>\n<p><span>TDengine 团队</span></p>\n</p>",
+    "en": "<p>Hi {userName},</p>\n<p>Welcome to TDengine IDMP! Your account has been activated.</p>\n<p><a href=\"{serverUrl}\">Click here to access TDengine IDMP.</a></p>\n<p>Check out <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://idmpdocs.tdengine.com/\">the TDengine IDMP documentation</a> to learn more about the product.</p>\n<p>Have questions or need help? Reply to this message, or reach out to our engineering team on <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/VZdSuUg4pS\">Discord</a>.</p>\n<p>Regards,</p>\n<p>The TDengine Team</p>",
+    "es": "<p>Hola {userName},</p>\n<p>¡Bienvenido a TDengine IDMP! Su cuenta ha sido activada.</p>\n<p><a href=\"{serverUrl}\">Haga clic aquí para acceder a TDengine IDMP.</a></p>\n<p>Consulte <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://idmpdocs.tdengine.com/\">la documentación de TDengine IDMP</a> para obtener más información sobre el producto.</p>\n<p>¿Tiene preguntas o necesita ayuda? Responda a este mensaje o comuníquese con nuestro equipo de ingeniería en <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/VZdSuUg4pS\">Discord</a>.</p>\n<p>Saludos,</p>\n<p>El equipo de TDengine</p>",
+    "ko": "<p>{userName}님, 안녕하세요,</p>\n<p>TDengine IDMP에 오신 것을 환영합니다! 계정이 활성화되었습니다.</p>\n<p><a href=\"{serverUrl}\">TDengine IDMP에 접속하려면 여기를 클릭하세요.</a></p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://idmpdocs.tdengine.com/\">TDengine IDMP 문서를 확인하세요</a> 제품에 대해 더 알아보세요.</p>\n<p>질문이 있거나 도움이 필요하신가요? 이 메시지에 답장하시거나 엔지니어링 팀에 연락하세요: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.com/invite/VZdSuUg4pS\">Discord</a>.</p>\n<p>감사합니다,</p>\n<p>TDengine 팀</p>"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/category.json",
+  "title": "UOM class",
+  "description": "schema of an UOM class",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "canonicalId",
+    "uomList"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^(?!^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(\\..*)?$)[^<>:\"/\\\\|?*\\x00-\\x1F]{1,50}$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "canonicalId": {
+      "type": "number"
+    },
+    "baseClasses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "power"
+        ],
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "power": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "uomList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "uomClassId",
+          "abbreviation",
+          "factor",
+          "offset"
+        ],
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "uomClassId": {
+            "type": "number"
+          },
+          "abbreviation": {
+            "type": "string"
+          },
+          "factor": {
+            "type": "number"
+          },
+          "offset": {
+            "type": "number"
+          },
+          "refUomId": {
+            "type": "number"
+          },
+          "refFactor": {
+            "type": "number"
+          },
+          "refOffset": {
+            "type": "number"
+          },
+          "origin": {
+            "enum": [
+              "SystemDefined",
+              "UserDefined"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

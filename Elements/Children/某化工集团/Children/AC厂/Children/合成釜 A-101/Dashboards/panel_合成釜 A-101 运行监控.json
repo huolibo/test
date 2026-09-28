@@ -1,0 +1,47 @@
+{
+  "id" : 2055156169021568,
+  "name" : "合成釜 A-101 运行监控",
+  "description" : "合成釜 A-101 过去7天运行数据趋势面板",
+  "fileName" : "合成釜 A-101 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "973d2c9e-075e-4a2c-bdcb-c8b3cf11c7ad",
+    "attributeExpression" : "attributes['工艺温度']",
+    "expression" : "${attributes['工艺温度']}",
+    "groupBy" : false,
+    "alias" : "工艺温度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "b104a00e-8942-4d23-ab12-118c967ca97e",
+    "attributeExpression" : "attributes['工艺压力']",
+    "expression" : "${attributes['工艺压力']}",
+    "groupBy" : false,
+    "alias" : "工艺压力",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "37adea64-94e2-4299-bd8e-4836e5e0707c",
+    "attributeExpression" : "attributes['设备液位']",
+    "expression" : "${attributes['设备液位']}",
+    "groupBy" : false,
+    "alias" : "设备液位",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156154132608,
+  "elementAttributes" : {
+    "2055156154132608" : [ 2055156141353088, 2055156140673152, 2055156141037696 ]
+  }
+}

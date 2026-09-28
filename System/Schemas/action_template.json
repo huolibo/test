@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/action_template.json",
+  "title": "action-template",
+  "description": "schema of an action template",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "actionType"
+  ],
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "actionType": {
+      "type": "string",
+      "enum": [
+        "NOTIFICATION_ACTION",
+        "FEISHU_ACTION",
+        "IDMP_ACTION",
+        "AGENT_ACTION",
+        "NOTIFICATION",
+        "EXTERNAL_ACTION",
+        "INTERNAL_ACTION"
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "config": {
+      "type": "object"
+    }
+  }
+}

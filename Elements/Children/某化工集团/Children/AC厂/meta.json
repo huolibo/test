@@ -1,0 +1,17 @@
+{
+  "id" : 2055156153895040,
+  "name" : "AC厂",
+  "templateId" : 2055156139219072,
+  "dirName" : "AC厂",
+  "generalInfo" : {
+    "createTime" : 1790582082542,
+    "virtualStableName" : "vst_厂区中心_7gmvqs",
+    "virtualTableName" : "vt_AC厂_3g75p4",
+    "pathName" : "AC厂"
+  },
+  "attributes" : [ ],
+  "parents" : [ {
+    "id" : 2055156148131968,
+    "referenceType" : "ParentChild"
+  } ]
+}

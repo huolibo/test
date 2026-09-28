@@ -1,0 +1,6 @@
+{
+  "id": 23,
+  "name": "Tag",
+  "categoryType": "Attribute",
+  "description": "Attributes that reference a TDengine tag column"
+}

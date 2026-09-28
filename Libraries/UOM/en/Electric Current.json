@@ -1,0 +1,25 @@
+{
+  "id" : 1778056105,
+  "name" : "Electric Current",
+  "canonicalId" : 2144441927,
+  "uomList" : [ {
+    "id" : 2144441927,
+    "name" : "ampere",
+    "uomClassId" : 1778056105,
+    "abbreviation" : "A",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 243641582,
+    "name" : "milliampere",
+    "uomClassId" : 1778056105,
+    "abbreviation" : "mA",
+    "factor" : 0.001,
+    "offset" : 0.0,
+    "refUomId" : 2144441927,
+    "refFactor" : 0.001,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

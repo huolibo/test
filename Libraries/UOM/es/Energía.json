@@ -1,0 +1,167 @@
+{
+  "id" : 623268060,
+  "name" : "Energía",
+  "canonicalId" : 1318854283,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : 2
+  }, {
+    "id" : 470275444,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -2
+  } ],
+  "uomList" : [ {
+    "id" : 1318854283,
+    "name" : "julio",
+    "uomClassId" : 623268060,
+    "abbreviation" : "J",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 717922917,
+    "name" : "gigavatio hora",
+    "uomClassId" : 623268060,
+    "abbreviation" : "GWh",
+    "factor" : 3.6E12,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 3.6E12,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 186555004,
+    "name" : "megavatio hora",
+    "uomClassId" : 623268060,
+    "abbreviation" : "MWh",
+    "factor" : 3.6E9,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 3.6E9,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 885559585,
+    "name" : "vatio hora",
+    "uomClassId" : 623268060,
+    "abbreviation" : "Wh",
+    "factor" : 3600.0,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 3600.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1559877794,
+    "name" : "unidad térmica británica",
+    "uomClassId" : 623268060,
+    "abbreviation" : "Btu",
+    "factor" : 1055.05585262,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 1055.05585262,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1368774577,
+    "name" : "caloría",
+    "uomClassId" : 623268060,
+    "abbreviation" : "cal",
+    "factor" : 4.1868,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 4.1868,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 189770482,
+    "name" : "gigajulio",
+    "uomClassId" : 623268060,
+    "abbreviation" : "GJ",
+    "factor" : 1.0E9,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 1.0E9,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1940648592,
+    "name" : "kilojulio",
+    "uomClassId" : 623268060,
+    "abbreviation" : "kJ",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 718247581,
+    "name" : "kilovatio hora",
+    "uomClassId" : 623268060,
+    "abbreviation" : "kWh",
+    "factor" : 3600000.0,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 3600000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1167425844,
+    "name" : "megajulio",
+    "uomClassId" : 623268060,
+    "abbreviation" : "MJ",
+    "factor" : 1000000.0,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 1000000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 752066640,
+    "name" : "vatio segundo",
+    "uomClassId" : 623268060,
+    "abbreviation" : "Ws",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "refUomId" : 1318854283,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 310490055,
+    "name" : "kilocaloría",
+    "uomClassId" : 623268060,
+    "abbreviation" : "kcal",
+    "factor" : 4186.8,
+    "offset" : 0.0,
+    "refUomId" : 1368774577,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1377444084,
+    "name" : "millón de calorías",
+    "uomClassId" : 623268060,
+    "abbreviation" : "Mcal",
+    "factor" : 4186800.0,
+    "offset" : 0.0,
+    "refUomId" : 1368774577,
+    "refFactor" : 1000000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 253655028,
+    "name" : "millón de unidades térmicas británicas",
+    "uomClassId" : 623268060,
+    "abbreviation" : "MMBtu",
+    "factor" : 1.05505585262E9,
+    "offset" : 0.0,
+    "refUomId" : 1559877794,
+    "refFactor" : 1000000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

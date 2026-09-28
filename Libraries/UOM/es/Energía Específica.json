@@ -1,0 +1,76 @@
+{
+  "id" : 77568021,
+  "name" : "Energía Específica",
+  "canonicalId" : 735832839,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : 2
+  }, {
+    "id" : 845944798,
+    "power" : -2
+  } ],
+  "uomList" : [ {
+    "id" : 735832839,
+    "name" : "julio por kilogramo",
+    "uomClassId" : 77568021,
+    "abbreviation" : "J/kg",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2111679991,
+    "name" : "julio por gramo",
+    "uomClassId" : 77568021,
+    "abbreviation" : "J/g",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 735832839,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 335629833,
+    "name" : "unidad térmica británica por libra",
+    "uomClassId" : 77568021,
+    "abbreviation" : "Btu/lb",
+    "factor" : 2326.0,
+    "offset" : 0.0,
+    "refUomId" : 735832839,
+    "refFactor" : 2326.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2111068636,
+    "name" : "kilocaloría por kilogramo",
+    "uomClassId" : 77568021,
+    "abbreviation" : "kcal/kg",
+    "factor" : 4186.8,
+    "offset" : 0.0,
+    "refUomId" : 735832839,
+    "refFactor" : 4186.8,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1859108039,
+    "name" : "kilojulio por kilogramo",
+    "uomClassId" : 77568021,
+    "abbreviation" : "kJ/kg",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 735832839,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1053402345,
+    "name" : "kilojulio por libra",
+    "uomClassId" : 77568021,
+    "abbreviation" : "kJ/lb",
+    "factor" : 2204.62262184878,
+    "offset" : 0.0,
+    "refUomId" : 735832839,
+    "refFactor" : 2204.62262184878,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

@@ -1,0 +1,76 @@
+{
+  "id" : 1919368469,
+  "name" : "Velocidad",
+  "canonicalId" : 107102489,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -1
+  } ],
+  "uomList" : [ {
+    "id" : 107102489,
+    "name" : "metro por segundo",
+    "uomClassId" : 1919368469,
+    "abbreviation" : "m/s",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1215233710,
+    "name" : "centímetro por segundo",
+    "uomClassId" : 1919368469,
+    "abbreviation" : "cm/s",
+    "factor" : 0.01,
+    "offset" : 0.0,
+    "refUomId" : 107102489,
+    "refFactor" : 0.01,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 13764775,
+    "name" : "pie por segundo",
+    "uomClassId" : 1919368469,
+    "abbreviation" : "ft/s",
+    "factor" : 0.3048,
+    "offset" : 0.0,
+    "refUomId" : 107102489,
+    "refFactor" : 0.3048,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 224037926,
+    "name" : "milla náutica internacional por hora",
+    "uomClassId" : 1919368469,
+    "abbreviation" : "nmi/h",
+    "factor" : 0.514444444444444,
+    "offset" : 0.0,
+    "refUomId" : 107102489,
+    "refFactor" : 0.514444444444444,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1744221222,
+    "name" : "kilómetro por hora",
+    "uomClassId" : 1919368469,
+    "abbreviation" : "km/h",
+    "factor" : 0.277777777777778,
+    "offset" : 0.0,
+    "refUomId" : 107102489,
+    "refFactor" : 0.277777777777778,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 898692701,
+    "name" : "milla por hora",
+    "uomClassId" : 1919368469,
+    "abbreviation" : "mi/h",
+    "factor" : 0.44704,
+    "offset" : 0.0,
+    "refUomId" : 107102489,
+    "refFactor" : 0.44704,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

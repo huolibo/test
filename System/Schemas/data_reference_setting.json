@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/data_reference_setting.json",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "dataReferenceType": {
+          "type": "string"
+        },
+        "connectionId": {
+          "type": "number"
+        },
+        "dbName": {
+          "type": "string"
+        },
+        "sourceDBName": {
+          "type": "string"
+        },
+        "childTable": {
+          "type": "string"
+        },
+        "sourceChildTable": {
+          "type": "string"
+        },
+        "columnName": {
+          "type": "string"
+        },
+        "sourceColumnName": {
+          "type": "string"
+        },
+        "qualityColumnName": {
+          "type": "string"
+        },
+        "function": {
+          "type": "string"
+        },
+        "errMsg": {
+          "type": "string"
+        },
+        "verified": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    {
+      "type": "object",
+      "properties": {
+        "dataReferenceType": {
+          "type": "string"
+        },
+        "formulaExpression": {
+          "type": "string"
+        },
+        "formulaExpressionParameters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        },
+        "referredAttributeIds": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        }
+      },
+      "required": [
+        "formulaExpression"
+      ],
+      "additionalProperties": true
+    },
+    {
+      "type": "object",
+      "properties": {
+        "dataReferenceType": {
+          "type": "string"
+        },
+        "internalTableName": {
+          "type": "string"
+        },
+        "columnName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "internalTableName",
+        "columnName"
+      ],
+      "additionalProperties": true
+    },
+    {
+      "type": "object",
+      "properties": {
+        "dataReferenceType": {
+          "type": "string"
+        },
+        "stringBuilderExpression": {
+          "type": "string"
+        },
+        "stringBuilderParameters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      },
+      "required": [
+        "stringBuilderExpression"
+      ],
+      "additionalProperties": true
+    },
+    {
+      "type": "object",
+      "properties": {
+        "dataReferenceType": {
+          "type": "string"
+        },
+        "externalTableId": {
+          "type": "number"
+        },
+        "columnName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "externalTableId",
+        "columnName"
+      ],
+      "additionalProperties": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : 117395934,
+  "name" : "Razón",
+  "canonicalId" : 867152725,
+  "uomList" : [ {
+    "id" : 867152725,
+    "name" : "%",
+    "uomClassId" : 117395934,
+    "abbreviation" : "%",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1496111578,
+    "name" : "partes por millón",
+    "uomClassId" : 117395934,
+    "abbreviation" : "ppm",
+    "factor" : 1.0E-4,
+    "offset" : 0.0,
+    "refUomId" : 867152725,
+    "refFactor" : 1.0E-4,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1043919080,
+    "name" : "porcentaje",
+    "uomClassId" : 117395934,
+    "abbreviation" : "percentage",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "refUomId" : 867152725,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 725634176,
+    "name" : "partes por mil millones",
+    "uomClassId" : 117395934,
+    "abbreviation" : "ppb",
+    "factor" : 1.0E-7,
+    "offset" : 0.0,
+    "refUomId" : 867152725,
+    "refFactor" : 1.0E-7,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

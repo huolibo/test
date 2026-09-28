@@ -1,0 +1,68 @@
+{
+  "id" : 744028837,
+  "name" : "Force",
+  "canonicalId" : 1389442208,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : 1
+  }, {
+    "id" : 470275444,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -2
+  } ],
+  "uomList" : [ {
+    "id" : 1389442208,
+    "name" : "newton",
+    "uomClassId" : 744028837,
+    "abbreviation" : "N",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 591295284,
+    "name" : "kilogram-force",
+    "uomClassId" : 744028837,
+    "abbreviation" : "kgf",
+    "factor" : 9.80665,
+    "offset" : 0.0,
+    "refUomId" : 1389442208,
+    "refFactor" : 9.80665,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2064447350,
+    "name" : "Alesf",
+    "uomClassId" : 744028837,
+    "abbreviation" : "AF",
+    "factor" : 14.709975,
+    "offset" : 0.0,
+    "refUomId" : 591295284,
+    "refFactor" : 1.5,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1401760846,
+    "name" : "dyne",
+    "uomClassId" : 744028837,
+    "abbreviation" : "dyn",
+    "factor" : 1.0E-5,
+    "offset" : 0.0,
+    "refUomId" : 1389442208,
+    "refFactor" : 1.0E-5,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1128409696,
+    "name" : "pound-force",
+    "uomClassId" : 744028837,
+    "abbreviation" : "lbf",
+    "factor" : 4.44822161526,
+    "offset" : 0.0,
+    "refUomId" : 1389442208,
+    "refFactor" : 4.44822161526,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": 1472482346,
+  "name": "长度",
+  "canonicalId": 1204723484,
+  "uomList": [
+    {
+      "id": 1204723484,
+      "name": "米",
+      "uomClassId": 1472482346,
+      "abbreviation": "m",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 817531875,
+      "name": "厘米",
+      "uomClassId": 1472482346,
+      "abbreviation": "cm",
+      "factor": 0.01,
+      "offset": 0.0,
+      "refUomId": 1204723484,
+      "refFactor": 0.01,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 545570290,
+      "name": "英寸",
+      "uomClassId": 1472482346,
+      "abbreviation": "in",
+      "factor": 0.0254,
+      "offset": 0.0,
+      "refUomId": 1204723484,
+      "refFactor": 0.0254,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 445905671,
+      "name": "国际海里",
+      "uomClassId": 1472482346,
+      "abbreviation": "nmi",
+      "factor": 1852.0,
+      "offset": 0.0,
+      "refUomId": 1204723484,
+      "refFactor": 1852.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 687404094,
+      "name": "千米",
+      "uomClassId": 1472482346,
+      "abbreviation": "km",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 1204723484,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1140042400,
+      "name": "毫米",
+      "uomClassId": 1472482346,
+      "abbreviation": "mm",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 1204723484,
+      "refFactor": 0.001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 512580232,
+      "name": "英尺",
+      "uomClassId": 1472482346,
+      "abbreviation": "ft",
+      "factor": 0.30479999999999996,
+      "offset": 0.0,
+      "refUomId": 545570290,
+      "refFactor": 12.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1620816456,
+      "name": "英里",
+      "uomClassId": 1472482346,
+      "abbreviation": "mi",
+      "factor": 1609.3439999999998,
+      "offset": 0.0,
+      "refUomId": 545570290,
+      "refFactor": 63360.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1490235149,
+      "name": "十六分之一英寸",
+      "uomClassId": 1472482346,
+      "abbreviation": "1/16 in",
+      "factor": 0.0015875,
+      "offset": 0.0,
+      "refUomId": 545570290,
+      "refFactor": 0.0625,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1733098181,
+      "name": "码",
+      "uomClassId": 1472482346,
+      "abbreviation": "yd",
+      "factor": 0.9144,
+      "offset": 0.0,
+      "refUomId": 545570290,
+      "refFactor": 36.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id" : 2055156173363328,
+  "name" : "生产批次监测",
+  "fileName" : "生产批次监测",
+  "categories" : [ ],
+  "trigger" : {
+    "watermark" : 0,
+    "ignoreExpired" : false,
+    "fillHistory" : true,
+    "fillHistoryFirst" : false,
+    "fillHistoryStartTime" : 1783585995294,
+    "generateHistoryEvent" : true,
+    "preFilter" : true,
+    "ignoreUpdate" : false,
+    "triggerType" : "Event",
+    "starts" : [ {
+      "name" : "触发器-1",
+      "expression" : "${attributes['运行状态']}!=0",
+      "duration" : "5m",
+      "trueForMode" : "DURATION",
+      "parameters" : [ ],
+      "allowAck" : false,
+      "severityLevel" : "Information",
+      "hasChildren" : false,
+      "conditionPath" : "0"
+    } ],
+    "end" : {
+      "expression" : "${attributes['运行状态']}=0",
+      "parameters" : [ ]
+    },
+    "duration" : "5m",
+    "trueForMode" : "DURATION"
+  },
+  "event" : {
+    "id" : 2055156173371520,
+    "onlyTemplate" : false,
+    "severityLevel" : "Warning",
+    "allowExtension" : false,
+    "allowAck" : true,
+    "eventMinInterval" : "15m",
+    "templateId" : 2055155574417536
+  },
+  "startAfterCreated" : true,
+  "recalculate" : false,
+  "output" : {
+    "columnName" : "_wend",
+    "offset" : "0s",
+    "attributes" : [ ],
+    "rollupWindow" : {
+      "enabled" : true,
+      "startTime" : "_wstart",
+      "startTimeOffset" : "0s",
+      "endTime" : "_wend",
+      "endTimeOffset" : "0s",
+      "interval" : "1m"
+    },
+    "elementTemplate" : {
+      "rootElement" : 0,
+      "level" : 0
+    },
+    "partitionByTags" : [ ]
+  },
+  "connId" : 2055155571251328,
+  "subAnalyses" : [ ],
+  "actions" : [ ],
+  "owner" : 2055156148750464,
+  "resourceId" : 2055156148750464,
+  "analysisType" : "elementSelf",
+  "rootElementId" : 2055156148131968,
+  "elementId" : 2055156148750464,
+  "elementTemplateId" : 2055156139915392
+}

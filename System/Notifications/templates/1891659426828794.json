@@ -1,0 +1,18 @@
+{
+  "id": 1891659426828794,
+  "name": "email.panel.notification",
+  "description": "Panel Snapshot Notification",
+  "type": "Mail",
+  "title": {
+    "zh-CN": "{elementName} 的{type} - {dashboardPanelName}",
+    "en": "{type} of {elementName} - {dashboardPanelName}",
+    "es": "{type} de {elementName} - {dashboardPanelName}",
+    "ko": "{elementName}의 {type} - {dashboardPanelName}"
+  },
+  "content": {
+    "zh-CN": "<p>报告名称： <strong>{dashboardPanelName}</strong></p> <p>元素：<strong>{elementName}</strong></p><p>生成时间：<strong>{reportTime}</strong></p> <br /> <img src=\"cid:{imageCid}\" style=\"max-width: 100%; border: 1px solid #ddd;\" />",
+    "en": "<p>Report: <strong>{dashboardPanelName}</strong></p> <p>Element: <strong>{elementName}</strong></p><p>Report Time：<strong>{reportTime}</strong></p><br /><img src=\"cid:{imageCid}\" style=\"max-width: 100%; border: 1px solid #ddd;\" />",
+    "es": "<p>Informe: <strong>{dashboardPanelName}</strong></p> <p>Elemento: <strong>{elementName}</strong></p><p>Hora del informe：<strong>{reportTime}</strong></p><br /><img src=\"cid:{imageCid}\" style=\"max-width: 100%; border: 1px solid #ddd;\" />",
+    "ko": "<p>보고서: <strong>{dashboardPanelName}</strong></p> <p>요소: <strong>{elementName}</strong></p><p>보고서 시간：<strong>{reportTime}</strong></p><br /><img src=\"cid:{imageCid}\" style=\"max-width: 100%; border: 1px solid #ddd;\" />"
+  }
+}

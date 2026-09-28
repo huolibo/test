@@ -1,0 +1,207 @@
+{
+  "id" : 2055156164483200,
+  "name" : "多生产批次综合分析",
+  "fileName" : "多生产批次综合分析",
+  "panelType" : "analyze",
+  "categories" : [ ],
+  "chart" : {
+    "graph" : {
+      "title" : "多生产批次综合分析",
+      "showTitleInChart" : true,
+      "transparentBackground" : true
+    },
+    "legend" : {
+      "show" : true,
+      "stats" : [ ],
+      "showType" : "list",
+      "placement" : "bottom"
+    },
+    "series" : {
+      "style" : "lines",
+      "lineType" : "solid",
+      "pointType" : "circle",
+      "stack" : false,
+      "fillOpacity" : 0,
+      "lineOpacity" : 1,
+      "stateOpacity" : 1,
+      "rowHeight" : 0.3,
+      "symbol" : "circle",
+      "orientation" : "horizontal",
+      "neutral" : {
+        "show" : false
+      },
+      "text" : {
+        "titleShow" : true
+      },
+      "specialPoint" : {
+        "show" : false,
+        "refMetricId" : 0,
+        "items" : [ ]
+      },
+      "showPoints" : "auto",
+      "lineInterpolation" : "linear",
+      "lineWidth" : 1,
+      "pointSize" : 3,
+      "connectNulls" : "never",
+      "connectNullsUnit" : "h",
+      "gradientMode" : "none"
+    },
+    "axis" : {
+      "leftY" : {
+        "show" : true
+      },
+      "rightY" : {
+        "show" : false
+      },
+      "x" : {
+        "show" : true,
+        "showGridLines" : "auto"
+      }
+    },
+    "threshold" : {
+      "refMetricId" : 0,
+      "items" : [ ],
+      "showAs" : "line",
+      "thresholds" : [ ]
+    },
+    "format" : "YYYY-MM-DD HH:mm:ss",
+    "transformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "labelInterval" : "auto",
+    "labelRotate" : 0,
+    "tooltip" : {
+      "mode" : "all",
+      "sortOrder" : "none"
+    },
+    "eventWindow" : {
+      "enableLineMode" : true,
+      "showTip" : true,
+      "blinkForUnclosedEvent" : true,
+      "blinkingFrequency" : 900
+    },
+    "standardOptions" : {
+      "colorSchema" : "classic-palette"
+    },
+    "colorThresholds" : [ {
+      "color" : "#5470C6",
+      "default" : true
+    } ],
+    "thresholdMode" : "absolute",
+    "overrides" : [ ],
+    "multiLane" : true
+  },
+  "yaAttributes" : [ {
+    "uuid" : "c0c64379-3f18-4c8e-83e4-8e14ceb894d0",
+    "attributeExpression" : "2055156148750464|attributes['工艺温度']",
+    "expression" : "${2055156148750464|attributes['工艺温度']}",
+    "parameters" : [ {
+      "label" : "A",
+      "type" : "variable",
+      "detail" : "2055156148750464|attributes['工艺温度']",
+      "apply" : "${2055156148750464|attributes['工艺温度']}"
+    } ],
+    "groupBy" : false,
+    "timeShift" : "0",
+    "alias" : "主反应釜 R-101-工艺温度",
+    "displayUom" : 1153421915,
+    "defaultUomClassId" : 1513730281,
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "62576226-afe2-4ae9-b8c3-df861f1632b7",
+    "attributeExpression" : "2055156148750464|attributes['工艺压力']",
+    "expression" : "${2055156148750464|attributes['工艺压力']}",
+    "parameters" : [ {
+      "label" : "A",
+      "type" : "variable",
+      "detail" : "2055156148750464|attributes['工艺压力']",
+      "apply" : "${2055156148750464|attributes['工艺压力']}"
+    } ],
+    "groupBy" : false,
+    "timeShift" : "0",
+    "alias" : "主反应釜 R-101-工艺压力",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "cd0b8820-e66d-4f68-8be9-a59bdb182b05",
+    "attributeExpression" : "2055156148750464|attributes['设备液位']",
+    "expression" : "${2055156148750464|attributes['设备液位']}",
+    "parameters" : [ {
+      "label" : "A",
+      "type" : "variable",
+      "detail" : "2055156148750464|attributes['设备液位']",
+      "apply" : "${2055156148750464|attributes['设备液位']}"
+    } ],
+    "groupBy" : false,
+    "timeShift" : "0",
+    "alias" : "主反应釜 R-101-设备液位",
+    "displayUom" : 1204723484,
+    "defaultUomClassId" : 1472482346,
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "c7ad4259-6fbe-482c-916d-7223c090a6ee",
+    "attributeExpression" : "2055156148750464|attributes['运行状态']",
+    "expression" : "${2055156148750464|attributes['运行状态']}",
+    "parameters" : [ {
+      "label" : "A",
+      "type" : "variable",
+      "detail" : "2055156148750464|attributes['运行状态']",
+      "apply" : "${2055156148750464|attributes['运行状态']}"
+    } ],
+    "groupBy" : false,
+    "alias" : "主反应釜 R-101-运行状态",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "2026-07-04 03:22:09",
+    "toText" : "2026-07-05 04:02:51",
+    "refreshInterval" : -1,
+    "timezone" : "Asia/Shanghai"
+  },
+  "enableAdvanced" : false,
+  "notifications" : [ ],
+  "advancedQueries" : [ ],
+  "advancedQuery" : false,
+  "listOrder" : 2,
+  "downSampling" : {
+    "maxDataPoints" : 300,
+    "aggr" : "avg"
+  },
+  "analysisState" : {
+    "multiLane" : true,
+    "markerLineEnabled" : false,
+    "markerA" : { },
+    "markerB" : { },
+    "alignByStartTime" : false,
+    "normalization" : false,
+    "envelope" : false,
+    "envelopeLowerPercentile" : 0,
+    "envelopeUpperPercentile" : 100,
+    "envelopeConfig" : { },
+    "eventDisplayMode" : "window",
+    "xyPlotSelection" : { },
+    "xyPlotEnabled" : false,
+    "profileWindows" : [ ],
+    "scatterTransformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "correlation" : {
+      "attributes" : [ ],
+      "pairResults" : [ ],
+      "resultMap" : { }
+    }
+  },
+  "elementId" : 2055156148131968,
+  "elementAttributes" : {
+    "2055156148750464" : [ 2055156141353088, 2055156141664384, 2055156140673152, 2055156141037696 ]
+  },
+  "eventIds" : [ 2055156174366850, 2055156174370945, 2055156174370947, 2055156174375041, 2055156174375043 ]
+}

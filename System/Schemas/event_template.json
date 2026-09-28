@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/event_template.json",
+  "title": "event-template",
+  "description": "schema of a event template",
+  "type": "object",
+  "required": [
+    "id",
+    "name"
+  ],
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "templateId": {
+      "type": "number"
+    },
+    "baseTemplateId": {
+      "type": "number"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "defaultAttr": {
+      "type": "number"
+    },
+    "attrs": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "namingPattern": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

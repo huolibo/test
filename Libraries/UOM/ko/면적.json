@@ -1,0 +1,117 @@
+{
+  "id" : 540622235,
+  "name" : "면적",
+  "canonicalId" : 577516047,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : 2
+  } ],
+  "uomList" : [ {
+    "id" : 577516047,
+    "name" : "metro cuadrado",
+    "uomClassId" : 540622235,
+    "abbreviation" : "m²",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 810873665,
+    "name" : "pulgada cuadrada",
+    "uomClassId" : 540622235,
+    "abbreviation" : "in²",
+    "factor" : 6.4516E-4,
+    "offset" : 0.0,
+    "refUomId" : 577516047,
+    "refFactor" : 6.4516E-4,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 477031558,
+    "name" : "pie cuadrado",
+    "uomClassId" : 540622235,
+    "abbreviation" : "ft²",
+    "factor" : 0.09290303999999999,
+    "offset" : 0.0,
+    "refUomId" : 810873665,
+    "refFactor" : 144.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 719663262,
+    "name" : "acre",
+    "uomClassId" : 540622235,
+    "abbreviation" : "ac",
+    "factor" : 4046.8564223999997,
+    "offset" : 0.0,
+    "refUomId" : 477031558,
+    "refFactor" : 43560.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1358638177,
+    "name" : "milla cuadrada",
+    "uomClassId" : 540622235,
+    "abbreviation" : "mi²",
+    "factor" : 2589988.1103359996,
+    "offset" : 0.0,
+    "refUomId" : 477031558,
+    "refFactor" : 2.78784E7,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 80086174,
+    "name" : "yarda cuadrada",
+    "uomClassId" : 540622235,
+    "abbreviation" : "yd²",
+    "factor" : 0.8361273599999999,
+    "offset" : 0.0,
+    "refUomId" : 477031558,
+    "refFactor" : 9.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1237293946,
+    "name" : "hectárea",
+    "uomClassId" : 540622235,
+    "abbreviation" : "ha",
+    "factor" : 10000.0,
+    "offset" : 0.0,
+    "refUomId" : 577516047,
+    "refFactor" : 10000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2010611611,
+    "name" : "centímetro cuadrado",
+    "uomClassId" : 540622235,
+    "abbreviation" : "cm²",
+    "factor" : 1.0E-4,
+    "offset" : 0.0,
+    "refUomId" : 577516047,
+    "refFactor" : 1.0E-4,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2110283373,
+    "name" : "kilómetro cuadrado",
+    "uomClassId" : 540622235,
+    "abbreviation" : "km²",
+    "factor" : 1000000.0,
+    "offset" : 0.0,
+    "refUomId" : 577516047,
+    "refFactor" : 1000000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1419612695,
+    "name" : "milímetro cuadrado",
+    "uomClassId" : 540622235,
+    "abbreviation" : "mm²",
+    "factor" : 1.0E-6,
+    "offset" : 0.0,
+    "refUomId" : 577516047,
+    "refFactor" : 1.0E-6,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

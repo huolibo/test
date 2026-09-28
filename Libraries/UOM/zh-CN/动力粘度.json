@@ -1,0 +1,42 @@
+{
+  "id": 1339793660,
+  "name": "动力粘度",
+  "canonicalId": 907095716,
+  "baseClasses": [
+    {
+      "id": 1472482346,
+      "power": -1
+    },
+    {
+      "id": 470275444,
+      "power": 1
+    },
+    {
+      "id": 845944798,
+      "power": -1
+    }
+  ],
+  "uomList": [
+    {
+      "id": 907095716,
+      "name": "帕斯卡秒",
+      "uomClassId": 1339793660,
+      "abbreviation": "Pa·s",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 2135718191,
+      "name": "泊",
+      "uomClassId": 1339793660,
+      "abbreviation": "P",
+      "factor": 0.1,
+      "offset": 0.0,
+      "refUomId": 907095716,
+      "refFactor": 0.1,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id" : 427058508,
+  "name" : "몰",
+  "canonicalId" : 1310010803,
+  "uomList" : [ {
+    "id" : 1310010803,
+    "name" : "mol",
+    "uomClassId" : 427058508,
+    "abbreviation" : "mol",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 845596542,
+    "name" : "gramo mol",
+    "uomClassId" : 427058508,
+    "abbreviation" : "gmol",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "refUomId" : 1310010803,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1356916839,
+    "name" : "kilogramo mol",
+    "uomClassId" : 427058508,
+    "abbreviation" : "kmol",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 1310010803,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 481163204,
+    "name" : "libra mol",
+    "uomClassId" : 427058508,
+    "abbreviation" : "lbmol",
+    "factor" : 453.59237,
+    "offset" : 0.0,
+    "refUomId" : 1310010803,
+    "refFactor" : 453.59237,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

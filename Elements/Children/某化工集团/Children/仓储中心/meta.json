@@ -1,0 +1,17 @@
+{
+  "id" : 2055156155046016,
+  "name" : "仓储中心",
+  "templateId" : 2055156139219072,
+  "dirName" : "仓储中心",
+  "generalInfo" : {
+    "createTime" : 1790582082824,
+    "virtualStableName" : "vst_厂区中心_7gmvqs",
+    "virtualTableName" : "vt_仓储中心_ea3737",
+    "pathName" : "仓储中心"
+  },
+  "attributes" : [ ],
+  "parents" : [ {
+    "id" : 2055156148131968,
+    "referenceType" : "ParentChild"
+  } ]
+}

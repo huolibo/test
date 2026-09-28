@@ -1,0 +1,14 @@
+{
+  "id" : 2055156139219072,
+  "name" : "厂区中心",
+  "namingPattern" : "${KEYWORD1}",
+  "dirName" : "厂区中心",
+  "generalInfo" : {
+    "virtualStableName" : "vst_厂区中心_7gmvqs"
+  },
+  "allowExtensions" : true,
+  "baseTemplateOnly" : false,
+  "keywordsDesc" : {
+    "KEYWORD1" : "厂区名称"
+  }
+}

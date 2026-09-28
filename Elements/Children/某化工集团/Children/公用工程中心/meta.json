@@ -1,0 +1,17 @@
+{
+  "id" : 2055156155938944,
+  "name" : "公用工程中心",
+  "templateId" : 2055156139219072,
+  "dirName" : "公用工程中心",
+  "generalInfo" : {
+    "createTime" : 1790582083042,
+    "virtualStableName" : "vst_厂区中心_7gmvqs",
+    "virtualTableName" : "vt_公用工程中心_76memw",
+    "pathName" : "公用工程中心"
+  },
+  "attributes" : [ ],
+  "parents" : [ {
+    "id" : 2055156148131968,
+    "referenceType" : "ParentChild"
+  } ]
+}

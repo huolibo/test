@@ -1,0 +1,18 @@
+{
+  "id": 1845972925555840,
+  "name": "email.password.reset.request",
+  "description": "Password Reset Request",
+  "type": "Mail",
+  "title": {
+    "zh-CN": "重置您的 TDengine IDMP 账户密码",
+    "en": "Reset Your TDengine IDMP Password",
+    "es": "Restablezca su contraseña de TDengine IDMP",
+    "ko": "TDengine IDMP 비밀번호 재설정"
+  },
+  "content": {
+    "zh-CN": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"/>\n<style type=\"text/css\"> p {\n  font-family: Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif;\n  font-weight: 400;\n  line-height: 25px;\n  font-size: 16px;\n  margin: 0px auto;\n}\n\n.td_email_body {\n  width: 100%;\n  background-color: #D4D7DD;\n  padding-top: 30px;\n  padding-bottom: 30px;\n}\n\n.td_email_content {\n  background-color: #fff;\n  padding: 0px;\n  margin: 0px;\n  width: 700px;\n  margin: 0 auto;\n  padding: 30px 50px;\n}</style>\n<div class=\"td_email_body\">\n  <div class=\"td_email_content\"><p>{userName} 您好，</p><br/>\n    <p>我们收到了您 TDengine IDMP 账户密码的重置申请。</p>\n    <p>如确认需重置密码，请点击下面的“重置我的密码”按钮。</p>\n    <p><a style=\"height: 40px; background-color: #0052CC; color: #fff; line-height: 40px; display: inline-block; padding: 0px 20px; margin: 10px 0; opacity: 1; border-radius: 5px;\"\n        href=\"{serverUrl}/reset?code={validationCode}\">重置我的密码</a></p>\n    <p>此链接将在 24 小时后过期。 若超时，请再次申请重置。</p>\n    <p>如果您没有提出重置密码的申请，请回复此邮件并告知我们，以便我们帮助您保护您的账户。</p><br>\n    <p>谢谢</p>\n    <p>TDengine 团队</p></div>\n</div>",
+    "en": "<p>Hi {userName},</p>\n<p>We received your request to reset your TDengine IDMP password.</p>\n<p><a href=\"{serverUrl}/reset?code={validationCode}\">Click here to reset your password.</a></p>\n<p>This link is valid for 24 hours.</p>\n<p>Note: If you did not request a password reset, please disregard this message.</p>\n<p>Regards,</p>\n<p>The TDengine Team</p>",
+    "es": "<p>Hola {userName},</p>\n<p>Hemos recibido su solicitud para restablecer su contraseña de TDengine IDMP.</p>\n<p><a href=\"{serverUrl}/reset?code={validationCode}\">Haga clic aquí para restablecer su contraseña.</a></p>\n<p>Este enlace es válido por 24 horas.</p>\n<p>Nota: Si no solicitó un restablecimiento de contraseña, ignore este mensaje.</p>\n<p>Saludos,</p>\n<p>El equipo de TDengine</p>",
+    "ko": "<p>{userName}님, 안녕하세요,</p>\n<p>TDengine IDMP 비밀번호 재설정 요청을 받았습니다.</p>\n<p><a href=\"{serverUrl}/reset?code={validationCode}\">비밀번호를 재설정하려면 여기를 클릭하세요.</a></p>\n<p>이 링크는 24시간 동안 유효합니다.</p>\n<p>참고: 비밀번호 재설정을 요청하지 않으셨다면 이 메시지를 무시해 주세요.</p>\n<p>감사합니다,</p>\n<p>TDengine 팀</p>"
+  }
+}

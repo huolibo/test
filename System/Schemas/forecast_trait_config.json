@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/forecast_trait_config.json",
+  "title": "forecast_trait_config",
+  "description": "schema of a ForecastTraitConfig trait",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "forecastTraitConfigType": {
+      "enum": [
+        "External"
+      ]
+    }
+  }
+}

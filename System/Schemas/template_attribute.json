@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/template_attribute.json",
+  "title": "template_attribute",
+  "description": "schema of a template attribute",
+  "type": "object",
+  "required": [
+    "name"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "order": {
+      "type": "number"
+    },
+    "config": {
+      "type": "object",
+      "properties": {
+        "constantItem": {
+          "type": "boolean"
+        },
+        "hidden": {
+          "type": "boolean"
+        },
+        "excluded": {
+          "type": "boolean"
+        }
+      }
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "defaultUom": {
+      "type": "number"
+    },
+    "displayUom": {
+      "type": "number"
+    },
+    "displayDigits": {
+      "type": "integer"
+    },
+    "valueType": {
+      "oneOf": [
+        {
+          "basicType": {
+            "$ref": "#/$defs/basicType"
+          }
+        },
+        {
+          "arrayType": {
+            "$ref": "#/$defs/basicType"
+          }
+        },
+        {
+          "enumerationSet": {
+            "type": "object",
+            "enumerationSetName": {
+              "type": "string"
+            },
+            "enumerationValue": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "objectType": {
+            "enum": [
+              "AttributeReference",
+              "ElementReference",
+              "LocalFile",
+              "RemoteFile",
+              "Video"
+            ]
+          }
+        }
+      ]
+    },
+    "valueLength": {
+      "type": "integer"
+    },
+    "dataReferenceType": {
+      "enum": [
+        "Formula",
+        "StringBuilder",
+        "TDengineTag",
+        "TDengineMetric",
+        "InternalTable",
+        "ExternalTable"
+      ]
+    },
+    "dataReferenceSetting": {
+      "type": "string"
+    },
+    "childAttributes": {
+      "type": "array",
+      "items": {
+        "$ref": "#"
+      }
+    }
+  },
+  "$defs": {
+    "basicType": {
+      "enum": [
+        "Bool",
+        "TinyInt",
+        "SmallInt",
+        "Int",
+        "BigInt",
+        "Float",
+        "Double",
+        "Guid",
+        "Timestamp",
+        "Varchar"
+      ]
+    }
+  }
+}

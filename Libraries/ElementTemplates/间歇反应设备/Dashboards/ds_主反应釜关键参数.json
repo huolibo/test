@@ -1,0 +1,25 @@
+{
+  "id" : 2055156147939456,
+  "name" : "主反应釜关键参数",
+  "fileName" : "主反应釜关键参数",
+  "params" : {
+    "refreshInterval" : -1
+  },
+  "panels" : [ {
+    "column" : 0,
+    "row" : 0,
+    "width" : 48,
+    "height" : 8,
+    "panelId" : 2055156147652736,
+    "elementTemplateId" : 2055156139915392
+  }, {
+    "column" : 0,
+    "row" : 8,
+    "width" : 48,
+    "height" : 16,
+    "panelId" : 2055156147271808,
+    "elementTemplateId" : 2055156139915392
+  } ],
+  "notifications" : [ ],
+  "elementTemplateId" : 2055156139915392
+}

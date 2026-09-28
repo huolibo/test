@@ -1,0 +1,70 @@
+{
+  "id": 641567926,
+  "name": "电压",
+  "canonicalId": 1074469309,
+  "baseClasses": [
+    {
+      "id": 1778056105,
+      "power": -1
+    },
+    {
+      "id": 1472482346,
+      "power": 2
+    },
+    {
+      "id": 470275444,
+      "power": 1
+    },
+    {
+      "id": 845944798,
+      "power": -3
+    }
+  ],
+  "uomList": [
+    {
+      "id": 1074469309,
+      "name": "伏特",
+      "uomClassId": 641567926,
+      "abbreviation": "V",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1067582251,
+      "name": "毫伏",
+      "uomClassId": 641567926,
+      "abbreviation": "mV",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 1074469309,
+      "refFactor": 0.001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1676779585,
+      "name": "兆伏",
+      "uomClassId": 641567926,
+      "abbreviation": "MV",
+      "factor": 1000000.0,
+      "offset": 0.0,
+      "refUomId": 1074469309,
+      "refFactor": 1000000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1142036239,
+      "name": "千伏",
+      "uomClassId": 641567926,
+      "abbreviation": "kV",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 1074469309,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

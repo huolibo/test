@@ -1,0 +1,31 @@
+{
+  "id" : 2055156169697408,
+  "name" : "仓储区电表 WH-01 运行监控",
+  "description" : "仓储区电表 WH-01 过去7天运行数据趋势面板",
+  "fileName" : "仓储区电表 WH-01 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "f4e399ac-43cd-4a3c-bdd6-c803caf596b9",
+    "attributeExpression" : "attributes['瞬时消耗值']",
+    "expression" : "${attributes['瞬时消耗值']}",
+    "groupBy" : false,
+    "alias" : "瞬时消耗值",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156155271296,
+  "elementAttributes" : {
+    "2055156155271296" : [ 2055156146231424 ]
+  }
+}

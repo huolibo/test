@@ -1,0 +1,31 @@
+{
+  "id" : 2055156170619008,
+  "name" : "产线总电表 E01 运行监控",
+  "description" : "产线总电表 E01 过去7天运行数据趋势面板",
+  "fileName" : "产线总电表 E01 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "83c7fdff-2634-475a-8683-71bcec34a180",
+    "attributeExpression" : "attributes['瞬时消耗值']",
+    "expression" : "${attributes['瞬时消耗值']}",
+    "groupBy" : false,
+    "alias" : "瞬时消耗值",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156156614784,
+  "elementAttributes" : {
+    "2055156156614784" : [ 2055156146231424 ]
+  }
+}

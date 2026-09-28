@@ -1,0 +1,58 @@
+{
+  "id" : 2055156093282436,
+  "name" : "生产过程关系",
+  "description" : "描述不同设备之间的物流、信息、能量流转过程。",
+  "code" : "system.relationship-type.process",
+  "valueType" : "TinyInt",
+  "values" : [ {
+    "id" : 2055156093282437,
+    "name" : "进料",
+    "value" : "1",
+    "description" : "反向: feed-by. A 的输出物直接进入 B，即 A feeds B。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282436
+  }, {
+    "id" : 2055156093282438,
+    "name" : "收料",
+    "value" : "2",
+    "description" : "反向: feeds. feeds 的反方向。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282436
+  }, {
+    "id" : 2055156093282439,
+    "name" : "上游",
+    "value" : "3",
+    "description" : "反向: downstream-of. A 在 B 的上游，可跨步，不要求相邻，即 A upstream-of B。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282436
+  }, {
+    "id" : 2055156093282440,
+    "name" : "下游",
+    "value" : "4",
+    "description" : "反向: upstream-of. upstream-of 的反方向。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282436
+  }, {
+    "id" : 2055156093282441,
+    "name" : "测量",
+    "value" : "5",
+    "description" : "反向: measure-by. A 测量 B，A 是测量设备，B 是被测设备，即 A measures B。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282436
+  }, {
+    "id" : 2055156093282442,
+    "name" : "被测量",
+    "value" : "6",
+    "description" : "反向: measures. measures 的反方向。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093282436
+  } ],
+  "enumValuePathMap" : {
+    "1" : "进料",
+    "2" : "收料",
+    "3" : "上游",
+    "4" : "下游",
+    "5" : "测量",
+    "6" : "被测量"
+  }
+}

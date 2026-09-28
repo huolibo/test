@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/health.json",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    }
+  }
+}

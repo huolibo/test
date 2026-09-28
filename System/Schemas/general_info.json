@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/general_info.json",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "createTime": {
+      "type": "integer"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "defaultAttributeId": {
+      "type": "number"
+    },
+    "location": {
+      "$ref": "./location.json"
+    },
+    "health": {
+      "$ref": "./health.json"
+    },
+    "additionalAttributes": {
+      "type": "array",
+      "items": {
+        "$ref": "./general_attribute.json"
+      }
+    },
+    "virtualStableName": {
+      "type": "string"
+    },
+    "virtualTableName": {
+      "type": "string"
+    },
+    "pathName": {
+      "type": "string"
+    },
+    "pathTagName": {
+      "type": "string"
+    },
+    "keywordValues": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}

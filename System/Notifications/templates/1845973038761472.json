@@ -1,0 +1,18 @@
+{
+  "id": 1845973038761472,
+  "name": "email.password.reset.success",
+  "description": "Password Reset Succesfully",
+  "type": "Mail",
+  "title": {
+    "zh-CN": "您的 TDengine IDMP 账户密码刚刚被重置",
+    "en": "Your TDengine IDMP password was just reset",
+    "es": "Su contraseña de TDengine IDMP ha sido restablecida",
+    "ko": "TDengine IDMP 비밀번호가 재설정되었습니다"
+  },
+  "content": {
+    "zh-CN": "<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\"/>\n<style type=\"text/css\">\n  p {\n    font-family: Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif;\n    font-weight: 400;\n    line-height: 25px;\n    font-size: 16px;\n    margin: 0px auto;\n  }\n\n  .td_email_body {\n    width: 100%;\n    background-color: #D4D7DD;\n    padding-top: 30px;\n    padding-bottom: 30px;\n  }\n\n  .td_email_content {\n    background-color: #fff;\n    padding: 0px;\n    margin: 0px;\n    width: 700px;\n    margin: 0 auto;\n    padding: 30px 50px;\n  }\n</style>\n<div class=\"td_email_body\">\n  <div class=\"td_email_content\">\n    <p>{userName} 你好，</p><br/>\n    <p>您的 TDengine IDMP 账户密码已重置成功。 如果您没有请求重置，为了账户安全，请立即回复此消息。</p>\n    <p>如果您有其他问题，欢迎致电 4006120020 或访问 <a href=\"https://www.taosdata.com/\">TDengine 官网</a> 联系我们。</p><br>\n    <p>谢谢，</p>\n    <p>TDengine 团队</p>\n  </div>\n</div>",
+    "en": "<p>Hi {userName},</p>\n<p>Your TDengine IDMP password has been reset successfully. If you did not request a reset, contact us at <a href=\"mailto:support@tdengine.com\">support@tdengine.com</a> for assistance.</p>\n<p>Regards,</p>\n<p>The TDengine Team</p>",
+    "es": "<p>Hola {userName},</p>\n<p>Su contraseña de TDengine IDMP ha sido restablecida exitosamente. Si no solicitó un restablecimiento, contáctenos en <a href=\"mailto:support@tdengine.com\">support@tdengine.com</a> para obtener ayuda.</p>\n<p>Saludos,</p>\n<p>El equipo de TDengine</p>",
+    "ko": "<p>{userName}님, 안녕하세요,</p>\n<p>TDengine IDMP 비밀번호가 성공적으로 재설정되었습니다. 재설정을 요청하지 않으셨다면 다음으로 문의해 주세요: <a href=\"mailto:support@tdengine.com\">support@tdengine.com</a></p>\n<p>감사합니다,</p>\n<p>TDengine 팀</p>"
+  }
+}

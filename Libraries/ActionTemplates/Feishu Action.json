@@ -1,0 +1,16 @@
+{
+  "id": 2,
+  "name": "Feishu Action",
+  "description": "Create a task in a Feishu application",
+  "actionType": "FEISHU_ACTION",
+  "categories": [18],
+  "config": {
+    "actionType": "FEISHU_ACTION",
+    "appId": "",
+    "appSecret": "",
+    "summary": "${elementName} alert",
+    "content": "Analysis ${analysisName} triggered on ${elementPath}",
+    "actionBody": {},
+    "assigneeUserIds": []
+  }
+}

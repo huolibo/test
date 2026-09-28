@@ -1,0 +1,141 @@
+{
+  "id" : 2055156170070144,
+  "name" : "每小时能耗均值统计",
+  "fileName" : "每小时能耗均值统计",
+  "panelType" : "bar",
+  "categories" : [ ],
+  "chart" : {
+    "graph" : {
+      "title" : "新面板",
+      "showTitleInChart" : true,
+      "transparentBackground" : true
+    },
+    "legend" : {
+      "show" : true,
+      "stats" : [ ],
+      "showType" : "list",
+      "placement" : "bottom"
+    },
+    "series" : {
+      "style" : "bars",
+      "lineType" : "solid",
+      "pointType" : "circle",
+      "stack" : false,
+      "fillOpacity" : 0.8,
+      "lineOpacity" : 1,
+      "stateOpacity" : 1,
+      "rowHeight" : 0.3,
+      "symbol" : "circle",
+      "orientation" : "horizontal",
+      "neutral" : {
+        "show" : false
+      },
+      "text" : {
+        "titleShow" : true
+      },
+      "specialPoint" : {
+        "show" : false,
+        "refMetricId" : 0,
+        "items" : [ ]
+      },
+      "showPoints" : "auto",
+      "lineInterpolation" : "linear",
+      "lineWidth" : 1,
+      "pointSize" : 3,
+      "connectNulls" : "never",
+      "connectNullsUnit" : "h",
+      "gradientMode" : "none",
+      "barWidth" : 0
+    },
+    "axis" : {
+      "leftY" : {
+        "show" : true,
+        "dataMin" : 0,
+        "dataMax" : 100
+      },
+      "rightY" : {
+        "show" : false
+      },
+      "x" : {
+        "show" : true,
+        "showGridLines" : "auto"
+      }
+    },
+    "limits" : [ ],
+    "format" : "YYYY-MM-DD HH:mm:ss",
+    "transformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "labelInterval" : "auto",
+    "labelRotate" : 0,
+    "tooltip" : {
+      "mode" : "all",
+      "sortOrder" : "none"
+    },
+    "standardOptions" : {
+      "colorSchema" : "classic-palette"
+    },
+    "colorThresholds" : [ {
+      "color" : "#5470C6",
+      "value" : 0,
+      "default" : true
+    } ],
+    "thresholdMode" : "absolute",
+    "overrides" : [ ],
+    "orientation" : "vertical",
+    "textSize" : { }
+  },
+  "xaAttributes" : [ {
+    "uuid" : "dddbd953-090d-476b-ab2d-988a3b14eee1",
+    "attributeExpression" : "element",
+    "expression" : "element",
+    "parameters" : [ ],
+    "groupBy" : true,
+    "timeShift" : "0m",
+    "alias" : "element",
+    "checked" : true,
+    "formula" : false
+  } ],
+  "yaAttributes" : [ {
+    "uuid" : "8bed7615-4f31-4375-890a-fe8070b50a79",
+    "attributeExpression" : "attributes['瞬时消耗值']",
+    "filter" : "${attributes['瞬时消耗值']} < 200",
+    "expression" : "AVG(${attributes['瞬时消耗值']})",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "window" : {
+      "windowType" : "Interval",
+      "timeColumn" : "_wstart",
+      "interval" : "1h",
+      "sliding" : "1h",
+      "fillType" : "NONE"
+    },
+    "alias" : "瞬时消耗值",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now - 12h",
+    "toText" : "now",
+    "refreshInterval" : -1,
+    "timezone" : "Asia/Shanghai"
+  },
+  "otherElementTemplateId" : 2055156146022528,
+  "enableAdvanced" : false,
+  "notifications" : [ ],
+  "advancedQueries" : [ ],
+  "advancedQuery" : false,
+  "listOrder" : 2,
+  "downSampling" : {
+    "maxDataPoints" : 300,
+    "aggr" : "avg"
+  },
+  "elementId" : 2055156155938944,
+  "elementAttributes" : {
+    "2055156146022528" : [ 2055156146231424 ]
+  }
+}

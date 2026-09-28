@@ -1,0 +1,36 @@
+{
+  "id" : 729094994,
+  "name" : "Plane Angle",
+  "canonicalId" : 199479158,
+  "uomList" : [ {
+    "id" : 199479158,
+    "name" : "radian",
+    "uomClassId" : 729094994,
+    "abbreviation" : "rad",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1404381843,
+    "name" : "degree",
+    "uomClassId" : 729094994,
+    "abbreviation" : "°",
+    "factor" : 0.0174532925199433,
+    "offset" : 0.0,
+    "refUomId" : 199479158,
+    "refFactor" : 0.0174532925199433,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 292305093,
+    "name" : "revolution",
+    "uomClassId" : 729094994,
+    "abbreviation" : "r",
+    "factor" : 6.28318530717959,
+    "offset" : 0.0,
+    "refUomId" : 199479158,
+    "refFactor" : 6.28318530717959,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

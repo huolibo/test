@@ -1,0 +1,178 @@
+{
+  "id": 284317904,
+  "name": "体积",
+  "canonicalId": 493486964,
+  "baseClasses": [
+    {
+      "id": 1472482346,
+      "power": 3
+    }
+  ],
+  "uomList": [
+    {
+      "id": 493486964,
+      "name": "立方米",
+      "uomClassId": 284317904,
+      "abbreviation": "m³",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 453447831,
+      "name": "立方英尺",
+      "uomClassId": 284317904,
+      "abbreviation": "ft³",
+      "factor": 0.028316846592,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 0.028316846592,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 2062053342,
+      "name": "英亩英尺",
+      "uomClassId": 284317904,
+      "abbreviation": "ac·ft",
+      "factor": 1233.48183754752,
+      "offset": 0.0,
+      "refUomId": 453447831,
+      "refFactor": 43560.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1943583681,
+      "name": "美制加仑",
+      "uomClassId": 284317904,
+      "abbreviation": "US gal",
+      "factor": 0.003785411784,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 0.003785411784,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 486016674,
+      "name": "桶",
+      "uomClassId": 284317904,
+      "abbreviation": "bbl",
+      "factor": 0.158987294928,
+      "offset": 0.0,
+      "refUomId": 1943583681,
+      "refFactor": 42.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 384427849,
+      "name": "立方厘米",
+      "uomClassId": 284317904,
+      "abbreviation": "cm³",
+      "factor": 1e-06,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1e-06,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1893521369,
+      "name": "加仑",
+      "uomClassId": 284317904,
+      "abbreviation": "gal",
+      "factor": 0.003785411784,
+      "offset": 0.0,
+      "refUomId": 1943583681,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 161715094,
+      "name": "千升",
+      "uomClassId": 284317904,
+      "abbreviation": "kL",
+      "factor": 1.0,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 801465548,
+      "name": "升",
+      "uomClassId": 284317904,
+      "abbreviation": "L",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 0.001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 320402114,
+      "name": "兆升",
+      "uomClassId": 284317904,
+      "abbreviation": "ML",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1442946783,
+      "name": "毫升",
+      "uomClassId": 284317904,
+      "abbreviation": "mL",
+      "factor": 1e-06,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1e-06,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 11953483,
+      "name": "百万桶",
+      "uomClassId": 284317904,
+      "abbreviation": "MMbbl",
+      "factor": 158987.29492800002,
+      "offset": 0.0,
+      "refUomId": 486016674,
+      "refFactor": 1000000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 420864612,
+      "name": "千桶",
+      "uomClassId": 284317904,
+      "abbreviation": "kbbl",
+      "factor": 158.987294928,
+      "offset": 0.0,
+      "refUomId": 486016674,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1509101582,
+      "name": "千立方米",
+      "uomClassId": 284317904,
+      "abbreviation": "10³ m³",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

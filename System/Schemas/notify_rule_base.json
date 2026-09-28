@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/notify_rule_base.json",
+  "title": "notify rule base",
+  "description": "schema of a notify rule base ",
+  "type": "object",
+  "required": [
+    "id"
+  ],
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "resendInterval": {
+      "type": "string"
+    },
+    "escalationInterval": {
+      "type": "string"
+    },
+    "contactId": {
+      "type": "number"
+    },
+    "escalationContactId": {
+      "type": "number"
+    },
+    "content": {
+      "type": "string"
+    },
+    "eventRules": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/eventRule"
+      }
+    }
+  },
+  "$defs": {
+    "eventRule": {
+      "type": "object",
+      "properties": {
+        "eventTemplateId": {
+          "type": "number"
+        },
+        "eventTemplateName": {
+          "type": "string"
+        },
+        "severityLevel": {
+          "type": "string"
+        },
+        "eventMinInterval": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

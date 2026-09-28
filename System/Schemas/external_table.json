@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/category.json",
+  "title": "external_table",
+  "description": "schema of an external table",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "connectionId"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^(?!^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(\\..*)?$)[^<>:\"/\\\\|?*\\x00-\\x1F]{1,255}$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "connectionId": {
+      "type": "number"
+    },
+    "dbName": {
+      "type": "string"
+    },
+    "tableName": {
+      "type": "string"
+    },
+    "sql": {
+      "type": "string"
+    },
+    "autoUpdateTime": {
+      "type": "number"
+    },
+    "virtual": {
+      "type": "boolean"
+    }
+  }
+}

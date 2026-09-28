@@ -1,0 +1,130 @@
+{
+  "id": 540622235,
+  "name": "面积",
+  "canonicalId": 577516047,
+  "baseClasses": [
+    {
+      "id": 1472482346,
+      "power": 2
+    }
+  ],
+  "uomList": [
+    {
+      "id": 577516047,
+      "name": "平方米",
+      "uomClassId": 540622235,
+      "abbreviation": "m²",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 810873665,
+      "name": "平方英寸",
+      "uomClassId": 540622235,
+      "abbreviation": "in²",
+      "factor": 0.00064516,
+      "offset": 0.0,
+      "refUomId": 577516047,
+      "refFactor": 0.00064516,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 477031558,
+      "name": "平方英尺",
+      "uomClassId": 540622235,
+      "abbreviation": "ft²",
+      "factor": 0.09290303999999999,
+      "offset": 0.0,
+      "refUomId": 810873665,
+      "refFactor": 144.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 719663262,
+      "name": "英亩",
+      "uomClassId": 540622235,
+      "abbreviation": "ac",
+      "factor": 4046.8564223999997,
+      "offset": 0.0,
+      "refUomId": 477031558,
+      "refFactor": 43560.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1358638177,
+      "name": "平方英里",
+      "uomClassId": 540622235,
+      "abbreviation": "mi²",
+      "factor": 2589988.1103359996,
+      "offset": 0.0,
+      "refUomId": 477031558,
+      "refFactor": 27878400.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 80086174,
+      "name": "平方码",
+      "uomClassId": 540622235,
+      "abbreviation": "yd²",
+      "factor": 0.8361273599999999,
+      "offset": 0.0,
+      "refUomId": 477031558,
+      "refFactor": 9.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1237293946,
+      "name": "公顷",
+      "uomClassId": 540622235,
+      "abbreviation": "ha",
+      "factor": 10000.0,
+      "offset": 0.0,
+      "refUomId": 577516047,
+      "refFactor": 10000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 2010611611,
+      "name": "平方厘米",
+      "uomClassId": 540622235,
+      "abbreviation": "cm²",
+      "factor": 0.0001,
+      "offset": 0.0,
+      "refUomId": 577516047,
+      "refFactor": 0.0001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 2110283373,
+      "name": "平方公里",
+      "uomClassId": 540622235,
+      "abbreviation": "km²",
+      "factor": 1000000.0,
+      "offset": 0.0,
+      "refUomId": 577516047,
+      "refFactor": 1000000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1419612695,
+      "name": "平方毫米",
+      "uomClassId": 540622235,
+      "abbreviation": "mm²",
+      "factor": 1e-06,
+      "offset": 0.0,
+      "refUomId": 577516047,
+      "refFactor": 1e-06,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

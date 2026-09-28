@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/data_reference_setting.json",
+  "type": "object",
+  "properties": {
+    "dataReferenceType": {
+      "type": "string"
+    },
+    "connectionId": {
+      "type": "number"
+    },
+    "dbName": {
+      "type": "string"
+    },
+    "targetConnectionId": { "type": "number" },
+    "sourceDBName": {
+      "type": "string"
+    },
+    "sourceSchemaName": { "type": "string" },
+    "sourceTimestampColumnName": { "type": "string" },
+    "conditions": {
+      "type": "array",
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "required": ["columnName", "operator", "valueType", "value"],
+        "properties": {
+          "columnName": { "type": "string", "minLength": 1 },
+          "operator": { "enum": ["EQ"] },
+          "valueType": { "enum": ["INTEGER", "DECIMAL", "STRING", "BOOLEAN"] },
+          "value": { "type": ["number", "string", "boolean"] },
+          "connector": { "enum": ["AND", "OR"] }
+        },
+        "oneOf": [
+          { "properties": { "valueType": { "const": "INTEGER" }, "value": { "anyOf": [
+            { "type": "integer" }, { "type": "string", "pattern": "^[+-]?[0-9]+$" }
+          ] } } },
+          { "properties": { "valueType": { "const": "DECIMAL" }, "value": { "anyOf": [
+            { "type": "number" }, { "type": "string", "pattern": "^[+-]?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$" }
+          ] } } },
+          { "properties": { "valueType": { "const": "STRING" }, "value": { "type": "string" } } },
+          { "properties": { "valueType": { "const": "BOOLEAN" }, "value": { "type": "boolean" } } }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "referenceMode": { "enum": ["DIRECT_COLUMN_REF", "INFLUX_SERIES"] },
+    "syncEnabled": { "type": "boolean" },
+    "tagQueryMode": { "enum": ["SIMPLE", "ADVANCED"] },
+    "tagQueryText": { "type": "string", "maxLength": 65536 },
+    "tagReadMode": { "enum": ["UNIQUE_ROW", "LATEST_ROW"] },
+    "tagNullPolicy": { "enum": ["KEEP_LAST"] },
+    "executionMode": false,
+    "readExecutionMode": false,
+    "sourceKey": false,
+    "externalSourceName": false,
+    "tdengineConnectionId": false,
+    "childTable": {
+      "type": "string"
+    },
+    "sourceChildTable": {
+      "type": "string"
+    },
+    "columnName": {
+      "type": "string"
+    },
+    "sourceColumnName": {
+      "type": "string"
+    },
+    "function": {
+      "type": "string"
+    },
+    "errMsg": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "formulaExpression": {
+      "type": "string"
+    },
+    "formulaExpressionParameters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "referredAttributeIds": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "internalTableName": {
+      "type": "string"
+    },
+    "stringBuilderExpression": {
+      "type": "string"
+    },
+    "stringBuilderParameters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "externalTableId": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "required": ["tagQueryMode"],
+        "properties": { "tagQueryMode": { "const": "ADVANCED" } }
+      },
+      "then": {
+        "properties": {
+          "dataReferenceType": { "const": "TDengineTag" },
+          "sourceDBName": false,
+          "sourceSchemaName": false,
+          "sourceChildTable": false,
+          "sourceColumnName": false,
+          "sourceTimestampColumnName": false,
+          "conditions": false,
+          "tagReadMode": false
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["tagQueryMode"],
+        "properties": { "tagQueryMode": { "const": "SIMPLE" } }
+      },
+      "then": { "properties": { "tagQueryText": false } }
+    }
+  ]
+}

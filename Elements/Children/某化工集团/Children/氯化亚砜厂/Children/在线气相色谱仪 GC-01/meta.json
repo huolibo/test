@@ -1,0 +1,33 @@
+{
+  "id" : 2055156149471360,
+  "name" : "在线气相色谱仪 GC-01",
+  "description" : "质检中心设备",
+  "templateId" : 2055156144650368,
+  "dirName" : "在线气相色谱仪 GC-01",
+  "generalInfo" : {
+    "createTime" : 1790582081463,
+    "location" : {
+      "altitude" : 5273.069340374878,
+      "latitude" : 41.968726580446486,
+      "longitude" : 157.63710922214352
+    },
+    "virtualStableName" : "vst_质检中心设备_qnidoz",
+    "virtualTableName" : "vt_在线气相色谱仪 GC-01_araq87",
+    "keywordValues" : {
+      "KEYWORD1" : "gc_01"
+    }
+  },
+  "attributes" : [ {
+    "id" : 2055156149479554,
+    "defaultValue" : "在线气相色谱仪 GC-01",
+    "attrTempId" : 2055156145457280
+  }, {
+    "id" : 2055156149479555,
+    "defaultValue" : "${KEYWORD1}",
+    "attrTempId" : 2055156145739904
+  } ],
+  "parents" : [ {
+    "id" : 2055156148332672,
+    "referenceType" : "ParentChild"
+  } ]
+}

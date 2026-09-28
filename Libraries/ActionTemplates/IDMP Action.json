@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "name": "IDMP Action",
+  "description": "Append an annotation to an internal IDMP element or event",
+  "actionType": "IDMP_ACTION",
+  "categories": [20],
+  "config": {
+    "actionType": "IDMP_ACTION",
+    "targetObjectType": "ELEMENT",
+    "targetObjectId": null,
+    "comment": "Analysis ${analysisName} triggered on ${elementName}",
+    "actionBody": {}
+  }
+}

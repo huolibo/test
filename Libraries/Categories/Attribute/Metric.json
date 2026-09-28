@@ -1,0 +1,6 @@
+{
+  "id": 22,
+  "name": "Metric",
+  "categoryType": "Attribute",
+  "description": "Attributes that reference a TDengine metric column"
+}

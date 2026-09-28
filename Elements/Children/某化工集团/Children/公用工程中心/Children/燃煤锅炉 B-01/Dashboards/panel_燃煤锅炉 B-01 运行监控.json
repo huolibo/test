@@ -1,0 +1,31 @@
+{
+  "id" : 2055156171102336,
+  "name" : "燃煤锅炉 B-01 运行监控",
+  "description" : "燃煤锅炉 B-01 过去7天运行数据趋势面板",
+  "fileName" : "燃煤锅炉 B-01 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "720b193d-d3dd-4df3-b3f5-65187d6ebf5f",
+    "attributeExpression" : "attributes['瞬时消耗值']",
+    "expression" : "${attributes['瞬时消耗值']}",
+    "groupBy" : false,
+    "alias" : "瞬时消耗值",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156159977600,
+  "elementAttributes" : {
+    "2055156159977600" : [ 2055156146231424 ]
+  }
+}

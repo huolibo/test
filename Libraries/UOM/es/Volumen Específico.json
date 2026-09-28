@@ -1,0 +1,43 @@
+{
+  "id" : 398067309,
+  "name" : "Volumen Específico",
+  "canonicalId" : 71077421,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : 3
+  }, {
+    "id" : 470275444,
+    "power" : -1
+  } ],
+  "uomList" : [ {
+    "id" : 71077421,
+    "name" : "metro cúbico por kilogramo",
+    "uomClassId" : 398067309,
+    "abbreviation" : "m³/kg",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1294206910,
+    "name" : "pie cúbico por libra",
+    "uomClassId" : 398067309,
+    "abbreviation" : "ft³/lb",
+    "factor" : 0.0624279605761446,
+    "offset" : 0.0,
+    "refUomId" : 71077421,
+    "refFactor" : 0.0624279605761446,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2128487548,
+    "name" : "centímetro cúbico por gramo",
+    "uomClassId" : 398067309,
+    "abbreviation" : "cm³/g",
+    "factor" : 0.001,
+    "offset" : 0.0,
+    "refUomId" : 71077421,
+    "refFactor" : 0.001,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

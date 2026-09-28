@@ -1,0 +1,152 @@
+{
+  "id" : 2055156167309440,
+  "name" : "循环水泵 P-201 关键参数实时值",
+  "fileName" : "循环水泵 P-201 关键参数实时值",
+  "panelType" : "stat",
+  "categories" : [ ],
+  "chart" : {
+    "graph" : {
+      "title" : "新面板",
+      "showTitleInChart" : true,
+      "transparentBackground" : true
+    },
+    "legend" : {
+      "show" : true,
+      "stats" : [ ],
+      "showType" : "list",
+      "placement" : "bottom"
+    },
+    "series" : {
+      "style" : "lines",
+      "lineType" : "solid",
+      "pointType" : "circle",
+      "stack" : false,
+      "fillOpacity" : 0,
+      "lineOpacity" : 1,
+      "stateOpacity" : 1,
+      "rowHeight" : 0.3,
+      "symbol" : "circle",
+      "orientation" : "horizontal",
+      "neutral" : {
+        "show" : false
+      },
+      "text" : {
+        "titleShow" : true
+      },
+      "specialPoint" : {
+        "show" : false,
+        "refMetricId" : 0,
+        "items" : [ ]
+      },
+      "showPoints" : "auto",
+      "lineInterpolation" : "linear",
+      "lineWidth" : 1,
+      "pointSize" : 3,
+      "connectNulls" : "never",
+      "connectNullsUnit" : "h",
+      "gradientMode" : "none",
+      "textAlign" : "auto",
+      "graphMode" : "area"
+    },
+    "axis" : {
+      "leftY" : {
+        "show" : true,
+        "title" : "振动幅度(mm/s)",
+        "dataMin" : 0,
+        "dataMax" : 60
+      },
+      "rightY" : {
+        "show" : false
+      },
+      "x" : {
+        "show" : true,
+        "showGridLines" : "auto"
+      }
+    },
+    "limits" : [ ],
+    "format" : "YYYY-MM-DD HH:mm:ss",
+    "transformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "labelInterval" : "auto",
+    "labelRotate" : 0,
+    "tooltip" : {
+      "mode" : "all",
+      "sortOrder" : "none"
+    },
+    "standardOptions" : {
+      "colorSchema" : "from-thresholds"
+    },
+    "colorThresholds" : [ {
+      "value" : 80,
+      "color" : "#EE6666"
+    }, {
+      "color" : "#008000",
+      "value" : 0,
+      "default" : true
+    } ],
+    "thresholdMode" : "absolute",
+    "overrides" : [ ],
+    "displayTime" : "on",
+    "textSize" : { }
+  },
+  "yaAttributes" : [ {
+    "uuid" : "bd8e3588-1ea2-4341-880b-22657f5ab0e1",
+    "attributeExpression" : "attributes['振动幅度']",
+    "expression" : "${attributes['振动幅度']}",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "alias" : "振动幅度",
+    "displayUom" : 2055156138289280,
+    "defaultUomClassId" : 1919368469,
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "f46da439-4af5-4c9c-8db6-8a889730683e",
+    "attributeExpression" : "attributes['运行电流']",
+    "expression" : "${attributes['运行电流']}",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "alias" : "运行电流",
+    "displayUom" : 2144441927,
+    "defaultUomClassId" : 1778056105,
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "0bef34ba-1a98-45a7-8bf8-f30ed15a4c51",
+    "attributeExpression" : "attributes['轴承温度']",
+    "expression" : "${attributes['轴承温度']}",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "alias" : "轴承温度",
+    "displayUom" : 1153421915,
+    "defaultUomClassId" : 1513730281,
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now - 6h",
+    "toText" : "now",
+    "refreshInterval" : -1,
+    "timezone" : "Asia/Shanghai"
+  },
+  "enableAdvanced" : false,
+  "notifications" : [ ],
+  "advancedQueries" : [ ],
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "downSampling" : {
+    "maxDataPoints" : 300,
+    "aggr" : "avg"
+  },
+  "elementId" : 2055156150683776,
+  "elementAttributes" : {
+    "2055156150683776" : [ 2055156143265920, 2055156143560832, 2055156142995584 ]
+  }
+}

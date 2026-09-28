@@ -1,0 +1,14 @@
+{
+  "id" : 1778386801,
+  "name" : "Precio",
+  "canonicalId" : 1992663893,
+  "uomList" : [ {
+    "id" : 1992663893,
+    "name" : "Dólar estadounidense",
+    "uomClassId" : 1778386801,
+    "abbreviation" : "$",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

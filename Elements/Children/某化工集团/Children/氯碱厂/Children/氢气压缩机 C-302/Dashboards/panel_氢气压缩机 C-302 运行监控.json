@@ -1,0 +1,47 @@
+{
+  "id" : 2055156168169600,
+  "name" : "氢气压缩机 C-302 运行监控",
+  "description" : "氢气压缩机 C-302 过去7天运行数据趋势面板",
+  "fileName" : "氢气压缩机 C-302 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "fefeddf6-44e5-48c6-9855-d001e9ceeb1e",
+    "attributeExpression" : "attributes['振动幅度']",
+    "expression" : "${attributes['振动幅度']}",
+    "groupBy" : false,
+    "alias" : "振动幅度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "3521757b-2546-4c60-816d-8faecae8cce0",
+    "attributeExpression" : "attributes['运行电流']",
+    "expression" : "${attributes['运行电流']}",
+    "groupBy" : false,
+    "alias" : "运行电流",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "52a98e9f-698e-4f0b-af3d-b1bfb5e69490",
+    "attributeExpression" : "attributes['轴承温度']",
+    "expression" : "${attributes['轴承温度']}",
+    "groupBy" : false,
+    "alias" : "轴承温度",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156152342656,
+  "elementAttributes" : {
+    "2055156152342656" : [ 2055156143265920, 2055156143560832, 2055156142995584 ]
+  }
+}

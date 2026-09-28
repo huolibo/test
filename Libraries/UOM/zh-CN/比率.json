@@ -1,0 +1,40 @@
+{
+  "id": 117395934,
+  "name": "比率",
+  "canonicalId": 867152725,
+  "uomList": [
+    {
+      "id": 867152725,
+      "name": "百分比",
+      "uomClassId": 117395934,
+      "abbreviation": "%",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1496111578,
+      "name": "百万分率",
+      "uomClassId": 117395934,
+      "abbreviation": "ppm",
+      "factor": 0.0001,
+      "offset": 0.0,
+      "refUomId": 867152725,
+      "refFactor": 0.0001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 725634176,
+      "name": "十亿分率",
+      "uomClassId": 117395934,
+      "abbreviation": "ppb",
+      "factor": 1e-07,
+      "offset": 0.0,
+      "refUomId": 867152725,
+      "refFactor": 1e-07,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

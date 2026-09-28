@@ -1,0 +1,9 @@
+{
+  "needAck" : true,
+  "resendInterval" : "PT10H",
+  "escalationInterval" : "PT10H",
+  "recipients" : [ ],
+  "escalationRecipients" : [  ],
+  "emailConfig" : { },
+  "webserviceConfigs" : [ ]
+}

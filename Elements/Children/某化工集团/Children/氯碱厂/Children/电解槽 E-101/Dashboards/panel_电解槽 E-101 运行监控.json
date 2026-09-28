@@ -1,0 +1,47 @@
+{
+  "id" : 2055156168714368,
+  "name" : "电解槽 E-101 运行监控",
+  "description" : "电解槽 E-101 过去7天运行数据趋势面板",
+  "fileName" : "电解槽 E-101 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "3b151561-bf70-41a5-9541-d2014c0dbd93",
+    "attributeExpression" : "attributes['振动幅度']",
+    "expression" : "${attributes['振动幅度']}",
+    "groupBy" : false,
+    "alias" : "振动幅度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "2420c096-baa2-497d-a7c8-959e20fc83eb",
+    "attributeExpression" : "attributes['运行电流']",
+    "expression" : "${attributes['运行电流']}",
+    "groupBy" : false,
+    "alias" : "运行电流",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "5b86e58a-770c-4fd9-b94f-ced23dfd382f",
+    "attributeExpression" : "attributes['轴承温度']",
+    "expression" : "${attributes['轴承温度']}",
+    "groupBy" : false,
+    "alias" : "轴承温度",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156153399424,
+  "elementAttributes" : {
+    "2055156153399424" : [ 2055156143265920, 2055156143560832, 2055156142995584 ]
+  }
+}

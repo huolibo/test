@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/panel.json",
+  "title": "panel",
+  "description": "schema of an panel",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "panelType",
+    "elementId"
+  ],
+  "allOf": [
+    {
+      "$ref": "./panel_base.json"
+    }
+  ],
+  "properties": {
+    "elementId": {
+      "type": "number"
+    },
+    "templateId": {
+      "type": "number"
+    },
+    "elementAttributes": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id" : 2055156151957632,
+  "name" : "氯碱厂",
+  "templateId" : 2055156139219072,
+  "dirName" : "氯碱厂",
+  "generalInfo" : {
+    "createTime" : 1790582082071,
+    "virtualStableName" : "vst_厂区中心_7gmvqs",
+    "virtualTableName" : "vt_氯碱厂_zurvq3",
+    "pathName" : "氯碱厂"
+  },
+  "attributes" : [ ],
+  "parents" : [ {
+    "id" : 2055156148131968,
+    "referenceType" : "ParentChild"
+  } ]
+}

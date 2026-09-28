@@ -1,0 +1,87 @@
+{
+  "id" : 135554670,
+  "name" : "밀도",
+  "canonicalId" : 749387572,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : -3
+  }, {
+    "id" : 470275444,
+    "power" : 1
+  } ],
+  "uomList" : [ {
+    "id" : 749387572,
+    "name" : "kilogramo por metro cúbico",
+    "uomClassId" : 135554670,
+    "abbreviation" : "kg/m³",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1161812807,
+    "name" : "gramo por litro",
+    "uomClassId" : 135554670,
+    "abbreviation" : "g/L",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "refUomId" : 749387572,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1260632150,
+    "name" : "kilogramo por litro",
+    "uomClassId" : 135554670,
+    "abbreviation" : "kg/L",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 749387572,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1798333829,
+    "name" : "libra por barril",
+    "uomClassId" : 135554670,
+    "abbreviation" : "lb/bbl",
+    "factor" : 2.85301017421182,
+    "offset" : 0.0,
+    "refUomId" : 749387572,
+    "refFactor" : 2.85301017421182,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 437178144,
+    "name" : "libra por pie cúbico",
+    "uomClassId" : 135554670,
+    "abbreviation" : "lb/ft³",
+    "factor" : 16.0184633739601,
+    "offset" : 0.0,
+    "refUomId" : 749387572,
+    "refFactor" : 16.0184633739601,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1149372043,
+    "name" : "libra por galón estadounidense",
+    "uomClassId" : 135554670,
+    "abbreviation" : "lb/US gal",
+    "factor" : 119.826427316897,
+    "offset" : 0.0,
+    "refUomId" : 749387572,
+    "refFactor" : 119.826427316897,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2005086288,
+    "name" : "tonelada por metro cúbico",
+    "uomClassId" : 135554670,
+    "abbreviation" : "t/m³",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 749387572,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

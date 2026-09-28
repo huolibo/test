@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/dashboard.json",
+  "title": "dashboard",
+  "description": "schema of an dashboard",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "panels"
+  ],
+  "allOf": [
+    {
+      "$ref": "./dashboard_base.json"
+    }
+  ],
+  "properties": {
+    "elementId": {
+      "type": "number"
+    },
+    "templateId": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["STANDARD", "CANVAS"],
+      "description": "The type of the dashboard. STANDARD (default) or CANVAS."
+    }
+  }
+}

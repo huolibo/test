@@ -1,0 +1,31 @@
+{
+  "id" : 2055156170348672,
+  "name" : "产线总水表 W01 运行监控",
+  "description" : "产线总水表 W01 过去7天运行数据趋势面板",
+  "fileName" : "产线总水表 W01 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "a3264d00-b997-4bcb-9919-c5b46bbed7d8",
+    "attributeExpression" : "attributes['瞬时消耗值']",
+    "expression" : "${attributes['瞬时消耗值']}",
+    "groupBy" : false,
+    "alias" : "瞬时消耗值",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156156168320,
+  "elementAttributes" : {
+    "2055156156168320" : [ 2055156146231424 ]
+  }
+}

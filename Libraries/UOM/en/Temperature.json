@@ -1,0 +1,47 @@
+{
+  "id" : 1513730281,
+  "name" : "Temperature",
+  "canonicalId" : 670683114,
+  "uomList" : [ {
+    "id" : 670683114,
+    "name" : "kelvin",
+    "uomClassId" : 1513730281,
+    "abbreviation" : "K",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1153421915,
+    "name" : "degree Celsius",
+    "uomClassId" : 1513730281,
+    "abbreviation" : "°C",
+    "factor" : 1.0,
+    "offset" : 273.15,
+    "refUomId" : 670683114,
+    "refFactor" : 1.0,
+    "refOffset" : 273.15,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 855773440,
+    "name" : "degree Fahrenheit",
+    "uomClassId" : 1513730281,
+    "abbreviation" : "°F",
+    "factor" : 0.555555555555556,
+    "offset" : 255.37222222222218,
+    "refUomId" : 1153421915,
+    "refFactor" : 0.555555555555556,
+    "refOffset" : -17.7777777777778,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 524678424,
+    "name" : "degree Rankine",
+    "uomClassId" : 1513730281,
+    "abbreviation" : "°R",
+    "factor" : 0.555555555555556,
+    "offset" : -2.5579538487363607E-13,
+    "refUomId" : 855773440,
+    "refFactor" : 1.0,
+    "refOffset" : -459.67,
+    "origin" : "SystemDefined"
+  } ]
+}

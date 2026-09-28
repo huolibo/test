@@ -1,0 +1,160 @@
+{
+  "id" : 2055156165478528,
+  "name" : "振动幅度异常事件",
+  "fileName" : "振动幅度异常事件",
+  "panelType" : "analyze",
+  "categories" : [ ],
+  "chart" : {
+    "graph" : {
+      "title" : "振动幅度异常事件",
+      "showTitleInChart" : true,
+      "transparentBackground" : true
+    },
+    "legend" : {
+      "show" : true,
+      "stats" : [ ],
+      "showType" : "list",
+      "placement" : "bottom"
+    },
+    "series" : {
+      "style" : "lines",
+      "lineType" : "solid",
+      "pointType" : "circle",
+      "stack" : false,
+      "fillOpacity" : 0,
+      "lineOpacity" : 1,
+      "stateOpacity" : 1,
+      "rowHeight" : 0.3,
+      "symbol" : "circle",
+      "orientation" : "horizontal",
+      "neutral" : {
+        "show" : false
+      },
+      "text" : {
+        "titleShow" : true
+      },
+      "specialPoint" : {
+        "show" : false,
+        "refMetricId" : 0,
+        "items" : [ ]
+      },
+      "showPoints" : "auto",
+      "lineInterpolation" : "linear",
+      "lineWidth" : 1,
+      "pointSize" : 3,
+      "connectNulls" : "never",
+      "connectNullsUnit" : "h",
+      "gradientMode" : "none"
+    },
+    "axis" : {
+      "leftY" : {
+        "show" : true
+      },
+      "rightY" : {
+        "show" : false
+      },
+      "x" : {
+        "show" : true,
+        "showGridLines" : "auto"
+      }
+    },
+    "threshold" : {
+      "refMetricId" : 0,
+      "items" : [ ],
+      "showAs" : "line",
+      "thresholds" : [ ]
+    },
+    "format" : "YYYY-MM-DD HH:mm:ss",
+    "transformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "labelInterval" : "auto",
+    "labelRotate" : 0,
+    "tooltip" : {
+      "mode" : "all",
+      "sortOrder" : "none"
+    },
+    "eventWindow" : {
+      "enableLineMode" : true,
+      "showTip" : true,
+      "blinkForUnclosedEvent" : true,
+      "blinkingFrequency" : 900
+    },
+    "standardOptions" : {
+      "colorSchema" : "classic-palette"
+    },
+    "colorThresholds" : [ {
+      "color" : "#5470C6",
+      "default" : true
+    } ],
+    "thresholdMode" : "absolute",
+    "overrides" : [ ],
+    "multiLane" : true
+  },
+  "yaAttributes" : [ {
+    "uuid" : "67f29426-ce66-4ec2-9927-58c462f1d061",
+    "attributeExpression" : "2055156150683776|attributes['振动幅度']",
+    "expression" : "${2055156150683776|attributes['振动幅度']}",
+    "parameters" : [ {
+      "label" : "A",
+      "type" : "variable",
+      "detail" : "2055156150683776|attributes['振动幅度']",
+      "apply" : "${2055156150683776|attributes['振动幅度']}"
+    } ],
+    "groupBy" : false,
+    "alias" : "循环水泵 P-201-振动幅度",
+    "displayUom" : 2055156138289280,
+    "defaultUomClassId" : 1919368469,
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "2026-07-05 10:18:00",
+    "toText" : "2026-07-05 19:36:00",
+    "refreshInterval" : -1,
+    "timezone" : "Asia/Shanghai"
+  },
+  "enableAdvanced" : false,
+  "notifications" : [ ],
+  "advancedQueries" : [ ],
+  "advancedQuery" : false,
+  "listOrder" : 6,
+  "downSampling" : {
+    "maxDataPoints" : 300,
+    "aggr" : "avg"
+  },
+  "analysisState" : {
+    "multiLane" : true,
+    "markerLineEnabled" : false,
+    "markerA" : { },
+    "markerB" : { },
+    "alignByStartTime" : false,
+    "normalization" : false,
+    "envelope" : false,
+    "envelopeLowerPercentile" : 0,
+    "envelopeUpperPercentile" : 100,
+    "envelopeConfig" : { },
+    "eventDisplayMode" : "window",
+    "xyPlotSelection" : { },
+    "xyPlotEnabled" : false,
+    "profileWindows" : [ ],
+    "scatterTransformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "correlation" : {
+      "attributes" : [ ],
+      "pairResults" : [ ],
+      "resultMap" : { }
+    }
+  },
+  "elementId" : 2055156148131968,
+  "elementAttributes" : {
+    "2055156150683776" : [ 2055156142995584 ]
+  },
+  "eventIds" : [ 2055156174354562 ]
+}

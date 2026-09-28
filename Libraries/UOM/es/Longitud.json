@@ -1,0 +1,113 @@
+{
+  "id" : 1472482346,
+  "name" : "Longitud",
+  "canonicalId" : 1204723484,
+  "uomList" : [ {
+    "id" : 1204723484,
+    "name" : "metro",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "m",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 817531875,
+    "name" : "centímetro",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "cm",
+    "factor" : 0.01,
+    "offset" : 0.0,
+    "refUomId" : 1204723484,
+    "refFactor" : 0.01,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 545570290,
+    "name" : "pulgada",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "in",
+    "factor" : 0.0254,
+    "offset" : 0.0,
+    "refUomId" : 1204723484,
+    "refFactor" : 0.0254,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 445905671,
+    "name" : "milla náutica internacional",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "nmi",
+    "factor" : 1852.0,
+    "offset" : 0.0,
+    "refUomId" : 1204723484,
+    "refFactor" : 1852.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 687404094,
+    "name" : "kilómetro",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "km",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 1204723484,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1140042400,
+    "name" : "milímetro",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "mm",
+    "factor" : 0.001,
+    "offset" : 0.0,
+    "refUomId" : 1204723484,
+    "refFactor" : 0.001,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 512580232,
+    "name" : "pie",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "ft",
+    "factor" : 0.30479999999999996,
+    "offset" : 0.0,
+    "refUomId" : 545570290,
+    "refFactor" : 12.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1620816456,
+    "name" : "milla",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "mi",
+    "factor" : 1609.3439999999998,
+    "offset" : 0.0,
+    "refUomId" : 545570290,
+    "refFactor" : 63360.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1490235149,
+    "name" : "dieciseisavo de pulgada",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "1/16 in",
+    "factor" : 0.0015875,
+    "offset" : 0.0,
+    "refUomId" : 545570290,
+    "refFactor" : 0.0625,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1733098181,
+    "name" : "yarda",
+    "uomClassId" : 1472482346,
+    "abbreviation" : "yd",
+    "factor" : 0.9144,
+    "offset" : 0.0,
+    "refUomId" : 545570290,
+    "refFactor" : 36.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

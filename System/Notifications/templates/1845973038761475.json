@@ -1,0 +1,18 @@
+{
+  "id": 1845973038761475,
+  "name": "email.user.registration.verification.code",
+  "description": "TDengine IDMP registration verification code",
+  "type": "Mail",
+  "title": {
+    "zh-CN": "激活验证码",
+    "en": "Your TDengine IDMP account verification code",
+    "es": "Su código de verificación de cuenta de TDengine IDMP",
+    "ko": "TDengine IDMP 계정 인증 코드"
+  },
+  "content": {
+    "zh-CN": "<body>\n<style>\n  table {\n    width: 700px;\n    margin: 0 auto;\n  }\n\n  #top {\n    width: 700px;\n    border-bottom: 1px solid #ccc;\n    margin: 0 auto 30px;\n  }\n\n  #top table {\n    font: 12px 'Amazon Ember', 'Helvetica Neue', Roboto, Arial, sans-serif;\n    height: 40px;\n  }\n\n  #content {\n    width: 680px;\n    padding: 0 10px;\n    margin: 0 auto;\n  }\n\n  #content_top {\n    font-size: 16px;\n    margin-bottom: 25px;\n  }\n\n  #content_top strong {\n    display: block;\n    margin-bottom: 15px;\n  }\n\n  #content_top strong span {\n    color: #f60;\n    font-size: 16px;\n  }\n\n  #content_bottom {\n    margin-bottom: 30px;\n    font-size: 16px;\n  }\n\n  #content_bottom small {\n    display: block;\n    margin-bottom: 20px;\n    font-size: 16px;\n    color: #747474;\n  }\n\n  #bottom {\n    width: 700px;\n    margin: 0 auto;\n  }\n\n  #bottom div {\n    padding: 10px 10px 0;\n    border-top: 1px solid #ccc;\n    color: #747474;\n    margin-bottom: 20px;\n    line-height: 1.3em;\n    font-size: 14px;\n  }\n\n  .description {\n    font-style: italic\n  }\n</style>\n<table>\n  <tbody>\n  <tr>\n    <td>\n      <div id=\"content\">\n        <div id=\"content_top\">\n          <p style=\"margin-bottom: 40px\">您好 {userEmail},\n          </p>\n          <p>您的 TDengine IDMP 验证码是：<span style=\"font-weight: bold\">{validationCode}</span></p>\n          <div class=\"description\">请注意，您的验证码仅在接下来的 {codeTTL} 分钟内有效。\n          </div>\n          <p>欢迎致电 4006120020 或访问 <a href=\"https://www.taosdata.com/\">TDengine 官网</a> 联系我们。</p>\n        </div>\n        <div id=\"content_bottom\">\n          <p>谢谢\n          </p>\n          <p>TDengine 团队</p>\n        </div>\n      </div>\n    </td>\n  </tr>\n  </tbody>\n</table>\n</body>",
+    "en": "<p>Hi {userEmail},</p>\n<p>Thank you for registering for TDengine IDMP.</p>\n<p>Your verification code is: <strong>{validationCode}</strong></p>\n<p>Please note that this verification code is <strong>valid only for the next {codeTTL} minutes.</strong></p>\n<p>Note: If you did not register for TDengine IDMP and do not wish to create an account, please ignore this message.</p>\n<p>Regards,</p>\n<p>The TDengine Team</p>",
+    "es": "<p>Hola {userEmail},</p>\n<p>Gracias por registrarse en TDengine IDMP.</p>\n<p>Su código de verificación es: <strong>{validationCode}</strong></p>\n<p>Tenga en cuenta que este código de verificación es válido solo durante los próximos <strong>{codeTTL} minutos.</strong></p>\n<p>Nota: Si no se registró en TDengine IDMP y no desea crear una cuenta, ignore este mensaje.</p>\n<p>Saludos,</p>\n<p>El equipo de TDengine</p>",
+    "ko": "<p>{userEmail}님, 안녕하세요,</p>\n<p>TDengine IDMP에 가입해 주셔서 감사합니다.</p>\n<p>인증 코드는 다음과 같습니다: <strong>{validationCode}</strong></p>\n<p>이 인증 코드는 <strong>{codeTTL}분 동안만 유효합니다.</strong></p>\n<p>참고: TDengine IDMP에 가입하지 않았으며 계정을 생성할 의사가 없는 경우 이 메시지를 무시해 주세요.</p>\n<p>감사합니다,</p>\n<p>TDengine 팀</p>"
+  }
+}

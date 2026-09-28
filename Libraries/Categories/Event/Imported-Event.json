@@ -1,0 +1,6 @@
+{
+  "id": 16,
+  "name": "Imported-Event",
+  "categoryType": "Event",
+  "description": "Event imported from external system via CSV"
+}

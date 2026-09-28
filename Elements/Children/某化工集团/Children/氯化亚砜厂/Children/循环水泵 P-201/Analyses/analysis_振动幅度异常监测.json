@@ -1,0 +1,72 @@
+{
+  "id" : 2055156173822080,
+  "name" : "振动幅度异常监测",
+  "fileName" : "振动幅度异常监测",
+  "categories" : [ ],
+  "trigger" : {
+    "watermark" : 0,
+    "ignoreExpired" : false,
+    "fillHistory" : true,
+    "fillHistoryFirst" : false,
+    "fillHistoryStartTime" : 1783585996328,
+    "generateHistoryEvent" : true,
+    "preFilter" : true,
+    "ignoreUpdate" : false,
+    "triggerType" : "Event",
+    "starts" : [ {
+      "name" : "触发器-1",
+      "expression" : "${attributes['振动幅度']}>=3",
+      "duration" : "1m",
+      "trueForMode" : "DURATION",
+      "parameters" : [ ],
+      "allowAck" : true,
+      "severityLevel" : "Critical",
+      "hasChildren" : false,
+      "conditionPath" : "0"
+    } ],
+    "end" : {
+      "expression" : "${attributes['振动幅度']}<3",
+      "parameters" : [ ]
+    },
+    "duration" : "1m",
+    "trueForMode" : "DURATION"
+  },
+  "event" : {
+    "id" : 2055156173822081,
+    "onlyTemplate" : false,
+    "severityLevel" : "Warning",
+    "allowExtension" : false,
+    "allowAck" : true,
+    "eventMinInterval" : "15m",
+    "templateId" : 2055155574417536
+  },
+  "startAfterCreated" : true,
+  "recalculate" : false,
+  "output" : {
+    "columnName" : "_wend",
+    "offset" : "0s",
+    "attributes" : [ ],
+    "rollupWindow" : {
+      "enabled" : true,
+      "startTime" : "_wstart",
+      "startTimeOffset" : "0s",
+      "endTime" : "_wend",
+      "endTimeOffset" : "0s",
+      "interval" : "1m"
+    },
+    "elementTemplate" : {
+      "rootElement" : 0,
+      "level" : 0
+    },
+    "partitionByTags" : [ ]
+  },
+  "connId" : 2055155571251328,
+  "subAnalyses" : [ ],
+  "actions" : [ ],
+  "owner" : 2055156150683776,
+  "resourceId" : 2055156150683776,
+  "analysisType" : "elementSelf",
+  "rootElementId" : 2055156148131968,
+  "elementId" : 2055156150683776,
+  "elementTemplateId" : 2055156142794880
+}

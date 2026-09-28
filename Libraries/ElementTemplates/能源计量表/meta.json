@@ -1,0 +1,72 @@
+{
+  "id" : 2055156146022528,
+  "name" : "能源计量表",
+  "description" : "能源计量表",
+  "namingPattern" : "${KEYWORD1}",
+  "dirName" : "能源计量表",
+  "generalInfo" : {
+    "location" : {
+      "altitude" : 4866.066268246121,
+      "latitude" : 66.78154173940581,
+      "longitude" : 117.51451782891564
+    },
+    "virtualStableName" : "vst_能源计量表_i7i6zt"
+  },
+  "attributeTemplates" : [ {
+    "id" : 2055156146231424,
+    "name" : "瞬时消耗值",
+    "description" : "瞬时消耗值",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "瞬时消耗值",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "meter_value",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156146526336,
+    "name" : "所属厂区",
+    "description" : "厂区名称",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "所属厂区",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "plant",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156146833536,
+    "name" : "命名模式",
+    "description" : "设备命名模式的占位符",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "命名模式",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "namingPattern",
+      "autoCreated" : false
+    }
+  } ],
+  "allowExtensions" : true,
+  "baseTemplateOnly" : false,
+  "keywordsDesc" : {
+    "KEYWORD1" : "表具名称"
+  }
+}

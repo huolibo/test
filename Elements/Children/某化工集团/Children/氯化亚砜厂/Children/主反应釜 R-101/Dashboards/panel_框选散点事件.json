@@ -1,0 +1,188 @@
+{
+  "id" : 2055156166285440,
+  "name" : "框选散点事件",
+  "fileName" : "框选散点事件",
+  "panelType" : "analyze",
+  "categories" : [ ],
+  "chart" : {
+    "graph" : {
+      "title" : "框选散点事件",
+      "showTitleInChart" : true,
+      "transparentBackground" : true
+    },
+    "legend" : {
+      "show" : true,
+      "stats" : [ ],
+      "showType" : "list",
+      "placement" : "bottom"
+    },
+    "series" : {
+      "style" : "lines",
+      "lineType" : "solid",
+      "pointType" : "circle",
+      "stack" : false,
+      "fillOpacity" : 0,
+      "lineOpacity" : 1,
+      "stateOpacity" : 1,
+      "rowHeight" : 0.3,
+      "symbol" : "circle",
+      "orientation" : "horizontal",
+      "neutral" : {
+        "show" : false
+      },
+      "text" : {
+        "titleShow" : true
+      },
+      "specialPoint" : {
+        "show" : false,
+        "refMetricId" : 0,
+        "items" : [ ]
+      },
+      "showPoints" : "auto",
+      "lineInterpolation" : "linear",
+      "lineWidth" : 1,
+      "pointSize" : 3,
+      "connectNulls" : "never",
+      "connectNullsUnit" : "h",
+      "gradientMode" : "none"
+    },
+    "axis" : {
+      "leftY" : {
+        "show" : true,
+        "title" : "工艺温度(°C)"
+      },
+      "rightY" : {
+        "show" : false
+      },
+      "x" : {
+        "show" : true,
+        "showGridLines" : "auto"
+      }
+    },
+    "threshold" : {
+      "refMetricId" : 0,
+      "items" : [ ],
+      "showAs" : "line",
+      "thresholds" : [ ]
+    },
+    "format" : "YYYY-MM-DD HH:mm:ss",
+    "transformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "labelInterval" : "auto",
+    "labelRotate" : 0,
+    "tooltip" : {
+      "mode" : "all",
+      "sortOrder" : "none"
+    },
+    "standardOptions" : {
+      "colorSchema" : "classic-palette"
+    },
+    "colorThresholds" : [ {
+      "color" : "#5470C6",
+      "default" : true
+    } ],
+    "thresholdMode" : "absolute",
+    "overrides" : [ ],
+    "eventWindow" : {
+      "enableLineMode" : true,
+      "showTip" : true,
+      "blinkForUnclosedEvent" : true,
+      "blinkingFrequency" : 900
+    },
+    "multiLane" : true
+  },
+  "yaAttributes" : [ {
+    "uuid" : "aaccda07-6000-4ed0-83ae-3a024fa1ed87",
+    "attributeExpression" : "attributes['工艺温度']",
+    "expression" : "${attributes['工艺温度']}",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "alias" : "工艺温度",
+    "displayUom" : 1153421915,
+    "defaultUomClassId" : 1513730281,
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "7d934861-ae3e-4441-9511-f4b04ad735e4",
+    "attributeExpression" : "attributes['工艺压力']",
+    "expression" : "${attributes['工艺压力']}",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "alias" : "工艺压力",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "249f8c3b-26d0-4e48-834d-bd865ee307bb",
+    "attributeExpression" : "attributes['设备液位']",
+    "expression" : "${attributes['设备液位']}",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "alias" : "设备液位",
+    "displayUom" : 1204723484,
+    "defaultUomClassId" : 1472482346,
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "2026-07-04 00:00:00",
+    "toText" : "2026-07-05 00:00:00",
+    "refreshInterval" : -1,
+    "timezone" : "Asia/Shanghai"
+  },
+  "enableAdvanced" : false,
+  "notifications" : [ ],
+  "advancedQueries" : [ ],
+  "advancedQuery" : false,
+  "listOrder" : 3,
+  "downSampling" : {
+    "maxDataPoints" : 300,
+    "aggr" : "avg"
+  },
+  "analysisState" : {
+    "multiLane" : true,
+    "markerLineEnabled" : false,
+    "markerA" : { },
+    "markerB" : { },
+    "alignByStartTime" : false,
+    "normalization" : false,
+    "envelope" : false,
+    "envelopeLowerPercentile" : 0,
+    "envelopeUpperPercentile" : 100,
+    "envelopeConfig" : { },
+    "eventDisplayMode" : "window",
+    "xyPlotSelection" : {
+      "xMetric" : "7d934861-ae3e-4441-9511-f4b04ad735e4",
+      "yMetric" : "aaccda07-6000-4ed0-83ae-3a024fa1ed87"
+    },
+    "xyPlotEnabled" : false,
+    "profileWindows" : [ ],
+    "scatterTransformConfig" : {
+      "type" : "off",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "analyseWindow" : {
+      "windowType" : "Event",
+      "startCondition" : "${attributes['工艺压力']} >= 0.95 and ${attributes['工艺压力']} <= 1.24 and ${attributes['工艺温度']} >= 23.96 and ${attributes['工艺温度']} <= 81.88",
+      "endCondition" : "${attributes['工艺压力']} < 0.95 or ${attributes['工艺压力']} > 1.24 or ${attributes['工艺温度']} < 23.96 or ${attributes['工艺温度']} > 81.88"
+    },
+    "windows" : [ [ 1783094400000, 1783094520000 ], [ 1783094640000, 1783094820000 ], [ 1783100880000, 1783105200000 ], [ 1783105260000, 1783105500000 ], [ 1783105560000, 1783105980000 ], [ 1783106040000, 1783106100000 ], [ 1783113360000, 1783117320000 ], [ 1783117380000, 1783117500000 ], [ 1783117560000, 1783117860000 ], [ 1783117920000, 1783117980000 ], [ 1783125960000, 1783135560000 ], [ 1783135620000, 1783135680000 ], [ 1783135740000, 1783135800000 ], [ 1783142940000, 1783147860000 ], [ 1783154700000, 1783162380000 ], [ 1783162440000, 1783162740000 ], [ 1783170420000, 1783175040000 ], [ 1783175100000, 1783175220000 ], [ 1783175280000, 1783175340000 ], [ 1783175400000, 1783175460000 ] ],
+    "windowEventNames" : [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    "correlation" : {
+      "attributes" : [ ],
+      "pairResults" : [ ],
+      "resultMap" : { }
+    }
+  },
+  "elementId" : 2055156148750464,
+  "elementAttributes" : {
+    "2055156148750464" : [ 2055156141353088, 2055156140673152, 2055156141037696 ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id" : 2055156144650368,
+  "name" : "质检中心设备",
+  "description" : "质检中心设备",
+  "namingPattern" : "${KEYWORD1}",
+  "dirName" : "质检中心设备",
+  "generalInfo" : {
+    "location" : {
+      "altitude" : 5273.069340374878,
+      "latitude" : 41.968726580446486,
+      "longitude" : 157.63710922214352
+    },
+    "virtualStableName" : "vst_质检中心设备_qnidoz"
+  },
+  "attributeTemplates" : [ {
+    "id" : 2055156144928896,
+    "name" : "产品纯度",
+    "description" : "产品纯度",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "产品纯度",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "gc_purity",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156145195136,
+    "name" : "水分含量",
+    "description" : "水分含量",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "水分含量",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "gc_moisture",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156145457280,
+    "name" : "所属厂区",
+    "description" : "厂区名称",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "所属厂区",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "plant",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156145739904,
+    "name" : "命名模式",
+    "description" : "设备命名模式的占位符",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "命名模式",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "namingPattern",
+      "autoCreated" : false
+    }
+  } ],
+  "allowExtensions" : true,
+  "baseTemplateOnly" : false,
+  "keywordsDesc" : {
+    "KEYWORD1" : "检测仪名称"
+  }
+}

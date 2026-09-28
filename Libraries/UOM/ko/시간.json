@@ -1,0 +1,91 @@
+{
+  "id" : 845944798,
+  "name" : "시간",
+  "canonicalId" : 567863632,
+  "uomList" : [ {
+    "id" : 567863632,
+    "name" : "segundo",
+    "uomClassId" : 845944798,
+    "abbreviation" : "s",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 60247723,
+    "name" : "milisegundo",
+    "uomClassId" : 845944798,
+    "abbreviation" : "ms",
+    "factor" : 0.001,
+    "offset" : 0.0,
+    "refUomId" : 567863632,
+    "refFactor" : 0.001,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 990106351,
+    "name" : "minuto",
+    "uomClassId" : 845944798,
+    "abbreviation" : "min",
+    "factor" : 60.0,
+    "offset" : 0.0,
+    "refUomId" : 567863632,
+    "refFactor" : 60.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 340524239,
+    "name" : "hora",
+    "uomClassId" : 845944798,
+    "abbreviation" : "h",
+    "factor" : 3600.0,
+    "offset" : 0.0,
+    "refUomId" : 990106351,
+    "refFactor" : 60.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 646056247,
+    "name" : "día",
+    "uomClassId" : 845944798,
+    "abbreviation" : "d",
+    "factor" : 86400.0,
+    "offset" : 0.0,
+    "refUomId" : 340524239,
+    "refFactor" : 24.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 452373429,
+    "name" : "mes",
+    "uomClassId" : 845944798,
+    "abbreviation" : "month",
+    "factor" : 2628000.000000003,
+    "offset" : 0.0,
+    "refUomId" : 646056247,
+    "refFactor" : 30.4166666666667,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 475595020,
+    "name" : "semana",
+    "uomClassId" : 845944798,
+    "abbreviation" : "week",
+    "factor" : 604800.0,
+    "offset" : 0.0,
+    "refUomId" : 646056247,
+    "refFactor" : 7.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 914720599,
+    "name" : "año",
+    "uomClassId" : 845944798,
+    "abbreviation" : "yr",
+    "factor" : 3.1536E7,
+    "offset" : 0.0,
+    "refUomId" : 646056247,
+    "refFactor" : 365.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

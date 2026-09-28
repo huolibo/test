@@ -1,0 +1,18 @@
+{
+  "id": 1891659426828793,
+  "name": "email.license.expired.five.days.notification",
+  "description": "TDengine IDMP free trial expires in 5 days",
+  "type": "Mail",
+  "title": {
+    "zh-CN": "重要通知：您的TDengine IDMP免费试用即将在5天后到期！",
+    "en": "Your TDengine IDMP free trial expires in 5 days",
+    "es": "Su prueba gratuita de TDengine IDMP expira en 5 días",
+    "ko": "TDengine IDMP 무료 체험이 5일 후 만료됩니다"
+  },
+  "content": {
+    "zh-CN": "<p style=\"font-family: Helvetica Neue; line-height: 1.6; color: #333333;\">\n  <p>尊敬的 {userName}，您好！</p>\n  <p><br></p>\n  <p><span>您的 TDengine IDMP 账号免费试用期即将在5天后到期。免费体验期结束后，您将无法继续使用该账号访问服务。</span></p>\n  <p><span>我们非常关心您的体验，如您使用中遇到问题或想了解更多应用方案与价值，欢迎随时联系，我们的解决方案专家乐意为您详细介绍。</span></p>\n  <p><span>➡\uFE0F 联系我们：</span></p>\n  <p><span>- 电话：400-612-0020</span></p>\n  <p><span>- 官网：</span><a target=\"_blank\" href=\"https://www.taosdata.com/\" style=\"color: #0066cc; text-decoration: none;\">https://www.taosdata.com/</a><span> (在线咨询或获取更多信息)</span></p>\n  <p><br></p>\n  <p><span>为了不断提升产品与服务，我们诚挚邀请您参与：</span><a target=\"_blank\" href=\"https://taosdata.feishu.cn/share/base/form/shrcnVEXUGzyFZMhvONWGNGXwgb\" style=\"text-decoration: underline;\">有奖问卷调研</a><span>，您的宝贵意见将直接帮助我们改进 TDengine。</span></p>\n  <p><span>感谢您试用TDengine！期待继续为您服务！</span></p>\n  <p><br></p>\n  <p><span>此致</span></p>\n  <p><span>TDengine 团队</span></p>\n  <p><a target=\"_blank\" href=\"https://www.taosdata.com/\" style=\"color: #0066cc; text-decoration: none;\">https://www.taosdata.com/</a></p>\n</p>",
+    "en": "<p>Hi {userName},</p>\n<p>Your free trial of TDengine IDMP free trial will end in five (5) days. After the trial period ends, you will no longer have access to the service with this account.</p>\n<p>If you would like to continue using TDengine IDMP, <a href=\"https://tdengine.com/contact/\">contact</a> us to schedule a consultation.</p>\n<p>Thank you for trying TDengine! We look forward to working with you in the future.</p>\n<p>Regards,</p>\n<p>The TDengine Team</p>",
+    "es": "<p>Hola {userName},</p>\n<p>Su prueba gratuita de TDengine IDMP terminará en cinco (5) días. Una vez finalizado el período de prueba, ya no tendrá acceso al servicio con esta cuenta.</p>\n<p>Si desea continuar usando TDengine IDMP, <a href=\"https://tdengine.com/contact/\">contáctenos</a> para programar una consulta.</p>\n<p>¡Gracias por probar TDengine! Esperamos trabajar con usted en el futuro.</p>\n<p>Saludos,</p>\n<p>El equipo de TDengine</p>",
+    "ko": "<p>{userName}님, 안녕하세요,</p>\n<p>TDengine IDMP 무료 체험이 5일 후에 종료됩니다. 체험 기간이 종료되면 이 계정으로 더 이상 서비스에 접속할 수 없습니다.</p>\n<p>TDengine IDMP를 계속 사용하시려면 <a href=\"https://tdengine.com/contact/\">상담을 예약</a>해 주세요.</p>\n<p>TDengine을 이용해 주셔서 감사합니다! 앞으로도 함께하길 기대합니다.</p>\n<p>감사합니다,</p>\n<p>TDengine 팀</p>"
+  }
+}

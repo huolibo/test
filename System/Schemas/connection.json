@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/connection.json",
+  "title": "connection",
+  "description": "schema of an connection",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "dsType",
+    "authType"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^(?!^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(\\..*)?$)[^<>:\"/\\\\|?*\\x00-\\x1F]{1,255}$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "dsType": {
+      "enum": [
+        "MySQL",
+        "PostgreSQL",
+        "InfluxDB",
+        "TDengine",
+        "AI"
+      ]
+    },
+    "connStatus": {
+      "type": "boolean"
+    },
+    "connectionKind": { "enum": ["STANDARD", "EXTERNAL_SOURCE"] },
+    "federation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tdengineConnectionId", "externalSourceName", "bindingRevision"],
+      "properties": {
+        "tdengineConnectionId": { "type": "integer" },
+        "externalSourceName": { "type": "string", "pattern": "^[A-Za-z_][A-Za-z0-9_]{0,63}$" },
+        "bindingRevision": { "type": "string", "minLength": 1 },
+        "observedSourceSignature": { "type": "string" }
+      }
+    },
+    "configRevision": { "type": "string" },
+    "credentialRevision": { "type": "string" },
+    "secretEnvelope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["formatVersion", "algorithm", "keyId", "nonce", "ciphertext"],
+      "properties": {
+        "formatVersion": { "const": 1 },
+        "algorithm": { "const": "AES-256-GCM" },
+        "keyId": { "type": "string" },
+        "nonce": { "type": "string" },
+        "ciphertext": { "type": "string" }
+      }
+    },
+    "host": {
+      "type": "string"
+    },
+    "port": {
+      "type": "number"
+    },
+    "url": {
+      "type": "string"
+    },
+    "dbName": {
+      "type": "string"
+    },
+    "authType": {
+      "enum": [
+        "UserPassword",
+        "Token",
+        "TokenEnterprise",
+        "ApiKey",
+        "None"
+      ]
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "enableSsl": {
+      "type": "boolean"
+    },
+    "rootCert": {
+      "type": "string"
+    },
+    "certificate": {
+      "type": "string"
+    },
+    "privateKey": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "apiVersion": {
+      "type": "string"
+    },
+    "explorerUrl": {
+      "type": "string"
+    },
+    "additionalProps": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "statusDescription": {
+      "type": "string"
+    }
+  }
+}

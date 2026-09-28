@@ -1,0 +1,6 @@
+{
+  "id": 19,
+  "name": "Action Command",
+  "categoryType": "ActionTemplate",
+  "description": "Issue a mandatory action command"
+}

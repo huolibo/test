@@ -1,0 +1,33 @@
+{
+  "id" : 2055156150077568,
+  "name" : "备用反应釜 R-102",
+  "description" : "间歇反应釜",
+  "templateId" : 2055156139915392,
+  "dirName" : "备用反应釜 R-102",
+  "generalInfo" : {
+    "createTime" : 1790582081611,
+    "location" : {
+      "altitude" : 3760.286259458085,
+      "latitude" : -38.24793798295281,
+      "longitude" : -150.40136835424255
+    },
+    "virtualStableName" : "vst_间歇反应设备_nq0wah",
+    "virtualTableName" : "vt_备用反应釜 R-102_s02wt6",
+    "keywordValues" : {
+      "KEYWORD1" : "reactor_102"
+    }
+  },
+  "attributes" : [ {
+    "id" : 2055156150085765,
+    "defaultValue" : "主反应釜 R-101",
+    "attrTempId" : 2055156142205056
+  }, {
+    "id" : 2055156150085766,
+    "defaultValue" : "${KEYWORD1}",
+    "attrTempId" : 2055156142504064
+  } ],
+  "parents" : [ {
+    "id" : 2055156148332672,
+    "referenceType" : "ParentChild"
+  } ]
+}

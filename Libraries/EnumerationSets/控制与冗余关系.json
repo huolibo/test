@@ -1,0 +1,34 @@
+{
+  "id" : 2055156093278336,
+  "name" : "控制与冗余关系",
+  "description" : "描述不同设备之间的控制、联锁和冗余关系。",
+  "code" : "system.relationship-type.control-redundancy",
+  "valueType" : "TinyInt",
+  "values" : [ {
+    "id" : 2055156093278337,
+    "name" : "控制",
+    "value" : "1",
+    "description" : "反向: controls-by. A 可以控制 B，A 是控制器，B 是被控制设备，即 A controls B。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093278336
+  }, {
+    "id" : 2055156093278338,
+    "name" : "被控制",
+    "value" : "2",
+    "description" : "反向: controls. controls 的反方向。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093278336
+  }, {
+    "id" : 2055156093278339,
+    "name" : "联锁",
+    "value" : "3",
+    "description" : "反向: -. A 与 B 有直接锁定关系，如 A 停机 B 也必须停，即 A interlocks-with B。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093278336
+  } ],
+  "enumValuePathMap" : {
+    "1" : "控制",
+    "2" : "被控制",
+    "3" : "联锁"
+  }
+}

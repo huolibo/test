@@ -1,0 +1,325 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/panel.json",
+  "title": "panel base",
+  "description": "schema of an panel base",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "panelType"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "fileName": {
+      "type": "string",
+      "pattern": "^(?!^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(\\..*)?$)[^<>:\"/\\\\|?*\\x00-\\x1F]{1,249}$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "panelType": {
+      "enum": [
+        "line",
+        "bar",
+        "pie",
+        "gauge",
+        "scatter",
+        "stat",
+        "table",
+        "text",
+        "map",
+        "state-timeline",
+        "state-history",
+        "bar-gauge",
+        "histogram",
+        "candlestick",
+        "heatmap",
+        "advanced",
+        "analyze",
+        "kpi",
+        "date",
+        "time",
+        "clock"
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "chart": {
+      "type": "object"
+    },
+    "xaAttributes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/panelAttribute"
+      }
+    },
+    "yaAttributes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/panelAttribute"
+      }
+    },
+    "limit": {
+      "type": "number"
+    },
+    "window": {
+      "$ref": "#/$defs/panelWindow"
+    },
+    "params": {
+      "type": "object"
+    },
+    "textContent": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "otherElementTemplateId": {
+      "type": "number"
+    },
+    "enableAdvanced": {
+      "type": "boolean"
+    },
+    "analysisState": {
+      "type": "object",
+      "description": "The analysis action state of the panel when panelType is analyze. Stores user interaction state such as multi-lane, markers, normalization, envelope, correlation, profile search, and XY plot selections."
+    },
+    "widgetConfig": {
+      "type": "object",
+      "description": "The widget display config when panelType is date, time or clock. Keys: format (date/time format pattern), hour12 (12-hour clock), fontSize (text size in px), color (text color), showLabels (clock dial labels), clock (nested clock config: dial/hand/label colors)."
+    },
+    "advancedQueries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/advancedQuery"
+      }
+    }
+  },
+  "$defs": {
+    "panelAttribute": {
+      "type": "object",
+      "properties": {
+        "attributeExpression": {
+          "type": "string"
+        },
+        "orderBy": {
+          "enum": [
+            "none",
+            "desc",
+            "asc"
+          ]
+        },
+        "filter": {
+          "type": "string"
+        },
+        "expression": {
+          "type": "string"
+        },
+        "function": {
+          "type": "string"
+        },
+        "tsColumnType": {
+          "enum": [
+            "none",
+            "_c0",
+            "_wstart",
+            "_wend"
+          ]
+        },
+        "isGroupBy": {
+          "type": "boolean"
+        },
+        "checked": {
+          "type": "boolean"
+        },
+        "alias": {
+          "type": "string"
+        },
+        "timeShift": {
+          "type": "string"
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "defaultValue": {
+                "type": [
+                  "number",
+                  "object",
+                  "string"
+                ]
+              },
+              "traitLimitsType": {
+                "enum": [
+                  "Minimum",
+                  "LoLo",
+                  "Lo",
+                  "Target",
+                  "Hi",
+                  "HiHi",
+                  "Maximum",
+                  "USL",
+                  "LSL",
+                  "CL",
+                  "Sigma"
+                ]
+              }
+            }
+          }
+        },
+        "forecast": {
+          "type": "object"
+        },
+        "panelWindow": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/panelBaseWindow",
+              "additionalProperties": {
+                "size": {
+                  "type": "number"
+                },
+                "sliding": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "$ref": "#/$defs/panelBaseWindow",
+              "additionalProperties": {
+                "interval": {
+                  "type": "string"
+                },
+                "sliding": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "$ref": "#/$defs/panelBaseWindow",
+              "additionalProperties": {
+                "express": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "$ref": "#/$defs/panelBaseWindow",
+              "additionalProperties": {
+                "express": {
+                  "type": "string"
+                },
+                "duration": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "$ref": "#/$defs/panelBaseWindow",
+              "additionalProperties": {
+                "startCondition": {
+                  "type": "string"
+                },
+                "endCondition": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "panelBaseWindow": {
+      "type": "object",
+      "properties": {
+        "windowType": {
+          "enum": [
+            "Interval",
+            "Count",
+            "Status",
+            "Session",
+            "Event"
+          ]
+        },
+        "fillType": {
+          "enum": [
+            "NONE",
+            "VALUE",
+            "PRE",
+            "NULL",
+            "LINEAR",
+            "NEXT"
+          ]
+        },
+        "fillValues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "timeColumn": {
+          "type": "string"
+        },
+        "timeOffset": {
+          "type": "string"
+        }
+      }
+    },
+    "advancedQuery": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "advancedQueryType": {
+          "enum": [
+            "TDengine",
+            "Event"
+          ]
+        },
+        "querySqls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "timeColumn": {
+          "type": "string"
+        },
+        "dimensions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "checked": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

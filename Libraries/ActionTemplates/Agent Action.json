@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "name": "Agent Action",
+  "description": "Invoke an AI Function with context parameters",
+  "actionType": "AGENT_ACTION",
+  "categories": [19],
+  "config": {
+    "actionType": "AGENT_ACTION",
+    "aiFunctionName": "",
+    "command": "Diagnose the anomaly on ${elementName}",
+    "apiKeyId": null
+  }
+}

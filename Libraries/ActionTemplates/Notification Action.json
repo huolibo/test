@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "Notification Action",
+  "description": "Send a notification via a contact point",
+  "actionType": "NOTIFICATION_ACTION",
+  "categories": [17],
+  "config": {
+    "actionType": "NOTIFICATION_ACTION",
+    "contactPointId": null,
+    "notifyTitle": "Analysis Action Notification: ${analysisName}",
+    "notifyContent": "1. Element name: ${elementName}\n2. Element Path: ${elementPath}\n3. Corresponding Analysis: ${analysisName}",
+    "minIntervalMinutes": 10
+  }
+}

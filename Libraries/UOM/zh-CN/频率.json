@@ -1,0 +1,22 @@
+{
+  "id": 2062763077,
+  "name": "频率",
+  "canonicalId": 719750786,
+  "baseClasses": [
+    {
+      "id": 845944798,
+      "power": -1
+    }
+  ],
+  "uomList": [
+    {
+      "id": 719750786,
+      "name": "赫兹",
+      "uomClassId": 2062763077,
+      "abbreviation": "Hz",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

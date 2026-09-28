@@ -1,0 +1,27 @@
+{
+  "id" : 954571684,
+  "name" : "Resistencia Eléctrica",
+  "canonicalId" : 1721097864,
+  "baseClasses" : [ {
+    "id" : 1778056105,
+    "power" : -2
+  }, {
+    "id" : 1472482346,
+    "power" : 2
+  }, {
+    "id" : 470275444,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -3
+  } ],
+  "uomList" : [ {
+    "id" : 1721097864,
+    "name" : "ohmio",
+    "uomClassId" : 954571684,
+    "abbreviation" : "Ω",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

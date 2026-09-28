@@ -1,0 +1,11 @@
+{
+  "id" : 2055155574417536,
+  "name" : "AI-Event-Template",
+  "description" : "AI-Event-Template",
+  "onlyTemplate" : false,
+  "severityLevel" : "Warning",
+  "categories" : [ 10 ],
+  "allowExtension" : false,
+  "allowAck" : true,
+  "namingPattern" : "${Element#name}-${analysisName}-${createTime}"
+}

@@ -1,0 +1,28 @@
+{
+  "id": 497671094,
+  "name": "电功率",
+  "canonicalId": 950904405,
+  "uomList": [
+    {
+      "id": 950904405,
+      "name": "伏安",
+      "uomClassId": 497671094,
+      "abbreviation": "VA",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1607255368,
+      "name": "千伏安",
+      "uomClassId": 497671094,
+      "abbreviation": "kVA",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 950904405,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

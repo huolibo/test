@@ -1,0 +1,274 @@
+{
+  "id" : 2125678082,
+  "name" : "질량 유량",
+  "canonicalId" : 247719873,
+  "baseClasses" : [ {
+    "id" : 470275444,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -1
+  } ],
+  "uomList" : [ {
+    "id" : 247719873,
+    "name" : "kilogramo por segundo",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "kg/s",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 982917432,
+    "name" : "libra por segundo",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "lb/s",
+    "factor" : 0.45359237,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 0.45359237,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2105628535,
+    "name" : "tonelada por día",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "t/d",
+    "factor" : 0.0115740740740741,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 0.0115740740740741,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1157785121,
+    "name" : "tonelada por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "t/h",
+    "factor" : 0.2777777777777784,
+    "offset" : 0.0,
+    "refUomId" : 2105628535,
+    "refFactor" : 24.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 830347335,
+    "name" : "kilogramo por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "kg/h",
+    "factor" : 2.7777777777777843E-4,
+    "offset" : 0.0,
+    "refUomId" : 1157785121,
+    "refFactor" : 0.001,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1771654855,
+    "name" : "libras por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "lb/h",
+    "factor" : 1.2599788065635386E-4,
+    "offset" : 0.0,
+    "refUomId" : 982917432,
+    "refFactor" : 2.77777778E-4,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1165290943,
+    "name" : "mil libras por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "klb/h",
+    "factor" : 0.12599788065635387,
+    "offset" : 0.0,
+    "refUomId" : 1771654855,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2065847461,
+    "name" : "kilolibras por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "kilopounds per hour",
+    "factor" : 0.12599788065635387,
+    "offset" : 0.0,
+    "refUomId" : 1165290943,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1065707907,
+    "name" : "libras por día",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "lb/d",
+    "factor" : 0.0030239491357524927,
+    "offset" : 0.0,
+    "refUomId" : 1771654855,
+    "refFactor" : 24.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 721225899,
+    "name" : "mil lb por hr",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "k lb/hr",
+    "factor" : 0.12599788065635387,
+    "offset" : 0.0,
+    "refUomId" : 1165290943,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 352067532,
+    "name" : "toneladas por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "tons/hr",
+    "factor" : 0.2777777777777784,
+    "offset" : 0.0,
+    "refUomId" : 1157785121,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1499165909,
+    "name" : "t/hr",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "t/hr",
+    "factor" : 0.2777777777777784,
+    "offset" : 0.0,
+    "refUomId" : 2105628535,
+    "refFactor" : 24.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1520141513,
+    "name" : "quintal por segundo",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "cwt/s",
+    "factor" : 45.359237,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 45.359237,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1600661954,
+    "name" : "quintal por minuto",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "cwt/min",
+    "factor" : 0.755987283333333,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 0.755987283333333,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1828378175,
+    "name" : "quintal por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "cwt/h",
+    "factor" : 0.0125997880555556,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 0.0125997880555556,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1452505486,
+    "name" : "kilogramo por día",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "kg/d",
+    "factor" : 1.15740740740741E-5,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 1.15740740740741E-5,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1601168059,
+    "name" : "kilogramo por minuto",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "kg/min",
+    "factor" : 0.0166666666666667,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 0.0166666666666667,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1399024197,
+    "name" : "toneladas por minuto",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "t/min",
+    "factor" : 16.6666666666667,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 16.6666666666667,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1917863760,
+    "name" : "tonelada corta por hora",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "ST/h",
+    "factor" : 0.25199576111111116,
+    "offset" : 0.0,
+    "refUomId" : 982917432,
+    "refFactor" : 0.5555555555555556,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 979865772,
+    "name" : "tonelada larga por día",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "LT/d",
+    "factor" : 0.011759802185185174,
+    "offset" : 0.0,
+    "refUomId" : 982917432,
+    "refFactor" : 0.0259259259259259,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 303708890,
+    "name" : "millón de libras por día",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "MMlb/d",
+    "factor" : 5.249911689814827,
+    "offset" : 0.0,
+    "refUomId" : 982917432,
+    "refFactor" : 11.5740740740741,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1858172197,
+    "name" : "tonelada corta por día",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "ST/d",
+    "factor" : 0.010499823379629607,
+    "offset" : 0.0,
+    "refUomId" : 982917432,
+    "refFactor" : 0.0231481481481481,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 274164892,
+    "name" : "mil libras por día",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "klb/d",
+    "factor" : 0.005249911689814826,
+    "offset" : 0.0,
+    "refUomId" : 982917432,
+    "refFactor" : 0.0115740740740741,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 892178640,
+    "name" : "gramo por segundo",
+    "uomClassId" : 2125678082,
+    "abbreviation" : "g/s",
+    "factor" : 0.001,
+    "offset" : 0.0,
+    "refUomId" : 247719873,
+    "refFactor" : 0.001,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

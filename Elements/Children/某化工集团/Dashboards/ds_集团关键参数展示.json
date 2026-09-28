@@ -1,0 +1,100 @@
+{
+  "id" : 2055156171700352,
+  "name" : "集团关键参数展示",
+  "fileName" : "集团关键参数展示",
+  "params" : {
+    "refreshInterval" : -1
+  },
+  "panels" : [ {
+    "column" : 0,
+    "row" : 8,
+    "width" : 48,
+    "height" : 8,
+    "panelId" : 2055156167309440,
+    "elementId" : 2055156150683776
+  }, {
+    "column" : 0,
+    "row" : 24,
+    "width" : 48,
+    "height" : 16,
+    "panelId" : 2055156167514240,
+    "elementId" : 2055156150683776
+  }, {
+    "column" : 0,
+    "row" : 40,
+    "width" : 48,
+    "height" : 16,
+    "panelId" : 2055156170070144,
+    "elementId" : 2055156155938944
+  }, {
+    "column" : 0,
+    "row" : 0,
+    "width" : 48,
+    "height" : 8,
+    "panelId" : 2055156147652736,
+    "elementId" : 2055156148750464,
+    "elementTemplateId" : 2055156139915392
+  }, {
+    "column" : 0,
+    "row" : 16,
+    "width" : 48,
+    "height" : 8,
+    "panelId" : 2055156147652736,
+    "elementId" : 2055156148750464,
+    "elementTemplateId" : 2055156139915392
+  } ],
+  "notifications" : [ ],
+  "chart" : {
+    "groups" : [ ],
+    "panelGroupMap" : { },
+    "dashboardJson" : {
+      "version" : 1,
+      "ungroupedPanels" : [ {
+        "panelId" : 2055156167309440,
+        "elementId" : 2055156150683776,
+        "x" : 0,
+        "y" : 8,
+        "w" : 48,
+        "h" : 8,
+        "panelType" : "stat"
+      }, {
+        "panelId" : 2055156167514240,
+        "elementId" : 2055156150683776,
+        "x" : 0,
+        "y" : 24,
+        "w" : 48,
+        "h" : 16,
+        "panelType" : "line"
+      }, {
+        "panelId" : 2055156170070144,
+        "elementId" : 2055156155938944,
+        "x" : 0,
+        "y" : 40,
+        "w" : 48,
+        "h" : 16,
+        "panelType" : "bar"
+      }, {
+        "panelId" : 2055156147652736,
+        "elementId" : 2055156148750464,
+        "x" : 0,
+        "y" : 0,
+        "w" : 48,
+        "h" : 8,
+        "elementTemplateId" : 2055156139915392,
+        "panelType" : "stat"
+      }, {
+        "panelId" : 2055156147652736,
+        "elementId" : 2055156148750464,
+        "x" : 0,
+        "y" : 16,
+        "w" : 48,
+        "h" : 8,
+        "elementTemplateId" : 2055156139915392,
+        "panelType" : "stat"
+      } ],
+      "groups" : [ ]
+    }
+  },
+  "elementId" : 2055156148131968,
+  "type" : "STANDARD"
+}

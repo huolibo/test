@@ -1,0 +1,148 @@
+{
+  "id" : 2055156139915392,
+  "name" : "间歇反应设备",
+  "description" : "间歇反应釜",
+  "namingPattern" : "${KEYWORD1}",
+  "dirName" : "间歇反应设备",
+  "generalInfo" : {
+    "location" : {
+      "altitude" : 3760.286259458085,
+      "latitude" : -38.24793798295281,
+      "longitude" : -150.40136835424255
+    },
+    "virtualStableName" : "vst_间歇反应设备_nq0wah"
+  },
+  "attributeTemplates" : [ {
+    "id" : 2055156140673152,
+    "name" : "工艺温度",
+    "description" : "工艺温度",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "defaultUom" : 1153421915,
+    "displayUom" : 1153421915,
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "工艺温度",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "temperature",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156141037696,
+    "name" : "工艺压力",
+    "description" : "工艺压力",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "defaultValue" : "0",
+    "defaultUom" : 4899462,
+    "displayUom" : 4899462,
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "工艺压力",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "pressure",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156141353088,
+    "name" : "设备液位",
+    "description" : "设备液位",
+    "categories" : [ 22 ],
+    "valueType" : "Double",
+    "defaultUom" : 1204723484,
+    "displayUom" : 1204723484,
+    "displayDigits" : 2,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "设备液位",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "level",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156141664384,
+    "name" : "运行状态",
+    "description" : "运行状态",
+    "categories" : [ 22 ],
+    "valueType" : "Int",
+    "displayDigits" : 0,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "运行状态",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "reactor_state",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156141926528,
+    "name" : "生产批次号",
+    "description" : "生产批次号",
+    "categories" : [ 22 ],
+    "valueType" : "Varchar",
+    "valueLength" : 32,
+    "displayDigits" : 0,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "生产批次号",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "batch_tag",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156142205056,
+    "name" : "所属厂区",
+    "description" : "厂区名称",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "所属厂区",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "plant",
+      "autoCreated" : false
+    }
+  }, {
+    "id" : 2055156142504064,
+    "name" : "命名模式",
+    "description" : "设备命名模式的占位符",
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 50,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055155571251328,
+      "dbName" : "idmp",
+      "columnName" : "命名模式",
+      "sourceDBName" : "db_chemical_demo",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "namingPattern",
+      "autoCreated" : false
+    }
+  } ],
+  "allowExtensions" : true,
+  "baseTemplateOnly" : false,
+  "keywordsDesc" : {
+    "KEYWORD1" : "反应釜名称"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id" : 2055156167047296,
+  "name" : "备用反应釜 R-102 运行监控",
+  "description" : "备用反应釜 R-102 过去7天运行数据趋势面板",
+  "fileName" : "备用反应釜 R-102 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "de904536-febc-4809-b403-3fa710a279b7",
+    "attributeExpression" : "attributes['工艺温度']",
+    "expression" : "${attributes['工艺温度']}",
+    "groupBy" : false,
+    "alias" : "工艺温度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "485cfeaf-7d70-470b-880b-ec26533def33",
+    "attributeExpression" : "attributes['工艺压力']",
+    "expression" : "${attributes['工艺压力']}",
+    "groupBy" : false,
+    "alias" : "工艺压力",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "016779af-9e34-4213-8f5d-d68a8d4a92b7",
+    "attributeExpression" : "attributes['设备液位']",
+    "expression" : "${attributes['设备液位']}",
+    "groupBy" : false,
+    "alias" : "设备液位",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156150077568,
+  "elementAttributes" : {
+    "2055156150077568" : [ 2055156141353088, 2055156140673152, 2055156141037696 ]
+  }
+}

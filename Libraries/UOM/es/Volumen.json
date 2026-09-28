@@ -1,0 +1,262 @@
+{
+  "id": 284317904,
+  "name": "Volumen",
+  "canonicalId": 493486964,
+  "baseClasses": [
+    {
+      "id": 1472482346,
+      "power": 3
+    }
+  ],
+  "uomList": [
+    {
+      "id": 493486964,
+      "name": "metro cúbico",
+      "uomClassId": 284317904,
+      "abbreviation": "m³",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 453447831,
+      "name": "pie cúbico",
+      "uomClassId": 284317904,
+      "abbreviation": "ft³",
+      "factor": 0.028316846592,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 0.028316846592,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 2062053342,
+      "name": "acre pie",
+      "uomClassId": 284317904,
+      "abbreviation": "ac·ft",
+      "factor": 1233.48183754752,
+      "offset": 0.0,
+      "refUomId": 453447831,
+      "refFactor": 43560.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1943583681,
+      "name": "galón estadounidense",
+      "uomClassId": 284317904,
+      "abbreviation": "US gal",
+      "factor": 0.003785411784,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 0.003785411784,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 486016674,
+      "name": "barril",
+      "uomClassId": 284317904,
+      "abbreviation": "bbl",
+      "factor": 0.158987294928,
+      "offset": 0.0,
+      "refUomId": 1943583681,
+      "refFactor": 42.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 384427849,
+      "name": "centímetro cúbico",
+      "uomClassId": 284317904,
+      "abbreviation": "cm³",
+      "factor": 1.0E-6,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1.0E-6,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1893521369,
+      "name": "Galón",
+      "uomClassId": 284317904,
+      "abbreviation": "gal",
+      "factor": 0.003785411784,
+      "offset": 0.0,
+      "refUomId": 1943583681,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 161715094,
+      "name": "kilolitro",
+      "uomClassId": 284317904,
+      "abbreviation": "kL",
+      "factor": 1.0,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 801465548,
+      "name": "litro",
+      "uomClassId": 284317904,
+      "abbreviation": "L",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 0.001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 320402114,
+      "name": "megalitro",
+      "uomClassId": 284317904,
+      "abbreviation": "ML",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1442946783,
+      "name": "mililitro",
+      "uomClassId": 284317904,
+      "abbreviation": "mL",
+      "factor": 1.0E-6,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1.0E-6,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 11953483,
+      "name": "millón de barriles",
+      "uomClassId": 284317904,
+      "abbreviation": "MMbbl",
+      "factor": 158987.29492800002,
+      "offset": 0.0,
+      "refUomId": 486016674,
+      "refFactor": 1000000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 341798346,
+      "name": "millón de galones estadounidenses",
+      "uomClassId": 284317904,
+      "abbreviation": "US Mgal",
+      "factor": 3785.4117840000004,
+      "offset": 0.0,
+      "refUomId": 1943583681,
+      "refFactor": 1000000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1011394646,
+      "name": "millón de galones (habitual)",
+      "uomClassId": 284317904,
+      "abbreviation": "US MMgal",
+      "factor": 3785.4117840000004,
+      "offset": 0.0,
+      "refUomId": 341798346,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1392281382,
+      "name": "millón de galones imperiales",
+      "uomClassId": 284317904,
+      "abbreviation": "Imp Mgal",
+      "factor": 4546.089999999981,
+      "offset": 0.0,
+      "refUomId": 132421110,
+      "refFactor": 1000000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 885448714,
+      "name": "millón de galones imperiales (habitual)",
+      "uomClassId": 284317904,
+      "abbreviation": "UK Mgal",
+      "factor": 4546.089999999981,
+      "offset": 0.0,
+      "refUomId": 1392281382,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 420864612,
+      "name": "mil barriles",
+      "uomClassId": 284317904,
+      "abbreviation": "kbbl",
+      "factor": 158.987294928,
+      "offset": 0.0,
+      "refUomId": 486016674,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1509101582,
+      "name": "mil metros cúbicos",
+      "uomClassId": 284317904,
+      "abbreviation": "10³ m³",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 493486964,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 363523587,
+      "name": "mil galones imperiales",
+      "uomClassId": 284317904,
+      "abbreviation": "Imp kgal",
+      "factor": 4.546089999999981,
+      "offset": 0.0,
+      "refUomId": 132421110,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1838785866,
+      "name": "mil galones imperiales (habitual)",
+      "uomClassId": 284317904,
+      "abbreviation": "UK kgal",
+      "factor": 4.546089999999981,
+      "offset": 0.0,
+      "refUomId": 363523587,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 558282216,
+      "name": "mil galones estadounidenses",
+      "uomClassId": 284317904,
+      "abbreviation": "US kgal",
+      "factor": 3.7854117840000003,
+      "offset": 0.0,
+      "refUomId": 1943583681,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

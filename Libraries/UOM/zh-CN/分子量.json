@@ -1,0 +1,62 @@
+{
+  "id": 578696372,
+  "name": "分子量",
+  "canonicalId": 1137858007,
+  "baseClasses": [
+    {
+      "id": 470275444,
+      "power": 1
+    },
+    {
+      "id": 427058508,
+      "power": -1
+    }
+  ],
+  "uomList": [
+    {
+      "id": 1137858007,
+      "name": "千克每摩尔",
+      "uomClassId": 578696372,
+      "abbreviation": "kg/mol",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 182420754,
+      "name": "千克每千摩尔",
+      "uomClassId": 578696372,
+      "abbreviation": "kg/kmol",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 1137858007,
+      "refFactor": 0.001,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1727450655,
+      "name": "克每克摩尔",
+      "uomClassId": 578696372,
+      "abbreviation": "g/gmol",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 182420754,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 431569722,
+      "name": "磅每磅摩尔",
+      "uomClassId": 578696372,
+      "abbreviation": "lb/lbmol",
+      "factor": 0.001,
+      "offset": 0.0,
+      "refUomId": 182420754,
+      "refFactor": 1.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id" : 2055156159105152,
+  "name" : "产线总电表 E02",
+  "description" : "能源计量表",
+  "templateId" : 2055156146022528,
+  "dirName" : "产线总电表 E02",
+  "generalInfo" : {
+    "createTime" : 1790582083818,
+    "location" : {
+      "altitude" : 4866.066268246121,
+      "latitude" : 66.78154173940581,
+      "longitude" : 117.51451782891564
+    },
+    "virtualStableName" : "vst_能源计量表_i7i6zt",
+    "virtualTableName" : "vt_产线总电表 E02_b19adu",
+    "keywordValues" : {
+      "KEYWORD1" : "meter_e02"
+    }
+  },
+  "attributes" : [ {
+    "id" : 2055156159125633,
+    "defaultValue" : "产线总电表 E01",
+    "attrTempId" : 2055156146526336
+  }, {
+    "id" : 2055156159125634,
+    "defaultValue" : "${KEYWORD1}",
+    "attrTempId" : 2055156146833536
+  } ],
+  "parents" : [ {
+    "id" : 2055156155938944,
+    "referenceType" : "ParentChild"
+  } ]
+}

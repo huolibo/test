@@ -1,0 +1,145 @@
+{
+  "id" : 264033646,
+  "name" : "압력",
+  "canonicalId" : 2030839396,
+  "baseClasses" : [ {
+    "id" : 1472482346,
+    "power" : -1
+  }, {
+    "id" : 470275444,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -2
+  } ],
+  "uomList" : [ {
+    "id" : 2030839396,
+    "name" : "pascal",
+    "uomClassId" : 264033646,
+    "abbreviation" : "Pa",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 40365770,
+    "name" : "atmósfera",
+    "uomClassId" : 264033646,
+    "abbreviation" : "atm",
+    "factor" : 101325.0,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 101325.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 4899462,
+    "name" : "bar",
+    "uomClassId" : 264033646,
+    "abbreviation" : "bar",
+    "factor" : 100000.0,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 100000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 135923569,
+    "name" : "pulgadas de mercurio",
+    "uomClassId" : 264033646,
+    "abbreviation" : "inHg",
+    "factor" : 3386.38815789,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 3386.38815789,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1557203432,
+    "name" : "kilogramo-fuerza por centímetro cuadrado",
+    "uomClassId" : 264033646,
+    "abbreviation" : "kgf/cm²",
+    "factor" : 98066.5,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 98066.5,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 164186548,
+    "name" : "kilogramo-fuerza por metro cuadrado",
+    "uomClassId" : 264033646,
+    "abbreviation" : "kgf/m²",
+    "factor" : 9.80665,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 9.80665,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1753955006,
+    "name" : "kilopascal",
+    "uomClassId" : 264033646,
+    "abbreviation" : "kPa",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 228230395,
+    "name" : "milímetro de mercurio",
+    "uomClassId" : 264033646,
+    "abbreviation" : "mmHg",
+    "factor" : 133.322368421,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 133.322368421,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1014380924,
+    "name" : "newton por metro cuadrado",
+    "uomClassId" : 264033646,
+    "abbreviation" : "N/m²",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 419698709,
+    "name" : "libra-fuerza por pulgada cuadrada",
+    "uomClassId" : 264033646,
+    "abbreviation" : "psi",
+    "factor" : 6894.75729316836,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 6894.75729316836,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1803342654,
+    "name" : "libra-fuerza por pulgada cuadrada (habitual)",
+    "uomClassId" : 264033646,
+    "abbreviation" : "psia",
+    "factor" : 6894.75729316836,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 6894.75729316836,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1731794251,
+    "name" : "torr",
+    "uomClassId" : 264033646,
+    "abbreviation" : "torr",
+    "factor" : 133.322368421,
+    "offset" : 0.0,
+    "refUomId" : 2030839396,
+    "refFactor" : 133.322368421,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

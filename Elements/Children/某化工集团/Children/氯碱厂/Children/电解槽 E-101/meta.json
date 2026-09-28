@@ -1,0 +1,33 @@
+{
+  "id" : 2055156153399424,
+  "name" : "电解槽 E-101",
+  "description" : "连续动力设备",
+  "templateId" : 2055156142794880,
+  "dirName" : "电解槽 E-101",
+  "generalInfo" : {
+    "createTime" : 1790582082422,
+    "location" : {
+      "altitude" : 308.1036630235405,
+      "latitude" : -44.46118949602416,
+      "longitude" : 114.67028126524986
+    },
+    "virtualStableName" : "vst_连续动力设备_gl6ss4",
+    "virtualTableName" : "vt_电解槽 E-101_7khdky",
+    "keywordValues" : {
+      "KEYWORD1" : "electrolyzer_101"
+    }
+  },
+  "attributes" : [ {
+    "id" : 2055156153407619,
+    "defaultValue" : "氯气压缩机 C-301",
+    "attrTempId" : 2055156143814784
+  }, {
+    "id" : 2055156153407620,
+    "defaultValue" : "${KEYWORD1}",
+    "attrTempId" : 2055156144339072
+  } ],
+  "parents" : [ {
+    "id" : 2055156151957632,
+    "referenceType" : "ParentChild"
+  } ]
+}

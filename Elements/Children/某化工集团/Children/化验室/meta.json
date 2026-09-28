@@ -1,0 +1,17 @@
+{
+  "id" : 2055156160866432,
+  "name" : "化验室",
+  "templateId" : 2055156139219072,
+  "dirName" : "化验室",
+  "generalInfo" : {
+    "createTime" : 1790582084249,
+    "virtualStableName" : "vst_厂区中心_7gmvqs",
+    "virtualTableName" : "vt_化验室_iy1fu7",
+    "pathName" : "化验室"
+  },
+  "attributes" : [ ],
+  "parents" : [ {
+    "id" : 2055156148131968,
+    "referenceType" : "ParentChild"
+  } ]
+}

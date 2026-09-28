@@ -1,0 +1,74 @@
+{
+  "id" : 2055156093245568,
+  "name" : "事件原因",
+  "description" : "描述事件发生原因的分类。",
+  "code" : "system.event-reason",
+  "valueType" : "TinyInt",
+  "values" : [ {
+    "id" : 2055156093245569,
+    "name" : "设备故障",
+    "value" : "1",
+    "description" : "设备的自身故障。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  }, {
+    "id" : 2055156093245570,
+    "name" : "人为因素",
+    "value" : "2",
+    "description" : "工作人员的操作失误、设置错误等。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  }, {
+    "id" : 2055156093245571,
+    "name" : "物料问题",
+    "value" : "3",
+    "description" : "原材料不合格，或者输入材料异常。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  }, {
+    "id" : 2055156093245572,
+    "name" : "指标偏离",
+    "value" : "4",
+    "description" : "设备工艺参数和监测过程指标超过限值。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  }, {
+    "id" : 2055156093245573,
+    "name" : "环境问题",
+    "value" : "5",
+    "description" : "设备所处外部环境如温湿度等导致的异常。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  }, {
+    "id" : 2055156093245574,
+    "name" : "计划活动",
+    "value" : "6",
+    "description" : "计划维护、换型、校准、产品批次等。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  }, {
+    "id" : 2055156093245575,
+    "name" : "安全触发",
+    "value" : "7",
+    "description" : "触发了安全机制而发生的紧急处置，如保护性停机。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  }, {
+    "id" : 2055156093245576,
+    "name" : "其他",
+    "value" : "8",
+    "description" : "其他未知原因。",
+    "relationshipDirection" : "UNDIRECTED",
+    "parentId" : 2055156093245568
+  } ],
+  "enumValuePathMap" : {
+    "1" : "设备故障",
+    "2" : "人为因素",
+    "3" : "物料问题",
+    "4" : "指标偏离",
+    "5" : "环境问题",
+    "6" : "计划活动",
+    "7" : "安全触发",
+    "8" : "其他"
+  }
+}

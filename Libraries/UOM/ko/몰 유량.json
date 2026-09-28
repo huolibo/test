@@ -1,0 +1,54 @@
+{
+  "id" : 2103261239,
+  "name" : "몰 유량",
+  "canonicalId" : 242301649,
+  "baseClasses" : [ {
+    "id" : 427058508,
+    "power" : 1
+  }, {
+    "id" : 845944798,
+    "power" : -1
+  } ],
+  "uomList" : [ {
+    "id" : 242301649,
+    "name" : "mol por segundo",
+    "uomClassId" : 2103261239,
+    "abbreviation" : "mol/s",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1727399913,
+    "name" : "gramo mol por segundo",
+    "uomClassId" : 2103261239,
+    "abbreviation" : "gmol/s",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "refUomId" : 242301649,
+    "refFactor" : 1.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2146761200,
+    "name" : "kilogramo mol por segundo",
+    "uomClassId" : 2103261239,
+    "abbreviation" : "kmol/s",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 242301649,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1369132567,
+    "name" : "libra mol por segundo",
+    "uomClassId" : 2103261239,
+    "abbreviation" : "lbmol/s",
+    "factor" : 453.59237,
+    "offset" : 0.0,
+    "refUomId" : 242301649,
+    "refFactor" : 453.59237,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}

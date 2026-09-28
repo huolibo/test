@@ -1,0 +1,39 @@
+{
+  "id" : 2055156171421824,
+  "name" : "液相色谱仪 LC-01 运行监控",
+  "description" : "液相色谱仪 LC-01 过去7天运行数据趋势面板",
+  "fileName" : "液相色谱仪 LC-01 运行监控",
+  "panelType" : "line",
+  "categories" : [ ],
+  "xaAttributes" : [ ],
+  "yaAttributes" : [ {
+    "uuid" : "9fe5b1af-53e7-44e2-84b5-bde2d1d6a854",
+    "attributeExpression" : "attributes['产品纯度']",
+    "expression" : "${attributes['产品纯度']}",
+    "groupBy" : false,
+    "alias" : "产品纯度",
+    "checked" : true,
+    "formula" : true
+  }, {
+    "uuid" : "870b3b51-63f4-4cc4-a29c-945e860dc50b",
+    "attributeExpression" : "attributes['水分含量']",
+    "expression" : "${attributes['水分含量']}",
+    "groupBy" : false,
+    "alias" : "水分含量",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "now-6d",
+    "toText" : "now",
+    "quickTime" : "last7d"
+  },
+  "enableAdvanced" : false,
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "elementId" : 2055156161390720,
+  "elementAttributes" : {
+    "2055156161390720" : [ 2055156144928896, 2055156145195136 ]
+  }
+}

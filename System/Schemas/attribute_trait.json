@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/data_reference_setting.json",
+  "title": "attribute_trait",
+  "description": "schema of a attribute trait",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "constantItem": {
+      "type": "boolean"
+    },
+    "hidden": {
+      "type": "boolean"
+    },
+    "excluded": {
+      "type": "boolean"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "defaultUom": {
+      "type": "number"
+    },
+    "displayUom": {
+      "type": "number"
+    },
+    "displayDigits": {
+      "type": "integer"
+    },
+    "valueType": {
+      "$ref": "./value_type.json"
+    },
+    "valueLength": {
+      "type": "integer"
+    },
+    "dataReferenceSetting": {
+      "$ref": "./data_reference_setting2.json"
+    },
+    "enabledLimitsTrait": {
+      "type": "boolean"
+    },
+    "attrTempId": {
+      "type": "number"
+    },
+    "traitType": {
+      "type": "string"
+    },
+    "traitLimitsType": {
+      "enum": [
+        "Minimum",
+        "LoLo",
+        "Lo",
+        "Target",
+        "Hi",
+        "HiHi",
+        "Maximum",
+        "USL",
+        "LSL",
+        "CL",
+        "Sigma"
+      ]
+    },
+    "forecastTraitType": {
+      "enum": [
+        "Low",
+        "Mean",
+        "High"
+      ]
+    },
+    "forecastTraitConfig": {
+      "$ref": "./forecast_trait_config.json"
+    },
+    "forecastTraits": {
+      "type": "array",
+      "items": {
+        "$ref": "#"
+      }
+    }
+  }
+}

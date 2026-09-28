@@ -1,0 +1,134 @@
+{
+  "id": 1234567890,
+  "name": "Tasa de Transferencia de Datos",
+  "canonicalId": 1234567891,
+  "baseClasses": [
+    {
+      "id": 241994516,
+      "power": 1
+    },
+    {
+      "id": 845944798,
+      "power": -1
+    }
+  ],
+  "uomList": [
+    {
+      "id": 1234567891,
+      "name": "bit por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "bit/s",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567892,
+      "name": "kilobit por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "kbit/s",
+      "factor": 1000.0,
+      "offset": 0.0,
+      "refUomId": 1234567891,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567893,
+      "name": "megabit por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "Mbit/s",
+      "factor": 1000000.0,
+      "offset": 0.0,
+      "refUomId": 1234567892,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567894,
+      "name": "gigabit por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "Gbit/s",
+      "factor": 1.0E9,
+      "offset": 0.0,
+      "refUomId": 1234567893,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567895,
+      "name": "terabit por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "Tbit/s",
+      "factor": 1.0E12,
+      "offset": 0.0,
+      "refUomId": 1234567894,
+      "refFactor": 1000.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567896,
+      "name": "byte por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "B/s",
+      "factor": 8.0,
+      "offset": 0.0,
+      "refUomId": 1234567891,
+      "refFactor": 8.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567901,
+      "name": "kibibyte por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "KiB/s",
+      "factor": 8192.0,
+      "offset": 0.0,
+      "refUomId": 1234567896,
+      "refFactor": 1024.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567902,
+      "name": "mebibyte por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "MiB/s",
+      "factor": 8388608.0,
+      "offset": 0.0,
+      "refUomId": 1234567901,
+      "refFactor": 1024.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567903,
+      "name": "gibibyte por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "GiB/s",
+      "factor": 8589934592.0,
+      "offset": 0.0,
+      "refUomId": 1234567902,
+      "refFactor": 1024.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1234567904,
+      "name": "tebibyte por segundo",
+      "uomClassId": 1234567890,
+      "abbreviation": "TiB/s",
+      "factor": 8796093022208.0,
+      "offset": 0.0,
+      "refUomId": 1234567903,
+      "refFactor": 1024.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

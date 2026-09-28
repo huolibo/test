@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/dashboard.json",
+  "title": "dashboard base",
+  "description": "schema of an dashboard base",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "panels"
+  ],
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "fileName": {
+      "type": "string",
+      "pattern": "^(?!^(CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(\\..*)?$)[^<>:\"/\\\\|?*\\x00-\\x1F]{1,249}$"
+    },
+    "description": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "params": {
+      "type": "object"
+    },
+    "filters": {
+      "type": "array",
+      "description": "The custom filter definitions of the dashboard",
+      "items": {
+        "type": "object",
+        "properties": {
+          "elementTemplateId": {
+            "type": "number"
+          },
+          "attributeTemplateId": {
+            "type": "number"
+          },
+          "alias": {
+            "type": "string"
+          },
+          "placeholder": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "panels": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/panelItem"
+      }
+    },
+    "thumbnail": {
+      "type": "string",
+      "description": "The thumbnail of the dashboard (base64 encoded image)"
+    },
+    "chart": {
+      "type": "object",
+      "description": "The canvas data for CANVAS type dashboards"
+    }
+  },
+  "$defs": {
+    "panelItem": {
+      "type": "object",
+      "properties": {
+        "panelId": {
+          "type": "number"
+        },
+        "elementId": {
+          "type": "number"
+        },
+        "elementTemplateId": {
+          "type": "number"
+        },
+        "column": {
+          "type": "number"
+        },
+        "row": {
+          "type": "number"
+        },
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        },
+        "style": {
+          "type": "object",
+          "description": "Per-panel display style overrides",
+          "properties": {
+            "backgroundColor": { "type": "string" },
+            "border": {
+              "type": "object",
+              "properties": {
+                "color": { "type": "string" },
+                "width": { "type": "number" },
+                "style": { "type": "string", "enum": ["solid", "dashed", "hidden"] }
+              }
+            },
+            "borderRadius": { "type": "number" },
+            "padding": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1891659426828798,
+  "name": "email.license.ts.attr.overlimit.notification",
+  "description": "IDMP free edition tag over-limit upgrade reminder email",
+  "type": "Mail",
+  "title": {
+    "zh-CN": "【TDengine】您的 IDMP 免费版测点数量已超过 {tagLimit} 上限，请及时处理",
+    "en": "[TDengine] Your IDMP Free Edition has exceeded the {tagLimit} Tag limit"
+  },
+  "content": {
+    "zh-CN": "<p>{userName}，您好：</p><p>感谢您使用 TDengine IDMP 免费版。</p><p>涛思数据面向符合条件的中小企业永久免费提供 TDengine 免费版——它与商业版在功能、性能与系统架构上完全一致，唯一的功能限制是测点数量不超过 {tagLimit} 个。测点是指一个单一观测指标的时序数据流，例如一台空压机的出口温度、一条产线的蒸汽压力。</p><p>系统检测到，您当前使用的免费版测点数量已达到 <b>{currentNum}</b> 个，超过了 {tagLimit} 个的上限，请即时处理。</p><p>如果您的业务规模已经超出这一范围，建议您升级到商业版，以获得不受测点数量限制的软件授权，并享有涛思数据官方技术支持与服务等级承诺。</p><p>从免费版升级到商业版非常简单，您无需重新部署，也无需迁移数据，只需更换商业版软件许可后即可生效，您现有免费版中的所有数据、配置、面板与分析任务都会完整保留。</p><p>如需升级或了解商业版详情，请通过以下方式联系我们：</p><ul><li>官网：https://www.taosdata.com</li><li>免费版政策说明：https://www.taosdata.com/tdengine-free-edition</li><li>咨询邮箱：sales@taosdata.com</li><li>咨询电话：400-6120 020</li></ul><p>感谢您对 TDengine 的信任与支持！</p><p>涛思数据</p>",
+    "en": "<p>Dear {userName},</p><p>Thank you for using TDengine IDMP Free Edition.</p><p>TDengine Free Edition is identical to the Commercial Edition in functionality, performance and architecture, with only one functional limitation: a tag limit of {tagLimit}. A tag refers to the time-series data stream of a single observed metric — for example, the discharge temperature of an air compressor or the steam pressure of a production line.</p><p>Our system has detected that your TDengine Free Edition has reached <b>{currentNum}</b> Tags, exceeding the {tagLimit}-Tag limit. Please address this promptly.</p><p>If your business has outgrown this scale, we recommend upgrading to the Commercial Edition, which removes the tag limit and includes official technical support and a service-level agreement.</p><p>Upgrading is quite simple: no redeployment or data migration is required. Simply replace the software license with a Commercial Edition license and the upgrade takes effect immediately. All your data, configurations, dashboards and analysis tasks in the Free Edition are fully preserved.</p><p>To upgrade or learn more about the Commercial Edition, please contact us:</p><ul><li>Website: https://tdengine.com/</li><li>Free Edition policy: https://tdengine.com/free-tier/</li><li>Email: support@tdengine.com</li></ul><p>Thank you for your trust in TDengine.</p><p>Taos Technology LLC (TDengine)</p>"
+  }
+}

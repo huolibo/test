@@ -1,0 +1,16 @@
+{
+  "id": 1403860090,
+  "name": "数量",
+  "canonicalId": 1200376017,
+  "uomList": [
+    {
+      "id": 1200376017,
+      "name": "个",
+      "uomClassId": 1403860090,
+      "abbreviation": "个",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

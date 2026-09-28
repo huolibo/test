@@ -1,0 +1,5 @@
+# Temporary files from file transactions
+.tx-journal/
+*.Journal_*
+*.tmp_*
+*.bak_*

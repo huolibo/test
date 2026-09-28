@@ -1,0 +1,38 @@
+{
+  "id": 1766342711,
+  "name": "电荷量",
+  "canonicalId": 189606822,
+  "baseClasses": [
+    {
+      "id": 1778056105,
+      "power": 1
+    },
+    {
+      "id": 845944798,
+      "power": 1
+    }
+  ],
+  "uomList": [
+    {
+      "id": 189606822,
+      "name": "库仑",
+      "uomClassId": 1766342711,
+      "abbreviation": "C",
+      "factor": 1.0,
+      "offset": 0.0,
+      "origin": "SystemDefined"
+    },
+    {
+      "id": 1343383959,
+      "name": "安培小时",
+      "uomClassId": 1766342711,
+      "abbreviation": "Ah",
+      "factor": 3600.0,
+      "offset": 0.0,
+      "refUomId": 189606822,
+      "refFactor": 3600.0,
+      "refOffset": 0.0,
+      "origin": "SystemDefined"
+    }
+  ]
+}

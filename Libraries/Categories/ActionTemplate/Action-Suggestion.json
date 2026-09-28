@@ -1,0 +1,6 @@
+{
+  "id": 18,
+  "name": "Action Suggestion",
+  "categoryType": "ActionTemplate",
+  "description": "Suggest an action for the operator to take"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tdasset.tdengine.com/schemas/dashboard_template.json",
+  "title": "dashboard",
+  "description": "schema of an dashboard",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "./dashboard_base.json"
+    }
+  ],
+  "required": [
+    "id",
+    "name",
+    "panels"
+  ],
+  "properties": {
+    "elementTemplateId": {
+      "type": "number"
+    },
+    "namePattern": {
+      "type": "string"
+    }
+  }
+}

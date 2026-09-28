@@ -1,0 +1,14 @@
+{
+  "id" : 2055156148131968,
+  "name" : "某化工集团",
+  "dirName" : "某化工集团",
+  "generalInfo" : {
+    "createTime" : 1790582081135,
+    "pathName" : "某化工集团",
+    "pathTagName" : "path1"
+  },
+  "parents" : [ {
+    "id" : 1,
+    "referenceType" : "ParentChild"
+  } ]
+}

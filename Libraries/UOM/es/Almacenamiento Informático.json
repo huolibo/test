@@ -1,0 +1,201 @@
+{
+  "id" : 241994516,
+  "name" : "Almacenamiento Informático",
+  "canonicalId" : 110511290,
+  "uomList" : [ {
+    "id" : 110511290,
+    "name" : "byte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "B",
+    "factor" : 1.0,
+    "offset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 421744834,
+    "name" : "bit",
+    "uomClassId" : 241994516,
+    "abbreviation" : "bit",
+    "factor" : 0.125,
+    "offset" : 0.0,
+    "refUomId" : 110511290,
+    "refFactor" : 0.125,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 579370092,
+    "name" : "kibibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "KiB",
+    "factor" : 1024.0,
+    "offset" : 0.0,
+    "refUomId" : 110511290,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2063082246,
+    "name" : "mebibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "MiB",
+    "factor" : 1048576.0,
+    "offset" : 0.0,
+    "refUomId" : 579370092,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1591283611,
+    "name" : "gibibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "GiB",
+    "factor" : 1.073741824E9,
+    "offset" : 0.0,
+    "refUomId" : 2063082246,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1064752789,
+    "name" : "tebibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "TiB",
+    "factor" : 1.099511627776E12,
+    "offset" : 0.0,
+    "refUomId" : 1591283611,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1915819476,
+    "name" : "pebibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "PiB",
+    "factor" : 1.125899906842624E15,
+    "offset" : 0.0,
+    "refUomId" : 1064752789,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 296656965,
+    "name" : "exbibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "EiB",
+    "factor" : 1.152921504606847E18,
+    "offset" : 0.0,
+    "refUomId" : 1915819476,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1683458542,
+    "name" : "zebibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "ZiB",
+    "factor" : 1.1805916207174113E21,
+    "offset" : 0.0,
+    "refUomId" : 296656965,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 121482298,
+    "name" : "yobibyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "YiB",
+    "factor" : 1.2089258196146292E24,
+    "offset" : 0.0,
+    "refUomId" : 1683458542,
+    "refFactor" : 1024.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 666000835,
+    "name" : "kilobyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "kB",
+    "factor" : 1000.0,
+    "offset" : 0.0,
+    "refUomId" : 110511290,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1598581010,
+    "name" : "megabyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "MB",
+    "factor" : 1000000.0,
+    "offset" : 0.0,
+    "refUomId" : 666000835,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 523077037,
+    "name" : "gigabyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "GB",
+    "factor" : 1.0E9,
+    "offset" : 0.0,
+    "refUomId" : 1598581010,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 2062821956,
+    "name" : "terabyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "TB",
+    "factor" : 1.0E12,
+    "offset" : 0.0,
+    "refUomId" : 523077037,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 1399037172,
+    "name" : "petabyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "PB",
+    "factor" : 1.0E15,
+    "offset" : 0.0,
+    "refUomId" : 2062821956,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 530635,
+    "name" : "exabyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "EB",
+    "factor" : 1.0E18,
+    "offset" : 0.0,
+    "refUomId" : 1399037172,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 687742460,
+    "name" : "zettabyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "ZB",
+    "factor" : 1.0E21,
+    "offset" : 0.0,
+    "refUomId" : 530635,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  }, {
+    "id" : 297031142,
+    "name" : "yottabyte",
+    "uomClassId" : 241994516,
+    "abbreviation" : "YB",
+    "factor" : 1.0E24,
+    "offset" : 0.0,
+    "refUomId" : 687742460,
+    "refFactor" : 1000.0,
+    "refOffset" : 0.0,
+    "origin" : "SystemDefined"
+  } ]
+}
