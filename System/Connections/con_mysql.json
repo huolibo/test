@@ -1,0 +1,34 @@
+{
+  "id" : 2055478375004288,
+  "name" : "mysql",
+  "dsType" : "MySQL",
+  "connectionKind" : "EXTERNAL_SOURCE",
+  "federation" : {
+    "tdengineConnectionId" : 2055155571251328,
+    "externalSourceName" : "idmp_ext_2055478375004288",
+    "bindingRevision" : "a5660eb4-d1ce-48ca-8a5f-42d4c7c5f3c7",
+    "observedSourceSignature" : "e8962461462931a0bfb52c58a7ea79c8ebbcd47f6d3758cd9e63474ccbb0a167"
+  },
+  "secretEnvelope" : {
+    "formatVersion" : 1,
+    "algorithm" : "AES-256-GCM",
+    "keyId" : "external-v1",
+    "nonce" : "u7R461VlYs0bTMls",
+    "ciphertext" : "OINe5VsPkwJ0/mtRHkyk6R3yfzou"
+  },
+  "configRevision" : "6c10cc58-c835-408e-912c-653d3ba37b37",
+  "credentialRevision" : "8c427657-b1c3-4573-862c-d90e599b28cd",
+  "connStatus" : true,
+  "host" : "192.168.215.2",
+  "port" : 3306,
+  "url" : "http://192.168.215.2:3306",
+  "dbName" : "idmp",
+  "authType" : "UserPassword",
+  "username" : "root",
+  "enableSsl" : false,
+  "rootCert" : "",
+  "certificate" : "",
+  "version" : "",
+  "apiVersion" : "",
+  "statusDescription" : "ACTIVE"
+}
