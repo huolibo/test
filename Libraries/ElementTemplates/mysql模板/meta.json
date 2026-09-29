@@ -1,0 +1,77 @@
+{
+  "id" : 2055478444214400,
+  "name" : "mysql模板",
+  "description" : "",
+  "baseTemplateIds" : [ ],
+  "namingPattern" : "${Template#name}",
+  "dirName" : "mysql模板",
+  "generalInfo" : {
+    "categories" : [ ],
+    "location" : { },
+    "additionalAttributes" : [ ],
+    "virtualStableName" : "vst_mysql模板_mo90en"
+  },
+  "attributeTemplates" : [ {
+    "id" : 2055478628563072,
+    "name" : "metric",
+    "description" : "",
+    "constantItem" : false,
+    "hidden" : false,
+    "excluded" : false,
+    "categories" : [ 22 ],
+    "valueType" : "Int",
+    "defaultValue" : "3",
+    "displayDigits" : -5,
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineMetric",
+      "connectionId" : 2055478375004288,
+      "dbName" : "idmp",
+      "childTable" : "",
+      "columnName" : "metric",
+      "sourceDBName" : "idmp",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "id",
+      "errMsg" : "",
+      "verified" : false,
+      "autoCreated" : false
+    },
+    "additionalProperties" : [ ],
+    "traits" : [ ],
+    "childAttributes" : [ ]
+  }, {
+    "id" : 2055478767712384,
+    "name" : "tag",
+    "description" : "",
+    "constantItem" : false,
+    "hidden" : false,
+    "excluded" : false,
+    "categories" : [ 23 ],
+    "valueType" : "Varchar",
+    "valueLength" : 64,
+    "defaultValue" : "",
+    "dataReferenceSetting" : {
+      "dataReferenceType" : "TDengineTag",
+      "connectionId" : 2055478375004288,
+      "dbName" : "idmp",
+      "childTable" : "",
+      "columnName" : "tag",
+      "sourceDBName" : "idmp",
+      "sourceTimestampColumnName" : "ts",
+      "tagQueryMode" : "SIMPLE",
+      "tagReadMode" : "LATEST_ROW",
+      "sourceChildTable" : "${KEYWORD1}",
+      "sourceColumnName" : "name",
+      "errMsg" : "",
+      "verified" : false,
+      "autoCreated" : false
+    },
+    "additionalProperties" : [ ],
+    "traits" : [ ],
+    "childAttributes" : [ ]
+  } ],
+  "allowExtensions" : true,
+  "baseTemplateOnly" : false,
+  "keywordsDesc" : {
+    "KEYWORD1" : "表名称"
+  }
+}
