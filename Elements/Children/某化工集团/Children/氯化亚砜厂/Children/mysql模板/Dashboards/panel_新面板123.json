@@ -1,0 +1,124 @@
+{
+  "id" : 2055495626856576,
+  "name" : "新面板123",
+  "fileName" : "新面板123",
+  "panelType" : "line",
+  "categories" : [ ],
+  "chart" : {
+    "graph" : {
+      "title" : "新面板",
+      "showTitleInChart" : true,
+      "transparentBackground" : true
+    },
+    "legend" : {
+      "show" : true,
+      "stats" : [ ],
+      "showType" : "list",
+      "placement" : "bottom"
+    },
+    "series" : {
+      "style" : "lines",
+      "lineType" : "solid",
+      "pointType" : "circle",
+      "stack" : false,
+      "fillOpacity" : 0,
+      "lineOpacity" : 1,
+      "stateOpacity" : 1,
+      "rowHeight" : 0.3,
+      "symbol" : "circle",
+      "orientation" : "horizontal",
+      "neutral" : {
+        "show" : false
+      },
+      "text" : {
+        "titleShow" : true
+      },
+      "specialPoint" : {
+        "show" : false,
+        "refMetricId" : 0,
+        "refMetricName" : "",
+        "items" : [ ]
+      },
+      "showPoints" : "auto",
+      "lineInterpolation" : "linear",
+      "lineWidth" : 1,
+      "pointSize" : 3,
+      "connectNulls" : "never",
+      "connectNullsUnit" : "h",
+      "gradientMode" : "none"
+    },
+    "axis" : {
+      "leftY" : {
+        "show" : true,
+        "title" : ""
+      },
+      "rightY" : {
+        "show" : false,
+        "title" : "",
+        "bindSeries" : ""
+      },
+      "x" : {
+        "show" : true,
+        "showGridLines" : "auto"
+      }
+    },
+    "limits" : [ ],
+    "format" : "YYYY-MM-DD HH:mm:ss",
+    "transformConfig" : {
+      "type" : "off",
+      "method" : "",
+      "params" : [ ],
+      "showMethodFnLabel" : false
+    },
+    "labelInterval" : "auto",
+    "labelRotate" : 0,
+    "tooltip" : {
+      "mode" : "all",
+      "sortOrder" : "none"
+    },
+    "standardOptions" : {
+      "colorSchema" : "classic-palette"
+    },
+    "colorThresholds" : [ {
+      "color" : "#5470C6",
+      "value" : 0,
+      "default" : true
+    } ],
+    "thresholdMode" : "absolute",
+    "overrides" : [ ]
+  },
+  "yaAttributes" : [ {
+    "uuid" : "5ba11ed6-7aaf-49d3-8270-6bff26fc9bc3",
+    "attributeExpression" : "attributes['metric']",
+    "filter" : "",
+    "expression" : "${attributes['metric']}",
+    "function" : "",
+    "parameters" : [ ],
+    "groupBy" : false,
+    "timeShift" : "0m",
+    "alias" : "metric",
+    "checked" : true,
+    "formula" : true
+  } ],
+  "limit" : 0,
+  "params" : {
+    "fromText" : "2026-09-22 15:00:00",
+    "toText" : "2026-09-23 11:00:00",
+    "refreshInterval" : -1,
+    "timezone" : "Asia/Shanghai"
+  },
+  "thumbnail" : "",
+  "enableAdvanced" : false,
+  "notifications" : [ ],
+  "advancedQueries" : [ ],
+  "advancedQuery" : false,
+  "listOrder" : 1,
+  "downSampling" : {
+    "maxDataPoints" : 300,
+    "aggr" : "avg"
+  },
+  "elementId" : 2055478834518144,
+  "elementAttributes" : {
+    "2055478834518144" : [ 2055478628563072 ]
+  }
+}
